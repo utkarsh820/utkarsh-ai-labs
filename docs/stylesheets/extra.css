@@ -1,0 +1,31 @@
+/* ============================================================
+   Utkarsh AI Labs — Custom Styles
+   ============================================================ */
+
+/* Proof-of-work badge */
+.pow-badge {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  border-radius: 4px;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Status chips for dashboard */
+.status-complete  { color: #00c853; font-weight: 600; }
+.status-active    { color: #ffd600; font-weight: 600; }
+.status-upcoming  { color: #78909c; }
+
+/* Tighter code blocks */
+.md-typeset pre > code {
+  font-size: 0.82rem;
+}
+
+/* Math block spacing */
+.arithmatex {
+  margin: 1.5em 0;
+}
