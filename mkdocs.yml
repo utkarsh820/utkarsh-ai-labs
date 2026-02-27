@@ -1,0 +1,14 @@
+site_name: AI/ML Learning Academy
+theme:
+  name: material
+  palette:
+    scheme: slate # Professional dark mode
+nav:
+  - Home: index.md
+  - Curriculum: dashboard.md
+  - Courses:
+    - Foundations: courses/foundations.md
+plugins:
+  - search
+markdown_extensions:
+  - arithmatex # For LaTeX Math
