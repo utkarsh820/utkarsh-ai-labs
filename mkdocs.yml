@@ -1,26 +1,10 @@
-# ============================================================
-# Utkarsh AI Labs — Elite AI Mastery Plan v2.0
-# Site: academy.utkarsh-ai-labs.me
-# ============================================================
-
 site_name: Utkarsh AI Labs
 site_url: https://academy.utkarsh-ai-labs.me
-site_description: >-
-  A high-intensity, 6-month AI/ML mastery academy.
-  Publicly documented research notes, implementation labs, and proof-of-work commits.
+site_description: A 6-month AI/ML mastery academy — research notes, labs, and proof-of-work commits.
 site_author: Utkarsh Pandey
 
-repo_name: utkarsh-ai-labs
-repo_url: https://github.com/utkarshpandey/utkarsh-ai-labs
-
-copyright: "&copy; 2026 Utkarsh Pandey — Built with discipline, not shortcuts."
-
-# ============================================================
-# THEME — Material for MkDocs (Dark-first, research-grade)
-# ============================================================
 theme:
   name: material
-  custom_dir: docs/overrides
   palette:
     - scheme: slate
       primary: teal
@@ -37,51 +21,22 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
-  icon:
-    repo: fontawesome/brands/github
-    admonition:
-      note: octicons/tag-16
-      abstract: octicons/checklist-16
-      info: octicons/info-16
-      tip: octicons/flame-16
-      success: octicons/check-16
-      warning: octicons/alert-16
-      danger: octicons/zap-16
-      bug: octicons/bug-16
-      example: octicons/beaker-16
-      quote: octicons/quote-16
   features:
-    # ---------- Navigation ----------
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - navigation.indexes
     - navigation.top
     - toc.follow
-    - toc.integrate
-    # ---------- Search ----------
     - search.suggest
     - search.highlight
-    - search.share
-    # ---- Content (3 recommended features) ----
-    - content.code.copy          # 1) One-click code copy
-    - content.code.annotate      # 2) Inline code annotations
-    - content.tabs.link          # 3) Synced content tabs
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
 
-# ============================================================
-# MARKDOWN EXTENSIONS
-# ============================================================
 markdown_extensions:
-  # --- Math (LaTeX via MathJax) ---
   - pymdownx.arithmatex:
       generic: true
-  # --- Code ---
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences:
@@ -89,33 +44,18 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  # --- Admonitions (Feature #1) ---
   - admonition
   - pymdownx.details
-  # --- Content Tabs (Feature #2) ---
   - pymdownx.tabbed:
       alternate_style: true
-  # --- Formatting ---
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
-  # --- Attributes & HTML ---
   - attr_list
   - md_in_html
-  - def_list
   - tables
-  - footnotes
-  - abbr
   - toc:
       permalink: true
 
-# ============================================================
-# EXTRA — JavaScript / CSS
-# ============================================================
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
@@ -123,58 +63,28 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/utkarshpandey
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/utkarshpandey
-  generator: false
-
-# ============================================================
-# PLUGINS
-# ============================================================
 plugins:
   - search
-  - tags
 
 # ============================================================
-# NAVIGATION — Standardized Module Architecture
+# HOW TO ADD CONTENT
 # ============================================================
-# Naming Convention:
-#   docs/
-#   ├── month-XX/                         (month-01, month-02, …)
-#   │   ├── index.md                      (month overview)
-#   │   ├── module-XX-<slug>/             (module-00-statistics, module-01-linear-algebra, …)
-#   │   │   ├── index.md                  (module overview)
-#   │   │   ├── 01_<topic_slug>.md        (lesson files, zero-padded)
-#   │   │   ├── 02_<topic_slug>.md
-#   │   │   ├── lab_<slug>.md             (implementation labs)
-#   │   │   └── proof_of_work.md          (mastery proof / challenge)
-#   │   └── ...
-#   ├── projects/                         (15-project portfolio)
-#   │   ├── index.md
-#   │   └── p09_ab_testing_framework.md
-#   ├── experiments/
-#   │   └── index.md
-#   └── dashboard.md                      (weekly progress tracker)
+# 1. Create a .md file inside the right month/module folder.
+# 2. Add it to the nav below.
+# 3. Run: mkdocs serve
+#
+# Folder pattern:
+#   docs/month-01/statistics/01_topic.md
+#   docs/month-02/some-module/01_topic.md
 # ============================================================
 
 nav:
   - Home: index.md
   - Dashboard: dashboard.md
-
   - "Month 1 — Foundations":
       - month-01/index.md
-      - "M0: Statistics & Probability":
+      - "Statistics & Probability":
           - month-01/module-00-statistics/index.md
-          - "Hypothesis Testing in ML": month-01/module-00-statistics/01_hypothesis_testing.md
-          - "Implementation Lab": month-01/module-00-statistics/lab_statistical_validator.md
+          - "Hypothesis Testing": month-01/module-00-statistics/01_hypothesis_testing.md
+          - "Lab: Statistical Validator": month-01/module-00-statistics/lab_statistical_validator.md
           - "Proof of Work": month-01/module-00-statistics/proof_of_work.md
-
-  - Portfolio:
-      - projects/index.md
-      - "P9: A/B Testing Framework": projects/p09_ab_testing_framework.md
-
-  - Archive:
-      - experiments/index.md
