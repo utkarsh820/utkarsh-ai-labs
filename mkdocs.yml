@@ -1,14 +1,52 @@
 site_name: AI/ML Learning Academy
+site_description: Publicly documenting my 6-month AI/ML mastery journey.
+site_author: Utkarsh Pandey
+
 theme:
   name: material
   palette:
-    scheme: slate # Professional dark mode
+    # Dark mode setup
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - md_in_html
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - Home: index.md
-  - Curriculum: dashboard.md
+  - Roadmap: dashboard.md
   - Courses:
-    - Foundations: courses/foundations.md
-plugins:
-  - search
-markdown_extensions:
-  - arithmatex # For LaTeX Math
+      - Foundations: courses/foundations.md
+      - MLOps: courses/mlops.md
+      - GenAI: courses/genai.md
+  - Archive:
+      - Projects: projects.md
+      - Experiments: experiments.md
