@@ -1,0 +1,6 @@
+nav:
+  - index.md
+  - week-05-deep-learning-cnns-rnns
+  - week-06-nlp-bert-huggingface
+  - week-07-llms-rag-vectordbs
+  - week-08-llm-finetuning-eval

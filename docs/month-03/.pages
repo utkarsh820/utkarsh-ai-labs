@@ -1,0 +1,7 @@
+nav:
+  - index.md
+  - week-09-fastapi-docker-rest
+  - week-10-mlops-mlflow-dvc-cicd
+  - week-11-cloud-aws-sagemaker
+  - week-12-kubernetes-monitoring
+  - week-13-aws-cert-prep

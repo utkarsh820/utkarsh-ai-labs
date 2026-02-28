@@ -25,19 +25,51 @@
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-01-python-git-linux/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-01-python-git-linux/git/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-02-statistics-probability/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-01-python-git-linux/linux/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-03-core-ml-algorithms/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-01-python-git-linux/python/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-04-pytorch-scikit-mlflow/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-02-statistics-probability/distributions/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-02-statistics-probability/hypothesis-testing/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-02-statistics-probability/probability/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-03-core-ml-algorithms/decision-trees/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-03-core-ml-algorithms/linear-regression/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-03-core-ml-algorithms/logistic-regression/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-04-pytorch-scikit-mlflow/mlflow-tracking/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-04-pytorch-scikit-mlflow/pytorch-basics/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/week-04-pytorch-scikit-mlflow/scikit-learn/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
@@ -45,19 +77,51 @@
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-05-deep-learning-cnns-rnns/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-05-deep-learning-cnns-rnns/cnns/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-06-nlp-bert-huggingface/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-05-deep-learning-cnns-rnns/rnns/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-07-llms-rag-vectordbs/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-05-deep-learning-cnns-rnns/transformers-intro/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-08-llm-finetuning-eval/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-06-nlp-bert-huggingface/bert-finetuning/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-06-nlp-bert-huggingface/huggingface-ecosystem/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-06-nlp-bert-huggingface/tokenization/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-07-llms-rag-vectordbs/llm-internals/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-07-llms-rag-vectordbs/rag-pipelines/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-07-llms-rag-vectordbs/vector-databases/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-08-llm-finetuning-eval/evaluation-ragas/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-08-llm-finetuning-eval/lora-qlora/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-02/week-08-llm-finetuning-eval/unsloth/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
@@ -65,23 +129,59 @@
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-09-fastapi-docker-rest/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-09-fastapi-docker-rest/docker-containers/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-10-mlops-mlflow-dvc-cicd/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-09-fastapi-docker-rest/fastapi/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-11-cloud-aws-sagemaker/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-09-fastapi-docker-rest/rest-api-design/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-12-kubernetes-monitoring/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-10-mlops-mlflow-dvc-cicd/dvc-data-versioning/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-13-aws-cert-prep/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-10-mlops-mlflow-dvc-cicd/github-actions-cicd/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-10-mlops-mlflow-dvc-cicd/mlops-pipelines/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-11-cloud-aws-sagemaker/aws-fundamentals/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-11-cloud-aws-sagemaker/s3-ec2/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-11-cloud-aws-sagemaker/sagemaker/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-12-kubernetes-monitoring/grafana/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-12-kubernetes-monitoring/kubernetes/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-12-kubernetes-monitoring/prometheus/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-13-aws-cert-prep/cloud-practitioner/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-03/week-13-aws-cert-prep/solutions-architect/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
@@ -89,19 +189,47 @@
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-14-langgraph-multi-agent/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-14-langgraph-multi-agent/crewai/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-15-data-pipelines-airflow-dbt/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-14-langgraph-multi-agent/langchain/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-16-spark-kafka-streaming/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-14-langgraph-multi-agent/langgraph/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-17-system-design-capstone/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-15-data-pipelines-airflow-dbt/airflow/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-15-data-pipelines-airflow-dbt/bigquery/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-15-data-pipelines-airflow-dbt/dbt-transformations/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-16-spark-kafka-streaming/apache-spark/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-16-spark-kafka-streaming/kafka/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-16-spark-kafka-streaming/streaming-basics/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-17-system-design-capstone/capstone-planning/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-04/week-17-system-design-capstone/system-design/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
@@ -109,19 +237,35 @@
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-18-ml-interview-theory/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-18-ml-interview-theory/core-ml-questions/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-19-system-design-ml/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-18-ml-interview-theory/theory-deep-dive/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-20-mock-interviews/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-19-system-design-ml/llm-search-scale/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-21-kaggle-sprint-aws/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-19-system-design-ml/real-time-fraud/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-20-mock-interviews/behavioral-prep/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-20-mock-interviews/coding-interviews/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-21-kaggle-sprint-aws/aws-saa-exam/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-05/week-21-kaggle-sprint-aws/kaggle-competition/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
@@ -129,23 +273,43 @@
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-22-capstone-core-build/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-22-capstone-core-build/backend-development/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-23-capstone-frontend-demo/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-22-capstone-core-build/model-deployment/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-24-tech-blog-arch-walkthrough/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-23-capstone-frontend-demo/live-demo-deployment/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-25-portfolio-polish/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-23-capstone-frontend-demo/streamlit-gradio/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
-         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-26-career-launch/</loc>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-24-tech-blog-arch-walkthrough/architecture-diagrams/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-24-tech-blog-arch-walkthrough/blog-drafting/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-25-portfolio-polish/github-readme/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-25-portfolio-polish/resume-optimization/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-26-career-launch/gcp-ace-prep/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-06/week-26-career-launch/job-applications/</loc>
          <lastmod>2026-02-28</lastmod>
     </url>
     <url>
