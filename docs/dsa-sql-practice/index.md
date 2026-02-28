@@ -1,1 +1,1 @@
-# INDEX
+# DSA & SQL Practice
