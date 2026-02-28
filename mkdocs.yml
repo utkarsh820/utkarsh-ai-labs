@@ -1,6 +1,6 @@
 site_name: Utkarsh AI Labs
 site_url: https://academy.utkarsh-ai-labs.me
-site_description: A 6-month AI/ML mastery academy — research notes, labs, and proof-of-work commits.
+site_description: A 6-month AI/ML mastery academy.
 site_author: Utkarsh Pandey
 
 theme:
@@ -22,7 +22,6 @@ theme:
     text: Inter
     code: JetBrains Mono
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
     - toc.follow
@@ -50,6 +49,9 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - tables
@@ -66,25 +68,19 @@ extra_css:
 plugins:
   - search
 
-# ============================================================
-# HOW TO ADD CONTENT
-# ============================================================
-# 1. Create a .md file inside the right month/module folder.
-# 2. Add it to the nav below.
-# 3. Run: mkdocs serve
-#
-# Folder pattern:
-#   docs/month-01/statistics/01_topic.md
-#   docs/month-02/some-module/01_topic.md
-# ============================================================
-
+# -------------------------------------------------------
+# NAV — To add content:
+#   1. Create .md file in the right folder
+#   2. Add it below
+#   3. mkdocs serve
+# -------------------------------------------------------
 nav:
   - Home: index.md
   - Dashboard: dashboard.md
-  - "Month 1 — Foundations":
-      - month-01/index.md
-      - "Statistics & Probability":
+  - Month 1:
+      - Overview: month-01/index.md
+      - Statistics:
           - month-01/module-00-statistics/index.md
-          - "Hypothesis Testing": month-01/module-00-statistics/01_hypothesis_testing.md
-          - "Lab: Statistical Validator": month-01/module-00-statistics/lab_statistical_validator.md
-          - "Proof of Work": month-01/module-00-statistics/proof_of_work.md
+          - Hypothesis Testing: month-01/module-00-statistics/01_hypothesis_testing.md
+          - Lab: month-01/module-00-statistics/lab_statistical_validator.md
+          - Proof of Work: month-01/module-00-statistics/proof_of_work.md

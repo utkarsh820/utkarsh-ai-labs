@@ -1,10 +1,8 @@
 ---
-title: "Month 1 — Foundations"
+title: Month 1
 ---
 
-# Month 1 — Mathematical Foundations
-
-## Modules
+# Month 1 — Foundations
 
 | Module | Topic | Status |
 |--------|-------|--------|

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/dashboard/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/module-00-statistics/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/module-00-statistics/01_hypothesis_testing/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/module-00-statistics/lab_statistical_validator/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+    <url>
+         <loc>https://academy.utkarsh-ai-labs.me/month-01/module-00-statistics/proof_of_work/</loc>
+         <lastmod>2026-02-28</lastmod>
+    </url>
+</urlset>
