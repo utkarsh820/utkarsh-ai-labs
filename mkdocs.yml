@@ -77,10 +77,46 @@ plugins:
 nav:
   - Home: index.md
   - Dashboard: dashboard.md
-  - Month 1:
+  - Month 1 - ML / DS Foundations:
       - Overview: month-01/index.md
-      - Statistics:
-          - month-01/module-00-statistics/index.md
-          - Hypothesis Testing: month-01/module-00-statistics/01_hypothesis_testing.md
-          - Lab: month-01/module-00-statistics/lab_statistical_validator.md
-          - Proof of Work: month-01/module-00-statistics/proof_of_work.md
+      - Week 1 - Python to Production Level + Git + Linux: month-01/week-01-python-git-linux.md
+      - Week 2 - Statistics & Probability for ML: month-01/week-02-statistics-probability.md
+      - Week 3 - Core ML Algorithms from Scratch: month-01/week-03-core-ml-algorithms.md
+      - Week 4 - PyTorch + scikit-learn + MLflow + W&B: month-01/week-04-pytorch-scikit-mlflow.md
+  - Month 2 - Deep Learning + NLP + Agentic AI:
+      - Overview: month-02/index.md
+      - Week 5 - Deep Learning (CNNs, RNNs, Transformers): month-02/week-05-deep-learning-cnns-rnns.md
+      - Week 6 - NLP (BERT fine-tuning, Tokenization): month-02/week-06-nlp-bert-huggingface.md
+      - Week 7 - LLM Internals + RAG Pipelines + Vector DBs: month-02/week-07-llms-rag-vectordbs.md
+      - Week 8 - LLM Fine-tuning (LoRA/QLoRA) + Evaluation: month-02/week-08-llm-finetuning-eval.md
+  - Month 3 - Production ML + MLOps + Cloud:
+      - Overview: month-03/index.md
+      - Week 9 - FastAPI + Docker + REST API design: month-03/week-09-fastapi-docker-rest.md
+      - Week 10 - MLOps (MLflow + DVC + CI/CD): month-03/week-10-mlops-mlflow-dvc-cicd.md
+      - Week 11 - Cloud (AWS fundamentals + SageMaker): month-03/week-11-cloud-aws-sagemaker.md
+      - Week 12 - Kubernetes + Prometheus + Grafana: month-03/week-12-kubernetes-monitoring.md
+      - Week 13 - AWS Certification Prep: month-03/week-13-aws-cert-prep.md
+  - Month 4 - Data Engineering + Agentic AI Systems:
+      - Overview: month-04/index.md
+      - Week 14 - LangGraph + Multi-Agent Systems: month-04/week-14-langgraph-multi-agent.md
+      - Week 15 - Data Pipelines (Airflow + dbt + BigQuery): month-04/week-15-data-pipelines-airflow-dbt.md
+      - Week 16 - Spark + Kafka Streaming basics: month-04/week-16-spark-kafka-streaming.md
+      - Week 17 - System Design for ML + Capstone Architecture: month-04/week-17-system-design-capstone.md
+  - Month 5 - Interview Excellence + Capstone Build:
+      - Overview: month-05/index.md
+      - Week 18 - ML Interview Theory: month-05/week-18-ml-interview-theory.md
+      - Week 19 - System Design for ML: month-05/week-19-system-design-ml.md
+      - Week 20 - Mock Interviews: month-05/week-20-mock-interviews.md
+      - Week 21 - Kaggle Sprint + AWS SAA Exam: month-05/week-21-kaggle-sprint-aws.md
+  - Month 6 - Capstone + Portfolio Blitz + Career Launch:
+      - Overview: month-06/index.md
+      - Week 22 - Capstone finalization: month-06/week-22-capstone-core-build.md
+      - Week 23 - Capstone frontend + demo app: month-06/week-23-capstone-frontend-demo.md
+      - Week 24 - Technical blog post + architecture walkthrough: month-06/week-24-tech-blog-arch-walkthrough.md
+      - Week 25 - Portfolio polish: month-06/week-25-portfolio-polish.md
+      - Week 26 - Career launch: month-06/week-26-career-launch.md
+  - DSA & SQL Practice: dsa-sql-practice/index.md
+  - Priority Resources: resources/index.md
+  - Project Portfolio: projects/index.md
+  - Certifications: certifications/index.md
+  - Daily Schedule: daily-schedule/index.md

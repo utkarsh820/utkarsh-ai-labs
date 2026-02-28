@@ -1,0 +1,1786 @@
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+ 
+ 
+⚔ 
+ 
+ELITE AI MASTERY PLAN v2.0 
+FINAL EDITION — BEATS IITGN-CDF PG DIPLOMA 
+ 
+Built from the Exact Brochure Curriculum • Current 2026 Industry 
+Standards • Job-Ready for ML Engineer, Data Scientist & AI Engineer 
+ 
+ 
+ 
+ 
+🎯  Primary Target Role 
+ML Engineer—₹12–40 LPA, 60–73% demand-supply gap 
+🥈  Secondary Target Role 
+Data Scientist — ₹10–30 LPA, 84,000+ open jobs in India 
+🥉  Tertiary Target Role 
+AI Engineer / GenAI Specialist — ₹14–25 LPA (fastest growing) 
+⏱  Program Duration 
+6 Months | 600+ Hours (150 Learn + 200 Apply + 150 Execute + 100 
+Evidence) 
+💰  Cost vs IITGN-CDF 
+₹0–₹18,000 vs ₹628,000 (fee + GST) — 35x cheaper 
+🏆  Outcome Edge 
+Global certs + 15-20 deployed projects + public GitHub + 300+ 
+LeetCode solved 
+ 
+ 
+ 
+NASSCOM: India needs 1 million AI/ML professionals by 2027. Fresher AI hiring up 22% YoY. Proof of skill beats 
+academic prestige. 
+ 
+ 
+ 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+01.  2026 Market Intelligence — Why These 3 Roles Win 
+Before building your plan, understand exactly what the industry demands, where the money is, and what 
+skills are non-negotiable vs optional. This intelligence drives every resource and project choice below. 
+ 
+1.1  Salary Reality (India, 2026) 
+Role 
+Fresh (0-1 yr) 
+Mid (2-4 yr) 
+Senior (5+ yr) 
+Top GCC/Startup 
+ML Engineer 
+₹12–18 LPA 
+₹22–32 LPA 
+₹40+ LPA 
+₹50–80 LPA 
+Data Scientist 
+₹8–15 LPA 
+₹18–28 LPA 
+₹30+ LPA 
+₹40–65 LPA 
+AI Engineer 
+₹10–14 LPA 
+₹18–25 LPA 
+₹35+ LPA 
+₹45–70 LPA 
+GenAI Specialist 
+₹12–20 LPA 
+₹25–35 LPA 
+₹40+ LPA 
+₹50+ LPA (fastest 
+rise) 
+ 
+1.2  What Employers Actually Look For in 2026 (Based on 1000+ Job 
+Postings) 
+🔵  ML ENGINEER — Core Must-Haves: 
+• Python (expert) + PyTorch / TensorFlow 
+• Model training, eval, deployment, serving 
+• FastAPI / REST API development 
+• Docker + Git (non-negotiable) 
+• AWS or GCP (1 in 3 postings require AWS) 
+• MLflow / experiment tracking 
+• SQL + feature engineering 
+• LeetCode 150-250 medium problems 
+• System design for ML (model serving, 
+pipelines) 
+ 
+57.7% of ML Engineer roles prefer DOMAIN 
+EXPERTS over generalists — go deep, not 
+wide. 
+23.9% of listings don't require a degree. 
+Your portfolio IS your degree. 
+🟠  DATA SCIENTIST — Core Must-Haves: 
+• Python + SQL (advanced — joins, CTEs, 
+windows) 
+• Statistics, A/B testing, hypothesis testing 
+• EDA, feature engineering, pandas 
+• Scikit-learn + XGBoost + LightGBM 
+• Data visualization (matplotlib/seaborn/Plotly) 
+• Business communication + stakeholder mgmt 
+• ML model lifecycle: train → eval → deploy 
+• Cloud data platforms (BigQuery/Redshift) 
+ 
+Data Scientist roles value VERSATILE 
+GENERALISTS who speak both business and 
+code. 
+SQL depth is the most common interview filter. 
+84,000+ jobs listed in India right now. 
+ 
+🟣  AI ENGINEER — Core Must-Haves: 
+• LLMs: fine-tuning, RAG, prompt engineering 
+• LangChain / LlamaIndex / LangGraph 
+• Vector databases (Qdrant / FAISS / Pinecone) 
+• HuggingFace ecosystem (end to end) 
+• FastAPI + deployment (Docker/Render/HF 
+Spaces) 
+🏭  TOP HIRING SECTORS & COMPANIES: 
+• BFSI (29% growth): HDFC, Razorpay, 
+Zerodha, CRED 
+• E-commerce (18%): Amazon, Flipkart, Zomato, 
+Swiggy 
+• GCCs: Microsoft, Google, Walmart, Target, 
+Wells Fargo 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+• Multi-agent systems (CrewAI / AutoGen) 
+• Evaluation frameworks (LLM evals, RAGAS) 
+ 
+GenAI + LLMs top every recruiter list in 2025. 
+70% more AI engineer jobs YoY on LinkedIn. 
+Bangalore hosts 3,000+ open AI engineer roles. 
+• Healthcare: Apollo, Siemens Healthineers 
+• Consulting: McKinsey, BCG, Deloitte, PwC, 
+Accenture 
+• Startups: Nykaa, IndiGo, OYO, Delhivery, 
+CRED 
+ 
+Demand-supply gap for ML Engineers: 60–73% 
+meaning there are FAR more jobs than 
+candidates. 
+Key cities: Bangalore > Hyderabad > Pune > 
+Mumbai 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+02.  The Direct Comparison — IITGN-CDF vs You 
+Now with the full brochure, here is the exact side-by-side comparison. Their real advantage is the 
+environment and mentors. Your real advantages are depth, certs, and global visibility. 
+ 
+Dimension 
+IITGN-CDF Program (₹6.28 lakh) 
+Your Elite Self-Plan (₹0–18K) 
+Duration & Format 
+6 months, residential, IIT 
+Gandhinagar campus 
+6 months, self-directed, remote/local 
+Hours Breakdown 
+600h: 150 Learn + 200 Apply + 150 
+Execute + 100 Evidence 
+700h+: You go beyond. 
+150+220+180+150 
+Learning Quality 
+Industry mentors—Futurense 
+Leadership Council (~40 leaders) 
+Andrej Karpathy, Stanford Profs, MIT 
+OCW, Official LangChain/Hugging 
+Face teams 
+Projects 
+15–20 deployed, live projects 
+(strong!) 
+15–20 public GitHub projects with real 
+users, stars, and contributions 
+Coding Practice 
+300+ ML coding problems, 15+ mock 
+interviews 
+400+ LeetCode, Kaggle, and Pramp 
+mock interviews 
+Credentials 
+IITGN PG Diploma + Executive 
+Alumni Status 
+AWS SAA + GCP ACE + Terraform + 5 
+DL.AI certs + LangChain Academy 
+Tools Covered 
+PyTorch, LangChain, Airflow, Kafka, 
+Spark, K8s, Terraform, W&B 
+All of the above + Unsloth LoRA, 
+LangGraph, RAGAS, Pydantic, CrewAI 
+v2 
+Network 
+60 cohort peers + Futurense alumni 
++ IIT faculty 
+Global: Hugging Face Discord, 
+LangChain Discord, LinkedIn (1000+), 
+arXiv community 
+Placement Support 
+100% placement support (7.0+ 
+CGPA condition) 
+Self-driven: portfolio + certs + 
+hackathons — no CGPA condition 
+Interview Prep 
+Month 5 dedicated (ML coding + 
+system design + mock interviews) 
+Month 5 dedicated to additional mock 
+interview tools (Pramp, interviewing.io) 
+Research Exposure 
+None (AI Clinic has real problems 
+but no research) 
+1 arXiv paper/week, 20+ papers read 
+and implemented 
+AI Clinic Equivalent 
+Real enterprise AI problems via 
+Futurense network 
+YOUR equivalent: contribute to 
+open-source real-world 
+freelance/hackathon problems 
+Cost 
+₹5L tuition + ₹1.25L hostel/ops + 
+₹3K application fee 
+₹0 resources (mostly free) + ₹15-18K 
+for AWS/GCP exam + optional Colab 
+Pro 
+Brand 
+IITGN name — very valuable in India 
+GitHub stars + global certs + Hugging 
+Face downloads = globally valuable 
+ 
+⚠️  THE ONE REAL IITGN ADVANTAGE YOU MUST REPLICATE 
+Their BIGGEST structural advantage is not the curriculum — it's the ENVIRONMENT: 
+• Daily accountability: squad syncs at 8:30 AM, competitive coding hours at 7:30 PM 
+• Social pressure: 59 other driven peers around you every day 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+• AI Clinic: real enterprise problems assigned to you — no choice but to execute 
+• All-nighter sprints, weekly coding tournaments, demo days — maximum intensity 
+ 
+YOUR REPLICATION STRATEGY: 
+1. Find 1-3 accountability partners (Discord, LinkedIn, local meetup)—check in daily 
+2. Join Kaggle competitions on a DEADLINE—simulates the AI Clinic forcing function 
+3. Book AWS exam 3 months out — non-refundable. Now you MUST prepare 
+4. Post publicly on LinkedIn every Sunday: 'Week X done—here's what I built.' 
+5. Apply to lablab.ai hackathons—48-72h sprints with real teams and deadlines 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+03.  Your 700-Hour Elite Framework (Beats Their 600h) 
+IITGN-CDF structures 600 hours into 4 buckets. You'll do 700+ in the same 6 months by eliminating dead 
+time. Here's how each hour maps to ML Engineer / Data Scientist / AI Engineer skills. 
+ 
+Bucket 
+IITGN 
+Hours 
+Your 
+Hours 
+What You Do 
+Role 
+Relevance 
+📚 LEARN 
+150h 
+150 h 
+Video lectures, papers, books. Deep 
+conceptual understanding. No passive 
+watching—take notes, flashcards (Anki). 
+All three 
+roles 
+⚙ APPLY 
+200h 
+220h 
+Code every concept from scratch. Solve 
+problems. Debug real errors. Complete 
+guided projects with extensions. 
+ML Eng + 
+Data Sci 
+🚀 EXECUTE 
+150h 
+180 hr 
+Build and deploy original projects. No 
+tutorials — blank repo, real problem, real 
+deployment. Capstone here. 
+All three 
+roles 
+📊 EVIDENCE 
+100h 
+150 h 
+LeetCode, mock interviews, SQL 
+challenges, system design, LinkedIn 
+posts, blog writing, GitHub polish. 
+Interview-crit
+ical 
+TOTAL 
+600h 
+700 hr 
+6 months × 26 weeks × ~4.5h/day 
+average deep work 
+Beats cohort 
+pace 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+04.  The 6-Month Master Curriculum 
+This mirrors the EXACT IITGN-CDF curriculum (read from their brochure) but goes deeper, adds 
+industry-demanded skills they miss, and is mapped to real job requirements. Every week has a 
+non-negotiable deliverable. 
+ 
+MONTH 1 — ML / DS Engineering Foundations  [Weeks 1–4] +150 Hours 
+ 
+IITGN-CDF Month 1 covers: Python for ML | Statistics | ML Fundamentals | Neural Networks | PyTorch | 
+pandas | NumPy | TF | Jupyter | W&B | MLflow. You will do the same but deepen Python to the production 
+level and add SQL, which they miss until the month. 3. 
+ 
+Week 
+Topic 
+Primary Resource (Free) 
+Deliverable 
+Role Tag 
+1 
+Python to 
+Production Level 
++ Git + Linux 
+Automate Boring Stuff (free) + 
+MIT Missing Semester + Real 
+Python 
+CLI data processing script + 
+GitHub profile initialized 
+ML Eng, DS 
+2 
+Statistics & 
+Probability for 
+ML 
+CS229 Probability Review + 
+Khan Academy Stats + Think 
+Stats (free PDF) 
+Statistical analysis notebook 
+with hypothesis tests 
+DS (critical), 
+ML Eng 
+3 
+Core ML 
+Algorithms from 
+Scratch 
+CS229 Notes (free) + Andrej 
+Karpathy Neural Nets Zero to 
+Hero (YouTube) 
+Linear regression, logistic 
+regression, decision 
+trees—ALL from scratch 
+ML Eng, DS 
+4 
+PyTorch + 
+scikit-learn + 
+MLflow + W&B 
+PyTorch official tutorials, 
+Hands-on ML Ch 1-5, and 
+W&B quick start 
+End-to-end ML pipeline: 
+data → train → eval → 
+MLflow tracked 
+ML Eng 
+(critical) 
+DSA 
+LeetCode 
+Arrays, Strings, 
+HashMaps (75 
+Easy) 
+Neetcode.io Roadmap (free 
+videos) + LeetCode free tier 
+75 problems solved—log in 
+a sheet 
+Interview-cri
+tical 
+SQL 
+SQL 
+Foundations — 
+SELECT, JOIN, 
+subqueries, 
+CTEs 
+Mode Analytics SQL tutorial 
+(free) + SQLZoo + 
+HackerRank SQL 
+50 SQL problems on 
+HackerRank solved 
+DS (critical) 
+ 
+MONTH 2 — Deep Learning + NLP + Agentic AI [Weeks 5–8] + 150 Hours 
+ 
+IITGN-CDF Month 2 covers deep learning & vision, NLP & transformers, agentic AI, MLOps, LangChain, 
+LlamaIndex, Pinecone, OpenAI, HuggingFace, and BERT/GPT fine-tuning. You will match this AND add 
+formal evaluation frameworks they lack. 
+ 
+Week 
+Topic 
+Primary Resource (Free) 
+Deliverable 
+Role Tag 
+5 
+Deep Learning: 
+CNNs, RNNs, 
+Transformers 
+Internals 
+Fast.ai Lessons 1-5 + Andrej 
+Karpathy's Makemore series 
+(YouTube) 
+Image classifier (ResNet 
+fine-tuned) deployed to 
+Hugging Face Spaces 
+ML Eng 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+6 
+NLP: BERT 
+fine-tuning, 
+Tokenization, 
+Hugging Face 
+CS224n Lectures 1-8 (free) + 
+Hugging Face NLP Course 
+Ch1-4 (free) 
+Text sentiment classifier 
+fine-tuned + model card on 
+HuggingFace 
+ML Eng, AI 
+Eng 
+7 
+LLM Internals + 
+RAG Pipelines + 
+Vector DBs 
+Karpathy: Let's Build GPT 
+(YouTube) + LangChain RAG 
+docs + Qdrant free tier 
+RAG chatbot on uploaded 
+PDFs — deployed on 
+HuggingFace Spaces 
+AI Eng 
+(core) 
+8 
+LLM Fine-tuning 
+(LoRA/QLoRA) 
++ Evaluation 
+HuggingFace PEFT docs + 
+Unsloth docs (free) + RAGAS 
+framework 
+Fine-tuned LLaMA-3 8B on 
+custom dataset via Colab + 
+eval report 
+AI Eng, ML 
+Eng 
+DSA 
+LeetCode Two 
+Pointers, Sliding 
+Window, Binary 
+Search (50 Med) 
+Neetcode.io + Striver A-Z 
+sheet (takeuforward.org) 
+50 medium problems — 
+understand every pattern 
+Interview-cri
+tical 
+SQL 
+Advanced SQL: 
+window 
+functions, 
+GROUP BY, 
+aggregations, 
+indexing 
+Mode SQL Advanced (free) + 
+LeetCode SQL 50 problems 
+LeetCode SQL 50 — all 
+solved 
+DS (critical) 
+ 
+MONTH 3 — Production ML + MLOps + Cloud [Weeks 9–13] + 150 Hours 
+ 
+IITGN-CDF Months 3-4 covers Cloud & Infra | MLOps & Deployment, System Design, SageMaker, Azure 
+ML, Vertex AI, CrewAI, FastAPI, Redis, Grafana, Prometheus, K8s, and Terraform. You will be certified on 
+AWS in this phase—their students do not. 
+ 
+Week 
+Topic 
+Primary Resource (Free) 
+Deliverable 
+Role Tag 
+9 
+FastAPI + 
+Docker + REST 
+API design 
+FastAPI official docs, Docker 
+official docs, and testdriven.io 
+tutorials 
+ML model served as 
+FastAPI endpoint, 
+containerized with Docker 
+ML Eng 
+(critical) 
+10 
+MLOps: MLflow 
++ DVC + CI/CD 
+GitHub Actions 
+Made With ML 
+(madewithml.com, free) + 
+MLOps Zoomcamp Wk 1-3 
+Automated training pipeline 
+with MLflow tracking + 
+GitHub Actions CI 
+ML Eng 
+(critical) 
+11 
+Cloud: AWS 
+fundamentals + 
+SageMaker + 
+S3/EC2 
+AWS CCP study path (free 
+tier) + SageMaker Studio Lab 
+(free) 
+ML model trained and 
+deployed on SageMaker — 
+live endpoint 
+ML Eng, AI 
+Eng 
+12 
+Kubernetes + 
+Prometheus + 
+Grafana 
+monitoring 
+DevOpsWithDocker.com (free) 
++ K8s official docs + Grafana 
+tutorials 
+ML API deployed on K8s 
+(Minikube) with full 
+monitoring dashboard 
+ML Eng, AI 
+Eng 
+13 
+AWS 
+Certification 
+Prep (CCP + 
+SAA-C03) 
+AWS Skill Builder (free) + 
+Stephane Maarek SAA 
+(Udemy ~₹499) 
+BOOK the AWS SAA 
+exam—take it end of month 
+4. Non-refundable. 
+All roles 
+DSA 
+LeetCode Trees, 
+Graphs, DP 
+basics (60 Med) 
+Neetcode.io Advanced + 
+Striver Graph Series 
+(YouTube) 
+60 medium problems — 
+especially trees and graphs 
+for ML interviews 
+Interview-cri
+tical 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+ 
+MONTH 4 — Data Engineering + Agentic AI Systems  [Weeks 14–17 ]  
++100 Hours 
+ 
+The IITGN-CDF Data Science track (months 3-4) covers Big Data, Spark, Kafka, Airflow, dbt, BigQuery, 
+Databricks, and Streamlit. Their AI-ML track covers CrewAI and multi-agent systems. You do BOTH in one 
+month—because many ML engineer JDs now require data pipeline fluency. 
+ 
+Week 
+Topic 
+Primary Resource (Free) 
+Deliverable 
+Role Tag 
+14 
+LangGraph + 
+Multi-Agent 
+Systems 
+(LangChain, 
+CrewAI, 
+AutoGen) 
+LangChain Academy (free) + 
+DL.AI Multi-Agent course (free 
+audit) + CrewAI docs 
+5-agent research assistant 
+(web search → analysis → 
+report generation) deployed 
+AI Eng 
+(core), ML 
+Eng 
+15 
+Data Pipelines: 
+Airflow + dbt + 
+BigQuery 
+Data Eng Zoomcamp Wk1-4 
+(free GitHub) + dbt Learn 
+official (free) 
+ELT pipeline: CSV source 
+→ Airflow DAG → BigQuery 
+→ dbt transform → 
+dashboard 
+DS (critical 
+for senior 
+roles) 
+16 
+Spark + Kafka 
+Streaming 
+basics 
+Taming Big Data with Spark 
+(Udemy ~₹499) + Kafka 
+Quickstart (free) 
+Kafka consumer → Spark 
+streaming → processed 
+output pipeline 
+DS, ML Eng 
+(data-heavy 
+roles) 
+17 
+System Design 
+for ML + 
+Capstone 
+Architecture 
+Planning 
+System Design Interview (Alex 
+Xu book) + Google SRE Book 
+Ch 1-5 (free) 
+System design document 
+for your capstone — 
+architecture, data flow, 
+SLAs 
+ML Eng 
+(interviews), 
+DS 
+DSA 
+LeetCode 
+Dynamic 
+Programming 
+and 
+Backtracking (50 
+Med-Hard) 
+Neetcode DP course + Striver 
+DP series (YouTube) 
+50 medium-hard DP 
+problems — most common 
+FAANG filter 
+Interview-cri
+tical 
+SQL 
+SQL for ML: 
+feature stores, 
+window 
+functions for 
+time series, 
+BigQuery ML 
+BigQuery sandbox (free) + 
+BigQuery ML official docs 
+(free) 
+Feature engineering 
+pipeline in SQL for a 
+classification problem 
+DS + ML 
+Eng 
+ 
+MONTH 5 — Interview Excellence + Capstone Build [Weeks 18–21 ]  
++100 Hours 
+ 
+IITGN-CDF Month 5 is ENTIRELY dedicated to interview prep: 300+ ML coding problems, algo 
+implementation, system design for ML, 15+ mock interviews using LeetCode, Kaggle, and Pramp. You do 
+the same — AND build your capstone simultaneously. 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+Week 
+Topic / Activity 
+Resources 
+Deliverable / Target 
+18 
+ML Interview Theory: 
+100 Core ML 
+Questions 
+Chip Huyen's ML Interviews 
+book (free PDF) + ML 
+Interview Questions repo 
+(GitHub) 
+Answer 100 ML theory questions in 
+writing—bias-variance, regularization, 
+ensembles, backprop, transformers 
+19 
+System Design for 
+ML (2 full 
+designs/week) 
+Designing ML Systems (Chip 
+Huyen, O'Reilly) + educative.io 
+SD for ML 
+Design: (1) Real-time fraud detection 
+ML system (2) LLM-powered search at 
+scale 
+20 
+Mock Interviews — 
+15 Sessions (Code + 
+Behavioral) 
+Pramp.com (free) + 
+interviewing.io (free trial) + 
+LeetCode interview sim 
+15 mock interviews: 8 coding, 4 ML 
+theory, 3 behavioral—LOG all 
+feedback 
+21 
+Kaggle Competition 
+Sprint + AWS SAA 
+Exam 
+Kaggle: pick any active 
+competition + AWS Skill 
+Builder practice exams 
+Submit to Kaggle competition (top 30% 
+target) + ✅ TAKE AWS SAA EXAM 
+Capst
+one 
+Start building 
+capstone (20 
+h/week). 
+All prior resources + build in 
+public on GitHub 
+Capstone: 50% complete — backend 
++ ML model deployed 
+ 
+🎯 THE 300+ PROBLEM STRATEGY (Exactly Matching IITGN-CDF) 
+Target: 350+ total by end of Month 5. Breakdown below: 
+• Month 1: 75 Easy (arrays, strings, hashmaps) — build speed and confidence 
+• Month 2: 50 Medium (two pointers, sliding window, binary search) — pattern recognition 
+• Month 3: 60 Medium (trees, graphs, BFS/DFS) — MOST common in ML engineer interviews 
+• Month 4: 50 Medium-Hard (DP, backtracking) — differentiator for FAANG/GCC roles 
+• Month 5: 65 Medium-Hard (mixed review + contest participation) — interview simulation 
+• Month 6: 50 Hard (for ML Eng roles at top companies) — optional but powerful 
+Platform priority: LeetCode > HackerRank SQL > Codeforces (for competitive edge) 
+CRITICAL: After every problem you fail, write the solution explanation in YOUR OWN WORDS 
+ 
+MONTH 6 — Capstone + Portfolio Blitz + Career Launch  [Weeks 22–26 ]  
++50 Hours 
+ 
+IITGN-CDF ends with a capstone, demo day, placement support, and GitHub portfolio building. You do the 
+same, but your work is PUBLIC and globally visible. Their demo day is for 60 peers. Your demo is the entire 
+internet. 
+ 
+Week 
+Activity 
+Outcome 
+22 
+Capstone finalization — core build 
+complete 
+All features working, tested, monitored with 
+Prometheus/Grafana 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+23 
+Capstone frontend + demo app 
+(Streamlit/Gradio/React) 
+Live demo URL—HuggingFace Spaces or Vercel 
+24 
+Technical blog post + architecture 
+walkthrough + README 
+Published on Medium/Substack + shared on LinkedIn 
+(target: 2000 views) 
+25 
+Portfolio polish: GitHub profile, 
+LinkedIn optimization, resume 
+GitHub profile README with project showcase + 
+ATS-optimized resume 
+26 
+Career launch: 100 job 
+applications + GCP ACE exam 
+prep begins 
+100 applications sent — ML Eng (60%), DS (30%), AI Eng 
+(10%) 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+05.  Role-Specific Master Resource List 
+Every resource below is specifically chosen for ML Engineer (primary), Data Scientist (secondary), and AI 
+Engineer (tertiary) job requirements. Quality > quantity. These beat any classroom. 
+ 
+5.1  ML Engineer Priority Resources 
+Resource 
+Type 
+Why Critical for ML Eng 
+Access 
+Andrej Karpathy: Neural 
+Networks Zero to Hero 
+YouTube 
+(Free) 
+Best PyTorch intuition + builds 
+GPT from scratch. No 
+classroom matches this. 
+youtube.com/@andrejka
+rpathy 
+Made With ML (Goku 
+Mohandas) 
+Course 
+(Free) 
+End-to-end ML engineering — 
+design to production. MLOps 
+mindset from Day 1. 
+madewithml.com 
+Full Stack Deep Learning 
+2022 
+Course 
+(Free) 
+Production ML systems — 
+tooling, testing, deployment, 
+infrastructure. 
+fullstackdeeplearning.co
+m 
+FastAPI Official Docs + 
+testdriven.io 
+Docs/Tutorial 
+(Free) 
+FastAPI is the default ML 
+serving framework — every ML 
+Eng JD mentions it. 
+fastapi.tiangolo.com 
+MLOps Zoomcamp 
+(DataTalks.Club) 
+Course 
+(Free) 
+9-week free MLOps course — 
+MLflow, Prefect, Docker, 
+Grafana, monitoring. 
+github.com/DataTalks-Cl
+ub 
+CS229 Machine Learning 
+(Stanford) 
+Course 
+(Free) 
+Theory foundation — backprop, 
+regularization, SVMs. Read 
+before interviews. 
+cs229.stanford.edu 
+Designing Machine 
+Learning Systems (Chip 
+Huyen) 
+Book 
+Industry-standard ML system 
+design book. Required reading 
+for senior roles. 
+O'Reilly (~₹1,500 or 
+library) 
+Hands-on ML with 
+Scikit-Learn (Aurélien 
+Géron) 
+Book 
+Best practical ML book — 
+chapters 1-12 cover 80% of ML 
+interview questions. 
+GitHub preview + 
+O'Reilly 
+AWS Solutions Architect 
+SAA-C03 (Stephane 
+Maarek) 
+Course 
+Cloud fluency — 1 in 3 ML 
+Engineer postings require AWS 
+explicitly. 
+Udemy (~₹499 on sale) 
+Chip Huyen: ML Interviews 
+(free PDF) 
+Book (Free) 
+100+ ML interview questions 
+with detailed answers — the 
+interview bible. 
+huyenchip.com/ml-interv
+iews-book 
+ 
+5.2  Data Scientist Priority Resources 
+Resource 
+Type 
+Why Critical for Data Science 
+Access 
+Mode Analytics SQL 
+Tutorial 
+Tutorial 
+(Free) 
+Best SQL resource for data 
+science — practical queries on 
+real datasets. 
+mode.com/sql-tutorial 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+Statistics for Data 
+Scientists (50 Essential 
+Concepts) 
+Book 
+Core stats—probability, 
+distributions, hypothesis testing, 
+and A/B testing. 
+Amazon (~₹800) 
+Stanford CS229 + Think 
+Stats (Allen Downey) 
+Book/Course 
+(Free) 
+Dual approach: theory (CS229) 
++ practical Python stats (Think 
+Stats PDF). 
+greenteapress.com 
+Kaggle: Pandas, Data 
+Visualization, Feature 
+Engineering 
+Micro-course
+s (Free) 
+3 hours each. Best practical DS 
+skills — EDA, pandas, feature 
+engineering. 
+kaggle.com/learn 
+Python for Data Analysis 
+(Wes McKinney) 
+Book 
+The pandas bible—written by 
+the creator of pandas. Covers 
+100% of DS EDA work. 
+O'Reilly preview + 
+Amazon 
+XGBoost / LightGBM 
+Documentation + Papers 
+Docs (Free) 
+Gradient boosting wins Kaggle 
+competitions and DS role 
+interviews. 
+xgboost.readthedocs.io 
+Business Case Interview 
+Frameworks 
+Free 
+Resources 
+McKinsey-style case thinking + 
+product metrics—DS roles 
+require business thinking. 
+CaseCoach (free) + 
+Victor Cheng 
+Tableau / Looker Studio / 
+Power BI (free tier) 
+Tools (Free) 
+Visualization tools — DS roles 
+in non-pure-tech companies 
+heavily use these. 
+tableau.com public / 
+Looker Studio 
+Time Series Analysis (Rob 
+Hyndman, free online 
+book) 
+Book (Free) 
+Time series forecasting is the #1 
+DS use case in fintech and 
+e-commerce. 
+otexts.com/fpp3 
+LeetCode SQL 50 + 
+HackerRank SQL 
+Platform 
+(Free) 
+SQL filters are the #1 DS 
+interview screener. Do all 50 
+LeetCode SQL problems. 
+leetcode.com/studyplan/
+top-sql-50 
+ 
+5.3  AI Engineer Priority Resources 
+Resource 
+Type 
+Why Critical for AI Eng 
+Access 
+LangChain Academy: Intro 
+to LangGraph 
+Course 
+(Free) 
+Official curriculum from the 
+LangChain team—the definitive 
+agentic AI course. 
+academy.langchain.com 
+HuggingFace Courses 
+(NLP + Diffusion + Agents) 
+Course 
+(Free) 
+Official HF curriculum—covers 
+100% of what AI Eng roles 
+expect from HF. 
+huggingface.co/learn 
+Deep learning. AI Short 
+Courses (LangChain, RAG, 
+AutoGen, CrewAI) 
+Courses 
+(Free) 
+Co-created with tool creators. 
+Each is 1-2 hours and 
+laser-focused. 
+learn.deeplearning.ai 
+Unsloth + QLoRA + PEFT 
+(HuggingFace) 
+Docs (Free) 
+Fine-tuning LLMs in Colab for 
+free — Unsloth makes it 2-5x 
+faster. 
+unsloth.ai + 
+huggingface.co/docs/pef
+t 
+RAGAS Framework for 
+RAG Evaluation 
+Docs (Free) 
+Evaluating RAG pipelines is 
+critical for production AI 
+engineering roles. 
+docs.ragas.io 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+Illustrated Transformer + 
+GPT (Jay Alammar) 
+Blog (Free) 
+Best visual explanation of 
+transformer architecture — 
+memorize this. 
+jalammar.github.io 
+Prompt Engineering Guide 
+(DAIR.AI) 
+Docs (Free) 
+Comprehensive prompt 
+engineering covers CoT, RAG 
+prompting, and structured 
+outputs. 
+promptingguide.ai 
+LLM Evaluation (LMSYS, 
+Evals by OpenAI) 
+Papers/Docs 
+(Free) 
+How to evaluate LLMs in 
+production—an AI Eng interview 
+favorite topic. 
+lmsys.org + 
+github.com/openai/evals 
+Vector Database Docs: 
+Qdrant, FAISS, Pinecone 
+Docs (Free) 
+Qdrant has the best free tier 
+and the best Python SDK. 
+FAISS is for local use. 
+qdrant.tech + faiss.ai 
+Groq API (free) + Ollama 
+(local) + Together AI 
+Tools (Free) 
+Free LLM inference for all your 
+projects — no OpenAI costs 
+needed. 
+console.groq.com/ollam
+a.ai 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+06.  The 15-20 Project Portfolio Strategy 
+IITGN-CDF graduates with 15-20 deployed, live projects. This is their strongest asset. You must match 
+this—but ALL yours are public on GitHub with real users and verifiable metrics. Here's the exact project list 
+mapped to job roles. 
+ 
+# 
+Project Name 
+Stack 
+Target Role 
+Impact Metric 
+P
+1 
+GPT-2 Mini: Built From 
+Scratch 
+PyTorch, NumPy, 
+Jupyter 
+ML Eng 
+GitHub repo — target 200+ 
+stars. Shows deep DL 
+knowledge. 
+P
+2 
+End-to-end ML Pipeline 
+with MLflow + FastAPI 
+sklearn, MLflow, 
+FastAPI, Docker 
+ML Eng 
+Live API endpoint + MLflow 
+dashboard — deploy on 
+Render (free) 
+P
+3 
+Text Classifier: BERT 
+Fine-tuned on Custom 
+Data 
+Hugging Face, 
+PyTorch, PEFT 
+ML Eng + AI 
+Hugging Face model card — 
+target 300+ downloads 
+P
+4 
+RAG Chatbot on PDF 
+Knowledge Base 
+LangChain, FAISS, 
+Gradio, HF 
+AI Eng 
+HuggingFace Space — 500+ 
+users, demonstrates RAG 
+mastery 
+P
+5 
+Fine-tuned LLaMA-3 8B 
+on Indian domain. 
+Unsloth, QLoRA, 
+LLaMA-3, HF 
+AI Eng 
+Hugging Face model with 
+benchmarks—differentiated 
+regionally 
+P
+6 
+Multi-Agent Research 
+Assistant (5 agents) 
+LangGraph, 
+CrewAI, Serper, 
+Tavily 
+AI Eng 
+Blog post + demo — shows 
+agentic AI mastery 
+P
+7 
+Fraud Detection ML 
+System (real-time) 
+XGBoost, Kafka, 
+FastAPI, Grafana 
+DS + ML Eng 
+System design doc + 
+code—mirrors real BFSI 
+use-case 
+P
+8 
+Sales Forecasting 
+Dashboard (Time Series) 
+ARIMA, Prophet, 
+Streamlit, Plotly 
+DS 
+Deployed Streamlit app with 
+interactive forecasts 
+P
+9 
+A/B Testing Statistical 
+Framework 
+Python, scipy, 
+statsmodels 
+DS 
+Reusable library on 
+GitHub—shows stats depth 
+P
+10 
+ELT Data Pipeline 
+(Airflow + dbt + 
+BigQuery) 
+Airflow, dbt, 
+BigQuery, Looker 
+Studio 
+DS + ML Eng 
+End-to-end pipeline with data 
+quality checks + dashboard 
+P
+11 
+ML API with K8s + 
+Prometheus + Grafana 
+FastAPI, Docker, 
+K8s, Prometheus 
+ML Eng 
+Production-grade monitoring — 
+rare in fresh graduate portfolios 
+P
+12 
+AI-powered SaaS App 
+(Full-Stack) 
+FastAPI, Next.js, 
+Postgres, LLM API 
+AI Eng 
+Deployed on Vercel + Render 
+— real users, shows business 
+thinking 
+P
+13 
+Kaggle Competition 
+Solution (top 20%) 
+XGBoost, feature 
+engineering, CV 
+DS + ML Eng 
+Kaggle notebook with detailed 
+writeup—100+ upvotes target 
+P
+14 
+arXiv Paper 
+Implementation 
+PyTorch, custom 
+dataset 
+ML Eng 
+GitHub repo implementing a 
+2024-25 SOTA paper — shows 
+research ability 
+P
+15 
+Capstone: Production AI 
+Product 
+Full stack from 
+above 
+All three 
+FLAGSHIP — hackathon 
+submission + conference talk 
+proposal 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+07.  Certification Battle Plan (They Have None; You 
+Have 7+) 
+IITGN-CDF graduates with a PG Diploma and IIT Executive Alumni Status. These have brand value in India 
+but zero global recognition. Your certifications are globally recognized and directly map to ML Engineer and 
+Data Scientist JD requirements. 
+ 
+Certification 
+Month 
+Cost 
+(approx) 
+Role Impact 
+Study 
+Resource 
+Deep learning. AI ML 
+Specialization (5 certs) 
+Month 
+1-2 
+Free (audit) 
+or ₹2,000/mo 
+DS + ML Eng 
+foundation—Andrew Ng's 
+stamp 
+coursera.org/sp
+ecializations/ma
+chine-learning-i
+ntroduction 
+Hugging Face Certified 
+(NLP + Agents courses) 
+Month 
+2-3 
+Free 
+AI Eng — official HF 
+credential 
+huggingface.co/l
+earn 
+LangChain Academy 
+Completion Certificate 
+Month 4 
+Free 
+AI Eng—shows LangGraph + 
+agentic AI mastery 
+academy.langch
+ain.com 
+AWS Cloud Practitioner 
+(CLF-C02) 
+Month 3 
+~₹7,000 
+exam fee 
+All roles — cloud foundation, 
+lowest barrier 
+AWS Skill 
+Builder (free) 
+AWS Solutions Architect 
+— Associate (SAA-C03) 
+Month 
+4-5 
+~₹14,000 
+exam fee 
+ML Eng—1 in 3 JDs require 
+AWS. This is the must-have 
+cert. 
+Stephane 
+Maarek, Udemy 
+(~₹499) 
+Google Cloud Associate 
+Cloud Engineer 
+Month 6 
+~₹14,000 
+exam fee 
+ML Eng + DS—GCP 
+BigQuery/Vertex AI very 
+common in DS roles 
+cloud.google.co
+m/learn/training 
+(free codelabs) 
+Terraform Associate 
+(HashiCorp) 
+Month 5 
+~₹11,000 
+exam fee 
+ML Eng (MLOps-heavy 
+roles)—IaC is becoming table 
+stakes 
+HashiCorp 
+tutorials (free) 
+ 
+💡 EXAM BOOKING STRATEGY: Book the exam 6 weeks before you plan to take it. The ₹14,000 
+non-refundable fee is the most powerful motivator you have. This is exactly what IITGN-CDF's 
+residential environment does—creates accountability through commitment. 
+💰 TOTAL CERT COST: ~₹46,000–₹50,000 (mostly AWS/GCP exam fees). This is 10x cheaper than a 
+single month of IITGN-CDF hostel fees. And these certs are globally valid for 3 years. 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+08.  Daily Schedule — Mirrors IITGN-CDF Intensity 
+IITGN-CDF's daily structure: 8:30 AM Squad Sync → 9:00-10:30 Concepts → 10:45-1:00 Hands-on → 
+Lunch → 2:00-3:30 Applied → 4:00-6:00 Execute → 7:30-9:00 Competitive Coding. You replicate this minus 
+the campus but GAIN 90 minutes of recovered commute time. 
+ 
+Time 
+Activity 
+IITGN Equivalent 
+Notes 
+06:00–06:30 
+Morning review: 
+yesterday's concepts 
+(active recall) 
+Squad Sync / Review 
+Write 5 key ideas from yesterday 
+WITHOUT looking at notes 
+06:30–08:00 
+DSA / LeetCode (1-2 
+problems) 
+Daily competitive 
+coding practice 
+Neetcode + Striver sheet—strict 45 
+min per problem, then review 
+solution 
+08:00–08:30 
+Breakfast + break 
+— 
+ 
+08:30–10:30 
+DEEP WORK BLOCK 1: 
+Learning (video/reading 
++ notes) 
+Concepts Drilldown 
+(9:00–10:30) 
+PHONE IN ANOTHER ROOM. Take 
+handwritten notes. Build Anki cards. 
+10:30–10:45 
+Break 
+Short break 
+Walk, stretch, water 
+10:45–13:15 
+DEEP WORK BLOCK 2: 
+Coding / Hands-on 
+Application 
+Hands-On Sessions: 
+Apply (10:45-1:00) 
+No tutorials. Build from a blank file. 
+Break things, fix things. 
+13:15–14:00 
+Lunch + decompress 
+Lunch and 
+decompress 
+ 
+14:00–16:00 
+DEEP WORK BLOCK 3: 
+Project Work / Build 
+Applied Concepts + 
+Build Harder 
+(2:00-6:00) 
+Work on weekly project 
+deliverables—make meaningful 
+progress 
+16:00–17:00 
+Paper reading or 
+advanced topics or SQL 
+practice 
+Build Something 
+Harder: Execute 
+1 arXiv abstract/summary per day, 1 
+full paper + implementation per 
+week 
+17:00–18:00 
+Exercise — 
+NON-NEGOTIABLE 
+Sports Time (IITGN 
+campus) 
+Run, go to the gym, walk. This is 
+what makes the rest of the day 
+work. 
+18:00–19:00 
+Review + Plan + Anki 
+flashcard review 
+Daily Wrap 
+Review what you built, plan 
+tomorrow, 15 min Anki 
+19:00–20:00 
+Community: Discord, 
+LinkedIn post (2x/week), 
+Twitter/X 
+Friday Social Nights / 
+Industry Sessions 
+Post progress publicly. This is the 
+compounding asset. 
+20:00–21:00 
+Mock interview prep OR 
+certification study 
+Competitive Coding 
+Hour (7:30-9:00) 
+Rotate daily: ML theory, behavioral 
+prep, cert flashcards 
+21:00+ 
+Wind down, SLEEP by 
+22:30 — 7.5 hours 
+minimum 
+Hostel / Your Choice 
+(9PM+) 
+Elite performance requires elite 
+recovery. Non-negotiable. 
+ 
+WEEKLY RHYTHM—mirrors their 'Other Events in a Typical Week. 
+MONDAY: Start new week's learning module—set 3 non-negotiable deliverables for the week 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+TUESDAY: Deep coding day—build project feature. Minimum 4h of project code written 
+WEDNESDAY:   Mock interview or system design session (Pramp.com—1 session) 
+THURSDAY: Paper reading day—read 1 arXiv paper, write 3-bullet summary on LinkedIn 
+FRIDAY:      Code review + GitHub polish + document what you built this week 
+SATURDAY: 8-hour SPRINT — simulate an IITGN all-nighter. Finish the week's deliverable. 
+SUNDAY:      Review KPIs (see Section 10), plan next week, community time, rest 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+09.  Your AI Clinic Equivalent—Real Business Problems 
+IITGN-CDF's AI Clinic is their most unique feature: real enterprise problems from Futurense's industry 
+network (marketing automation, financial forecasting, and workflow transformation) are assigned to you with 
+guided mentorship. Here is how you replicate this — and go further. 
+ 
+🏥 IITGN AI CLINIC PROVIDES: 
+• Real business challenges from Futurense's 
+65+ enterprise clients 
+• One-on-one feedback from industry mentors 
+• Tool mastery: ChatGPT, Claude, LangChain, 
+Zapier, Looker 
+• AI Workflow Design and Implementation 
+Roadmaps 
+• Ideas Lab: pitch startup ideas to VCs + 
+founders 
+• Certificate: 'Advanced Certificate in GenAI for 
+Business' 
+ 
+VALUE: Forces you to work on REAL problems 
+under REAL constraints with REAL feedback. 
+⚡ YOUR AI CLINIC EQUIVALENTS: 
+1. Kaggle competitions — real data, real 
+leaderboard, community feedback 
+2. lablab.ai hackathons — 48-72h real enterprise 
+AI challenges, with teams 
+3. DevPost AI hackathons — companies post 
+real problems with prize money 
+4. Open-source contributions to LangChain, 
+LlamaIndex, or HuggingFace 
+5. Build AI tools for local SMEs (a CA firm, a 
+clinic, a D2C brand) 
+6. Futurense.uni free sessions (they're open to 
+the public on YouTube) 
+ 
+ADVANTAGE: Your work is VISIBLE and 
+CREDITED publicly. 
+ 
+Your 3 Real Business Challenge Targets (One Per Month, Months 2-4) 
+Month 
+Challenge Type 
+Business Domain 
+Your Output 
+Month 2 
+Kaggle Competition: 
+Tabular 
+classification/regressio
+n 
+Any industry with labeled 
+data 
+Top 20% ranking + detailed writeup 
+on Kaggle 
+Month 3 
+lablab.ai or DevPost AI 
+Hackathon 
+Real enterprise problem 
+posted by sponsor 
+Deployed demo + pitch deck + 
+GitHub 
+Month 4 
+Build an AI tool for a 
+local business 
+Specific: CA firm 
+(document analysis), clinic 
+(symptom triage), D2C 
+brand (customer support) 
+A live deployed tool with a real 
+user—THE most powerful portfolio 
+item 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+10.  KPIs, Visibility Strategy & Placement Prep 
+ 
+10.1  Weekly KPI Tracker (Review Every Sunday) 
+KPI 
+Month 2 
+Target 
+Month 4 Target 
+Month 6 
+Target 
+Role 
+LeetCode problems solved 
+100 
+250 
+400+ 
+All interview 
+filters 
+SQL problems solved 
+50 
+100 
+150 
+DS—often 
+first screener 
+GitHub public repos 
+5 
+10 
+15+ 
+All — 
+portfolio 
+signal 
+GitHub total commits 
+100 
+200+ 
+350+ 
+Matches 
+IITGN's 200+ 
+target 
+HuggingFace models/spaces 
+2 
+5 
+8+ 
+ML Eng + AI 
+Eng 
+Deployed live projects 
+3 
+8 
+15+ 
+Matches 
+IITGN's 
+15-20 target 
+Certifications earned 
+2 (DL.AI) 
+3 (+ AWS CCP + 
+LangChain) 
+6+ (+ AWS 
+SAA + GCP 
+ACE) 
+All 
+LinkedIn followers 
+200 
+500 
+1,200+ 
+Visibility → 
+referrals 
+Blog posts / LinkedIn articles 
+3 
+8 
+15+ 
+Thought 
+leadership 
+arXiv papers read + 
+summarized 
+5 
+12 
+24+ 
+ML Eng 
+(research 
+credibility) 
+Mock interviews completed 
+2 
+8 
+20+ 
+Interview-criti
+cal 
+Kaggle/hackathon 
+participations 
+1 
+3 
+5+ 
+AI Clinic 
+equivalent 
+ 
+10.2  LinkedIn + Visibility Strategy 
+CONTENT STRATEGY (2x per week minimum) 
+POST TYPE 1 — 'What I built this week' (every Sunday or Monday) 
+  Template: Week X of 26. This week I built [X]. Here's what I learned + a GitHub link.' 
+  Add a screenshot, architecture diagram, or code snippet. 3-5 sentences max. 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+ 
+POST TYPE 2 — Paper summary (every Thursday) 
+  Template: I read [Paper Name] this week. Here's what it does in 3 bullets + why it matters.' 
+  Tag: relevant people/companies. Use relevant hashtags: #MachineLearning #MLOps #GenAI 
+ 
+POST TYPE 3 — Monthly long-form article (once per month) 
+  Full technical walkthrough: how I built X, what went wrong, what I learned. 
+  Target: 1,000+ views, 50+ likes, 10+ comments — this is what hiring managers notice. 
+ 
+ENGAGEMENT: Comment thoughtfully on posts from AI researchers and ML engineers daily. 
+Connect with 15 ML/DS professionals per week—always send a personalized note. 
+ 
+10.3  Job Application Strategy (Month 6 — 100 Applications) 
+Application Category 
+% of 
+Applications 
+Target Companies 
+Role Applied 
+For 
+GCCs (Global Capability 
+Centers) 
+30 applications 
+Microsoft, Amazon, Google, Walmart 
+GCC, Wells Fargo, Target 
+ML Engineer / 
+Applied Scientist 
+Indian Product 
+Companies 
+25 applications 
+Razorpay, Zerodha, CRED, Swiggy, 
+Zomato, IndiGo, Nykaa 
+ML Engineer / 
+Data Scientist 
+Consulting + Services 
+15 applications 
+Accenture AI, Deloitte AI, TCS AI, 
+Wipro AI Labs 
+Data Scientist / 
+AI Engineer 
+AI-first Startups 
+20 applications 
+Bangalore/Hyderabad AI startups — 
+use LinkedIn Jobs + AngelList 
+ML Engineer / AI 
+Engineer 
+International Remote 
+10 applications 
+LinkedIn / Wellfound remote ML 
+roles — apply to US/EU companies 
+ML Eng / Data 
+Sci (remote, 
+₹30-60L equiv) 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+11.  Complete Free Toolset (Beats IITGN Labs) 
+Category 
+Tools 
+Cost 
+GPU / Compute 
+Google Colab (free T4) + Kaggle Notebooks (free P100) 
++ SageMaker Studio Lab (free) + Lightning.ai (free tier) 
+Free (Colab Pro ₹900/mo 
+optional for 6-month 
+deadline) 
+LLM Inference 
+Groq (free API, 300 req/day, blazing fast) + Ollama (run 
+LLaMA locally). + Together AI (free credits) + Gemini 
+API (free tier) 
+Free 
+Cloud Credits 
+AWS Free Tier (12 months) + GCP $300 free credits + 
+Azure $200 credits + GitHub Student Developer Pack 
+(₹30,000+ worth) 
+Free 
+Vector Databases 
+Qdrant Cloud (1GB free) + FAISS (local, free) + Chroma 
+(local, free) + Pinecone (free tier) 
+Free 
+MLOps 
+MLflow (open-source) + DVC (open-source) + GitHub 
+Actions CI/CD + Weights & Biases (free academic tier) 
+Free 
+Data Engineering 
+Airflow (Docker local), dbt Core (open-source), Apache 
+Kafka (local), and BigQuery (sandbox free 10GB/mo) 
+Free 
+Monitoring 
+Prometheus + Grafana (open-source) + Grafana Cloud 
+(free tier) + Arize AI (free tier) 
+Free 
+Dev Tools 
+VS Code + GitHub Copilot (Student: free) + Cursor AI 
+IDE + Docker Desktop + Postman (free) 
+Free (Copilot via GitHub 
+Student Pack) 
+Learning 
+Fast.ai + HuggingFace Learn + MIT OCW + 
+CS229/224n/231n + DeepLearning. AI (audit) + Kaggle 
+Learn 
+Free (pay only for certs) 
+Interview Prep 
+Pramp.com (free mock interviews) + interviewing.io 
+(free trial) + LeetCode free tier + Neetcode.io (free) 
+Free 
+Deploy / Host 
+HuggingFace Spaces (free) + Render (free tier) + 
+Vercel (free) + Railway (free trial) 
+Free 
+ 
+12.  Your Month-6 Final State vs. IITGN-CDF Graduate 
+What You Graduate 
+With 
+IITGN-CDF Graduate 
+You (This Plan) 
+Credential 
+IITGN PG Diploma + IIT Executive 
+Alumni Status 
+AWS SAA + GCP ACE + Terraform + 
+HuggingFace + LangChain Academy + 5x 
+DL.AI 
+Projects 
+15-20 deployed live projects (strong 
+— their best asset) 
+15-20 public GitHub projects + 
+HuggingFace models + real users 
+GitHub 
+200+ commits (they explicitly target 
+this) 
+350+ commits + 150+ stars + 5+ 
+open-source contributions 
+Coding Problems 
+300+ problems (their Month 5 
+target) 
+400+ problems (LeetCode + HackerRank 
+SQL + Codeforces) 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
+ELITE AI MASTERY PLAN v2.0  •  Beat IITGN-CDF  •  ML Engineer | Data Scientist | AI Engineer 
+Mock Interviews 
+15+ mock interviews (Pramp, 
+interviewing.io, Pramp) 
+20+ mock interviews + behavioral + 
+system design 
+SQL Depth 
+Covered in data science track only 
+150+ SQL problems, BigQuery ML, dbt — 
+cross-track strength 
+Research Exposure 
+None (AI Clinic is industry, not 
+research) 
+24+ arXiv papers read + 2-3 implemented 
++ documented 
+Global Visibility 
+Internal demo day + Futurense 
+network 
+1,000+ LinkedIn followers + HuggingFace 
+public profile + blog 
+Network 
+60 cohort peers + 40+ Futurense 
+Leadership Council mentors 
+Global OSS community + LinkedIn 
+network + hackathon contacts 
+Business Thinking 
+AI Clinic + Ideas Lab — genuine 
+strength 
+3 real business AI projects + Kaggle 
+competitions + hackathons 
+Cost Spent: 
+₹628,000 (tuition + hostel + GST) 
+₹18,000 (exam fees) + optional ₹900/mo 
+Colab = ~₹23,400 total 
+Net Value (estimate) 
+₹6.28 lakh spent → entry ML Eng 
+₹12-18 L offer 
+₹23K spent → same entry ML Eng 
+₹12-18L offer + global certificates 
+ 
+ 
+Their program says: "Come Hungry, Leave Transformed." 
+Your plan says: "Come Hungry, Leave Unstoppable — and keep ₹6 lakh in your 
+pocket." 
+ 
+ 
+Confidential Strategic Plan  •  6 Months  •  ₹6 Lakh Saved  • India needs 1M AI professionals by 2027—be one. 
