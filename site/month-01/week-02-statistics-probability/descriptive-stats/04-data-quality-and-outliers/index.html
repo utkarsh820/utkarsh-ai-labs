@@ -974,10 +974,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-inspection-count-missing-values-duplicate-detection" class="md-nav__link">
+  <a href="#1-visual-inspection-simple-counts" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Visual inspection, Count missing values, Duplicate detection
+        1. Visual Inspection &amp; Simple Counts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-basic-deduplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Basic Deduplication
       
     </span>
   </a>
@@ -1002,10 +1013,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#iqr-method-15-rule-missing-percentage-unique-value-counts" class="md-nav__link">
+  <a href="#1-missingness-percentage-matrix" class="md-nav__link">
     <span class="md-ellipsis">
       
-        IQR method (1.5× rule), Missing percentage, Unique value counts
+        1. Missingness Percentage &amp; Matrix
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-iqr-outlier-method-tukeys-15-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. IQR Outlier Method (Tukey's 1.5× Rule)
       
     </span>
   </a>
@@ -1030,10 +1052,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#z-score-method-isolation-forest-mcarmarmnar-classification" class="md-nav__link">
+  <a href="#1-the-z-score-outlier-method" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Z-score method, Isolation Forest, MCAR/MAR/MNAR classification
+        1. The Z-Score Outlier Method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-statistical-missingness-classification-mcar-mar-mnar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Statistical Missingness Classification (MCAR, MAR, MNAR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-isolation-forest-unsupervised-anomaly-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Isolation Forest (Unsupervised Anomaly Detection)
       
     </span>
   </a>
@@ -4818,10 +4862,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-inspection-count-missing-values-duplicate-detection" class="md-nav__link">
+  <a href="#1-visual-inspection-simple-counts" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Visual inspection, Count missing values, Duplicate detection
+        1. Visual Inspection &amp; Simple Counts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-basic-deduplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Basic Deduplication
       
     </span>
   </a>
@@ -4846,10 +4901,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#iqr-method-15-rule-missing-percentage-unique-value-counts" class="md-nav__link">
+  <a href="#1-missingness-percentage-matrix" class="md-nav__link">
     <span class="md-ellipsis">
       
-        IQR method (1.5× rule), Missing percentage, Unique value counts
+        1. Missingness Percentage &amp; Matrix
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-iqr-outlier-method-tukeys-15-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. IQR Outlier Method (Tukey's 1.5× Rule)
       
     </span>
   </a>
@@ -4874,10 +4940,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#z-score-method-isolation-forest-mcarmarmnar-classification" class="md-nav__link">
+  <a href="#1-the-z-score-outlier-method" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Z-score method, Isolation Forest, MCAR/MAR/MNAR classification
+        1. The Z-Score Outlier Method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-statistical-missingness-classification-mcar-mar-mnar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Statistical Missingness Classification (MCAR, MAR, MNAR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-isolation-forest-unsupervised-anomaly-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Isolation Forest (Unsupervised Anomaly Detection)
       
     </span>
   </a>
@@ -4907,19 +4995,83 @@
 
 
 <h1 id="data-quality-and-outliers">Data Quality and Outliers<a class="headerlink" href="#data-quality-and-outliers" title="Permanent link">&para;</a></h1>
-<p><em>This file covers missing data handling, duplication, and anomaly detection.</em></p>
+<p><em>Before any machine learning model is trained, the data must be sanitized. Statistical tests must be deployed to handle null-values (missingness) and detect anomalies.</em></p>
 <hr />
 <h2 id="beginner-foundations">🟢 Beginner (Foundations)<a class="headerlink" href="#beginner-foundations" title="Permanent link">&para;</a></h2>
-<h3 id="visual-inspection-count-missing-values-duplicate-detection">Visual inspection, Count missing values, Duplicate detection<a class="headerlink" href="#visual-inspection-count-missing-values-duplicate-detection" title="Permanent link">&para;</a></h3>
-<p><em>(Add your foundational content and examples here)</em></p>
+<h3 id="1-visual-inspection-simple-counts">1. Visual Inspection &amp; Simple Counts<a class="headerlink" href="#1-visual-inspection-simple-counts" title="Permanent link">&para;</a></h3>
+<p>Before running algorithms, look at the data structure. Find missing (<code>NaN</code>) values and simple duplicates.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;Age&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">29</span><span class="p">,</span> <span class="mi">300</span><span class="p">]})</span> <span class="c1"># Exteme outlier and duplicate</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Missing Values:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Duplicates:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
+</code></pre></div>
+<h3 id="2-basic-deduplication">2. Basic Deduplication<a class="headerlink" href="#2-basic-deduplication" title="Permanent link">&para;</a></h3>
+<p>Removing exact identical rows safely.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">df_cleaned</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+</code></pre></div>
 <hr />
 <h2 id="intermediate-engineering">🟡 Intermediate (Engineering)<a class="headerlink" href="#intermediate-engineering" title="Permanent link">&para;</a></h2>
-<h3 id="iqr-method-15-rule-missing-percentage-unique-value-counts">IQR method (1.5× rule), Missing percentage, Unique value counts<a class="headerlink" href="#iqr-method-15-rule-missing-percentage-unique-value-counts" title="Permanent link">&para;</a></h3>
-<p><em>(Add your intermediate implementations and engineering use cases here)</em></p>
+<h3 id="1-missingness-percentage-matrix">1. Missingness Percentage &amp; Matrix<a class="headerlink" href="#1-missingness-percentage-matrix" title="Permanent link">&para;</a></h3>
+<p>Instead of raw counts (which are useless if you don't know the dataset size), calculate the percentage of missing values.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">missing_percent</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span> <span class="o">*</span> <span class="mi">100</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">missing_percent</span><span class="p">,</span> <span class="s2">&quot;% missing&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="2-iqr-outlier-method-tukeys-15-rule">2. IQR Outlier Method (Tukey's 1.5× Rule)<a class="headerlink" href="#2-iqr-outlier-method-tukeys-15-rule" title="Permanent link">&para;</a></h3>
+<p>Any data point outside the boundary of <span class="arithmatex">\((Q1 - 1.5 \times IQR)\)</span> to <span class="arithmatex">\((Q3 + 1.5 \times IQR)\)</span> is mathematically flagged as an outlier. Very robust for skewed data.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">q1</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">q3</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">iqr</span> <span class="o">=</span> <span class="n">q3</span> <span class="o">-</span> <span class="n">q1</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">lower_bound</span> <span class="o">=</span> <span class="n">q1</span> <span class="o">-</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">iqr</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">upper_bound</span> <span class="o">=</span> <span class="n">q3</span> <span class="o">+</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">iqr</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="n">outliers</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">lower_bound</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">upper_bound</span><span class="p">)]</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Flagged Outliers:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">outliers</span><span class="p">)</span>
+</code></pre></div>
 <hr />
 <h2 id="advanced-elite-optimization">🔴 Advanced / Elite (Optimization)<a class="headerlink" href="#advanced-elite-optimization" title="Permanent link">&para;</a></h2>
-<h3 id="z-score-method-isolation-forest-mcarmarmnar-classification">Z-score method, Isolation Forest, MCAR/MAR/MNAR classification<a class="headerlink" href="#z-score-method-isolation-forest-mcarmarmnar-classification" title="Permanent link">&para;</a></h3>
-<p><em>(Add your advanced statistical theory and optimization strategies here)</em></p>
+<h3 id="1-the-z-score-outlier-method">1. The Z-Score Outlier Method<a class="headerlink" href="#1-the-z-score-outlier-method" title="Permanent link">&para;</a></h3>
+<p>Mathematically calculates how many standard deviations away a data point is from the mean. Typically, any absolute Z-score <span class="arithmatex">\(&gt; 3\)</span> is considered an anomaly.
+<em>Note: Z-scores require your data to be Normally Distributed and are highly sensitive to extreme outliers because the mean is used in the calculation.</em></p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">stats</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">df_nomissing</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">z_scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">stats</span><span class="o">.</span><span class="n">zscore</span><span class="p">(</span><span class="n">df_nomissing</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]))</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">outliers_z</span> <span class="o">=</span> <span class="n">df_nomissing</span><span class="p">[</span><span class="n">z_scores</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">]</span>
+</code></pre></div>
+<h3 id="2-statistical-missingness-classification-mcar-mar-mnar">2. Statistical Missingness Classification (MCAR, MAR, MNAR)<a class="headerlink" href="#2-statistical-missingness-classification-mcar-mar-mnar" title="Permanent link">&para;</a></h3>
+<p>You cannot simply "impute" missing data with the mean blindly. You must scientifically classify <em>why</em> it is missing.</p>
+<ul>
+<li><strong>Missing Completely at Random (MCAR):</strong> A true random glitch. Coin flip. (Safe to mean-impute or drop).</li>
+<li><strong>Missing at Random (MAR):</strong> Missingness relies on a <em>different</em> observed variable. (e.g., Men are less likely to fill out depression surveys than women. We can predict missingness using the "Gender" column). (Use Multiple Imputation, MICE).</li>
+<li><strong>Missing Not at Random (MNAR):</strong> Missingness relies on the unobserved variable itself. (e.g., People with the lowest incomes leave the "Income" column blank because they are embarrassed). (Highly dangerous. Requires specialized domain knowledge).</li>
+</ul>
+<h3 id="3-isolation-forest-unsupervised-anomaly-detection">3. Isolation Forest (Unsupervised Anomaly Detection)<a class="headerlink" href="#3-isolation-forest-unsupervised-anomaly-detection" title="Permanent link">&para;</a></h3>
+<p>Algorithms like Isolation Forests explicitly isolate anomalies by randomly partitioning trees. Anomalies travel shorter paths than standard observations. Very powerful for multivariable datasets.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.ensemble</span><span class="w"> </span><span class="kn">import</span> <span class="n">IsolationForest</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">model</span> <span class="o">=</span> <span class="n">IsolationForest</span><span class="p">(</span><span class="n">contamination</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">predictions</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">fit_predict</span><span class="p">(</span><span class="n">df_nomissing</span><span class="p">[[</span><span class="s2">&quot;Age&quot;</span><span class="p">]])</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="c1"># -1 indicates an outlier anomaly</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="n">df_nomissing</span><span class="p">[</span><span class="s2">&quot;Anomaly&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions</span>
+</code></pre></div>
 
 
 

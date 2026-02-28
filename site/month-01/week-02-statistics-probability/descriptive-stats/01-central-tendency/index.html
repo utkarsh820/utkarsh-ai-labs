@@ -890,10 +890,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mean-median-mode" class="md-nav__link">
+  <a href="#1-mean-arithmetic-average" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mean, Median, Mode
+        1. Mean (Arithmetic Average)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-median" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Median
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Mode
       
     </span>
   </a>
@@ -918,10 +940,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#weighted-mean-trimmed-mean" class="md-nav__link">
+  <a href="#1-weighted-mean" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Weighted mean, Trimmed mean
+        1. Weighted Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-trimmed-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Trimmed Mean
       
     </span>
   </a>
@@ -946,10 +979,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#geometric-mean-harmonic-mean-winsorized-mean" class="md-nav__link">
+  <a href="#1-geometric-mean" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Geometric mean, Harmonic mean, Winsorized mean
+        1. Geometric Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-harmonic-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Harmonic Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-winsorized-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Winsorized Mean
       
     </span>
   </a>
@@ -4818,10 +4873,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mean-median-mode" class="md-nav__link">
+  <a href="#1-mean-arithmetic-average" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mean, Median, Mode
+        1. Mean (Arithmetic Average)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-median" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Median
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Mode
       
     </span>
   </a>
@@ -4846,10 +4923,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#weighted-mean-trimmed-mean" class="md-nav__link">
+  <a href="#1-weighted-mean" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Weighted mean, Trimmed mean
+        1. Weighted Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-trimmed-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Trimmed Mean
       
     </span>
   </a>
@@ -4874,10 +4962,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#geometric-mean-harmonic-mean-winsorized-mean" class="md-nav__link">
+  <a href="#1-geometric-mean" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Geometric mean, Harmonic mean, Winsorized mean
+        1. Geometric Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-harmonic-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Harmonic Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-winsorized-mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Winsorized Mean
       
     </span>
   </a>
@@ -4907,19 +5017,97 @@
 
 
 <h1 id="central-tendency">Central Tendency<a class="headerlink" href="#central-tendency" title="Permanent link">&para;</a></h1>
-<p><em>This file covers measures of central tendency from basic definitions to advanced optimization techniques.</em></p>
+<p><em>Central tendency measures describe the "center" or "typical" value of a dataset. Understanding these is the fundamental first step in any exploratory data analysis.</em></p>
 <hr />
 <h2 id="beginner-foundations">🟢 Beginner (Foundations)<a class="headerlink" href="#beginner-foundations" title="Permanent link">&para;</a></h2>
-<h3 id="mean-median-mode">Mean, Median, Mode<a class="headerlink" href="#mean-median-mode" title="Permanent link">&para;</a></h3>
-<p><em>(Add your foundational content and examples here)</em></p>
+<h3 id="1-mean-arithmetic-average">1. Mean (Arithmetic Average)<a class="headerlink" href="#1-mean-arithmetic-average" title="Permanent link">&para;</a></h3>
+<p>The mean is the sum of all values divided by the number of values. It is highly sensitive to outliers.</p>
+<ul>
+<li><strong>Formula:</strong> <span class="arithmatex">\(\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i\)</span></li>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">1000</span><span class="p">]</span> <span class="c1"># 1000 is an outlier</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">mean_val</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mean: </span><span class="si">{</span><span class="n">mean_val</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># Output: 191.66</span>
+</code></pre></div>
+<h3 id="2-median">2. Median<a class="headerlink" href="#2-median" title="Permanent link">&para;</a></h3>
+<p>The median is the middle value when the data is sorted. It is <strong>robust</strong> (not heavily affected by outliers).</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">median_val</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Median: </span><span class="si">{</span><span class="n">median_val</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># Output: 35.0</span>
+</code></pre></div>
+<h3 id="3-mode">3. Mode<a class="headerlink" href="#3-mode" title="Permanent link">&para;</a></h3>
+<p>The mode is the most frequently occurring value. Useful specifically for categorical data.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">stats</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">mode_val</span> <span class="o">=</span> <span class="n">stats</span><span class="o">.</span><span class="n">mode</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="n">keepdims</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mode: </span><span class="si">{</span><span class="n">mode_val</span><span class="o">.</span><span class="n">mode</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># Output: 2</span>
+</code></pre></div>
 <hr />
 <h2 id="intermediate-engineering">🟡 Intermediate (Engineering)<a class="headerlink" href="#intermediate-engineering" title="Permanent link">&para;</a></h2>
-<h3 id="weighted-mean-trimmed-mean">Weighted mean, Trimmed mean<a class="headerlink" href="#weighted-mean-trimmed-mean" title="Permanent link">&para;</a></h3>
-<p><em>(Add your intermediate implementations and engineering use cases here)</em></p>
+<h3 id="1-weighted-mean">1. Weighted Mean<a class="headerlink" href="#1-weighted-mean" title="Permanent link">&para;</a></h3>
+<p>Used when certain data points contribute more "weight" or importance than others (e.g., calculating GPA from credits).</p>
+<ul>
+<li><strong>Formula:</strong> <span class="arithmatex">\(\bar{x}_w = \frac{\sum_{i=1}^{n}w_i x_i}{\sum_{i=1}^{n}w_i}\)</span></li>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="mi">80</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">95</span><span class="p">]</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">weights</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">]</span> <span class="c1"># Exams weights</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">weighted_mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">average</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="n">weights</span><span class="p">)</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Weighted Mean: </span><span class="si">{</span><span class="n">weighted_mean</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># Output: 90.5</span>
+</code></pre></div>
+<h3 id="2-trimmed-mean">2. Trimmed Mean<a class="headerlink" href="#2-trimmed-mean" title="Permanent link">&para;</a></h3>
+<p>A compromise between the mean and median. It involves discarding a certain percentage of the lowest and highest values before calculating the mean, explicitly removing outliers.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">trim_mean</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1"># Trim 10% from both ends</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">trimmed</span> <span class="o">=</span> <span class="n">trim_mean</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1000</span><span class="p">],</span> <span class="n">proportiontocut</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Trimmed Mean: </span><span class="si">{</span><span class="n">trimmed</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># Output: 5.5</span>
+</code></pre></div>
 <hr />
 <h2 id="advanced-elite-optimization">🔴 Advanced / Elite (Optimization)<a class="headerlink" href="#advanced-elite-optimization" title="Permanent link">&para;</a></h2>
-<h3 id="geometric-mean-harmonic-mean-winsorized-mean">Geometric mean, Harmonic mean, Winsorized mean<a class="headerlink" href="#geometric-mean-harmonic-mean-winsorized-mean" title="Permanent link">&para;</a></h3>
-<p><em>(Add your advanced statistical theory and optimization strategies here)</em></p>
+<h3 id="1-geometric-mean">1. Geometric Mean<a class="headerlink" href="#1-geometric-mean" title="Permanent link">&para;</a></h3>
+<p>Used for data that grows multiplicatively (e.g., compounding interest rates, investment returns, or biological cell growth). It answers: "What is the constant growth rate?"</p>
+<ul>
+<li><strong>Formula:</strong> <span class="arithmatex">\(GM = \sqrt[n]{x_1 \cdot x_2 \cdots x_n}\)</span></li>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">gmean</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">returns</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.05</span><span class="p">,</span> <span class="mf">1.10</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">]</span> <span class="c1"># 5% gain, 10% gain, 5% loss</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">geom_mean</span> <span class="o">=</span> <span class="n">gmean</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Geometric Mean: </span><span class="si">{</span><span class="n">geom_mean</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="2-harmonic-mean">2. Harmonic Mean<a class="headerlink" href="#2-harmonic-mean" title="Permanent link">&para;</a></h3>
+<p>Used when calculating the average of rates or ratios (e.g., average speed given distance, or P/E ratios in finance).</p>
+<ul>
+<li><strong>Formula:</strong> <span class="arithmatex">\(HM = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}\)</span></li>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">hmean</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">speeds</span> <span class="o">=</span> <span class="p">[</span><span class="mi">60</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span> <span class="c1"># Outward at 60mph, return at 40mph over same distance</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="n">har_mean</span> <span class="o">=</span> <span class="n">hmean</span><span class="p">(</span><span class="n">speeds</span><span class="p">)</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Harmonic Mean (Average Speed): </span><span class="si">{</span><span class="n">har_mean</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># Output: 48.0</span>
+</code></pre></div>
+<h3 id="3-winsorized-mean">3. Winsorized Mean<a class="headerlink" href="#3-winsorized-mean" title="Permanent link">&para;</a></h3>
+<p>Instead of trimming (removing) outliers, Winsorizing replaces extreme values with the nearest "acceptable" value (e.g., capping the 99th percentile). This retains the data point count but reduces variance explosion.</p>
+<ul>
+<li><strong>Python Implementation:</strong></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">mstats</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="c1"># Cap bottom 5% and top 5%</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">100</span><span class="p">]</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="n">winsorized_data</span> <span class="o">=</span> <span class="n">mstats</span><span class="o">.</span><span class="n">winsorize</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">limits</span><span class="o">=</span><span class="p">[</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">])</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Winsorized Mean: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">winsorized_data</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
 
 
 
