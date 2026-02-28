@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -23,6 +23,7 @@ jobs:
         run: |
           pip install mkdocs-material 
           pip install pymdown-extensions
+          pip install mkdocs-awesome-pages-plugin mkdocs-section-index
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
