@@ -1,0 +1,5 @@
+﻿nav:
+  - mlflow-tracking
+  - pytorch-basics
+  - scikit-learn
+
