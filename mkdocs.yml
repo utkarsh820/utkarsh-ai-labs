@@ -67,5 +67,6 @@ extra_css:
 
 plugins:
   - search
+  - mkdocs-jupyter
   - awesome-pages:
       collapse_single_pages: true
