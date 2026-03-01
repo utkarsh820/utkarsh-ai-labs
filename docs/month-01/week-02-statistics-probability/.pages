@@ -1,6 +1,8 @@
 ﻿nav:
-  - distributions
-  - hypothesis-testing
-  - probability
+  - 00-probability
+  - 01-descriptive-stats
+  - 02-distributions
+  - 03-confidence_interval_sem_zscore_standardization_etc
+  - 04-hypothesis-testing
 
   - ...
