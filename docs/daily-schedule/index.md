@@ -71,3 +71,42 @@ This schedule is designed for elite-level output, mimicking the rigor of a resid
 1. **Iterative Depth:** You aren't just watching videos; you are recalling (Morning), applying (Deep Work 2), and explaining (LinkedIn/Academy).
 2. **Professional Visibility:** By 19:00 daily, you are building a "Digital Paper Trail" that recruiters find through Google search.
 3. **Physical Integrity:** The 17:00 exercise slot prevents the burnout that kills most 6-month learning journeys.
+
+
+To ensure your academy demonstrates elite-level output, you need a way to measure your growth against industry standards. This KPI (Key Performance Indicator) dashboard acts as your "Board of Directors" report, keeping you accountable to high-velocity progress.
+
+
+## The Professional Performance Dashboard
+
+**Goal:** Track measurable progress toward a top-tier AI/ML role.
+
+| KPI | Month 2 Target | Month 4 Target | Month 6 Target | Career Role Alignment |
+| --- | --- | --- | --- | --- |
+| **LeetCode Problems** | 100 | 250 | 400+ | Clears all technical interview filters |
+| **SQL Problems** | 50 | 100 | 150 | Data Science / Backend screening |
+| **GitHub Public Repos** | 5 | 10 | 15+ | Evidence of architectural diversity |
+| **GitHub Total Commits** | 100 | 200+ | 350+ | Proof of a consistent coding habit |
+| **Hugging Face Spaces** | 2 | 5 | 8+ | Modern AI / GenAI Engineer signal |
+| **Deployed Live Projects** | 3 | 8 | 15+ | Demonstrates production readiness |
+| **Certifications Earned** | 2 (DL.AI) | 3 (Cloud + LLM) | 6+ (AWS/GCP Associate) | Credibility and domain authority |
+| **LinkedIn Network** | 200 | 500 | 1,200+ | Direct pipeline for referrals |
+| **Blog Posts / Articles** | 3 | 8 | 15+ | Demonstrates technical communication |
+| **arXiv Paper Summaries** | 5 | 12 | 24+ | Research credibility and depth |
+| **Mock Interviews** | 2 | 8 | 20+ | Critical for interview performance |
+| **Kaggle / Hackathons** | 1 | 3 | 5+ | Competitive problem-solving edge |
+
+---
+
+## Sunday Audit Checklist (The "Weekly Review")
+
+To stay on track for these targets, use this checklist every Sunday evening to evaluate your progress.
+
+1. **Metric Update:** Manually update your KPI table in your `docs/dashboard.md`.
+2. **The "Red/Green" Test:** * **Green:** Hit at least 90% of your weekly targets.
+* **Yellow:** Hit 70-80%. (Analyze why: Was it a hard concept or poor time management?)
+* **Red:** Hit <70%. (You must reduce scope or increase focus for the next week).
+
+
+3. **Project Snapshot:** Does your GitHub README for the week's project look professional? If not, spend 30 minutes polishing the documentation.
+4. **Content Plan:** Select the specific 5 DSA problems and the 1 research paper for the upcoming week.
+---
