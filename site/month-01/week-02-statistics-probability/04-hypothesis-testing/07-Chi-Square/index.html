@@ -29,7 +29,7 @@
     
     
       
-        <title>07 Chi Square - Utkarsh AI Labs</title>
+        <title>Chi-Square (\(\chi^2\)) Test - Utkarsh AI Labs</title>
       
     
     
@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#chi-square-chi2-test" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -113,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              07 Chi Square
+              Chi-Square (\(\chi^2\)) Test
             
           </span>
         </div>
@@ -1571,6 +1576,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/08-degree_of_freedom%28DOF%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 degree of freedom(DOF)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../03-confidence_interval_sem_zscore_standardization_etc/Statistics_03/" class="md-nav__link">
         
   
@@ -1578,7 +1611,7 @@
   <span class="md-ellipsis">
     
   
-    1.0 Coefficient of variation
+    Notebook-03
   
 
     
@@ -1749,7 +1782,7 @@
   <span class="md-ellipsis">
     
   
-    04 Z test
+    Z-Test
   
 
     
@@ -1777,7 +1810,7 @@
   <span class="md-ellipsis">
     
   
-    05 T test
+    T-Test (Student's T-Test)
   
 
     
@@ -1832,6 +1865,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chi-Square (\(\chi^2\)) Test
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1840,7 +1893,7 @@
   <span class="md-ellipsis">
     
   
-    07 Chi Square
+    Chi-Square (\(\chi^2\)) Test
   
 
     
@@ -1849,6 +1902,108 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-intuition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Intuition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Definition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Formula
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-examples-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Examples &amp; Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Examples &amp; Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#theory-example-customer-demographics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory Example: Customer Demographics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-example-pythonscipy-test-of-independence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code Example (Python/Scipy) - Test of Independence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-case-study-e-commerce-bug-detection-goodness-of-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Case Study: E-Commerce Bug Detection (Goodness of Fit)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1869,7 +2024,7 @@
   <span class="md-ellipsis">
     
   
-    09 All Test Examples
+    Hypothesis Testing: Master Code Cheatsheet
   
 
     
@@ -1897,7 +2052,7 @@
   <span class="md-ellipsis">
     
   
-    10 ANOVA Test
+    ANOVA (Analysis of Variance)
   
 
     
@@ -1925,7 +2080,7 @@
   <span class="md-ellipsis">
     
   
-    11 Paired T test
+    Paired T-Test (Dependent T-Test)
   
 
     
@@ -2075,6 +2230,34 @@
     
   
     LOGISTIC REGRESSION
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/CS229_Notes/disclaimer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CS229 Machine Learning Notes
   
 
     
@@ -5625,6 +5808,99 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-intuition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Intuition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Definition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Formula
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-examples-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Examples &amp; Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Examples &amp; Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#theory-example-customer-demographics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory Example: Customer Demographics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-example-pythonscipy-test-of-independence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code Example (Python/Scipy) - Test of Independence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-case-study-e-commerce-bug-detection-goodness-of-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Case Study: E-Commerce Bug Detection (Goodness of Fit)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -5641,9 +5917,65 @@
 
 
 
-  <h1>07 Chi Square</h1>
-
-
+<h1 id="chi-square-chi2-test">Chi-Square (<span class="arithmatex">\(\chi^2\)</span>) Test<a class="headerlink" href="#chi-square-chi2-test" title="Permanent link">&para;</a></h1>
+<h2 id="1-intuition">1. Intuition<a class="headerlink" href="#1-intuition" title="Permanent link">&para;</a></h2>
+<p>Imagine you roll a die 60 times. You <em>expect</em> each number (1 through 6) to come up roughly 10 times. However, in reality, you get twenty 6s and only three 1s. Is the die loaded, or was it just a wildly unlucky fluke?</p>
+<p>T-tests deal with <em>continuous</em> numbers (like height, weight, money). But what happens when your data is just grouping or counting <em>categories</em> (like "Male/Female" or "Red/Blue/Green")? The <strong>Chi-Square Test</strong> was invented specifically to figure out if the categorical "counts" we observe are weirdly different from the counts we <em>expected</em> to see.</p>
+<h2 id="2-definition">2. Definition<a class="headerlink" href="#2-definition" title="Permanent link">&para;</a></h2>
+<p>The <strong>Chi-Square (<span class="arithmatex">\(\chi^2\)</span>) Test</strong> is a non-parametric statistical hypothesis test used exclusively for <em>categorical</em> data to determine if there is a significant association between two variables, or if a single variable follows an expected distribution.</p>
+<p>There are two main types:</p>
+<ul>
+<li><strong>Goodness of Fit Test</strong>: Tests if a single categorical variable matches an expected distribution (e.g., Is this die actually fair?).</li>
+<li><strong>Test of Independence</strong>: Tests if <em>two</em> categorical variables are related to each other (e.g., Is movie genre preference independent of gender?).</li>
+</ul>
+<h2 id="3-formula">3. Formula<a class="headerlink" href="#3-formula" title="Permanent link">&para;</a></h2>
+<p><strong>Chi-Square Statistic:</strong>
+$<span class="arithmatex">\(\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}\)</span>$</p>
+<p>Where:</p>
+<ul>
+<li><span class="arithmatex">\(O_i\)</span> = Observed value (the actual count of a category in your data)</li>
+<li><span class="arithmatex">\(E_i\)</span> = Expected value (what the count <em>should</em> be if the null hypothesis is perfectly true)</li>
+</ul>
+<p><em>(The test simply calculates how far your observed counts deviate from the expected counts. If the sum is very large, the groups are statistically different).</em></p>
+<h2 id="4-examples-code">4. Examples &amp; Code<a class="headerlink" href="#4-examples-code" title="Permanent link">&para;</a></h2>
+<h3 id="theory-example-customer-demographics">Theory Example: Customer Demographics<a class="headerlink" href="#theory-example-customer-demographics" title="Permanent link">&para;</a></h3>
+<p>A store expects its customers to be 50% Men, 50% Women.
+They randomly sample 100 people walking in.</p>
+<ul>
+<li><strong>Expected</strong>: 50 Men, 50 Women.</li>
+<li><strong>Observed</strong>: 30 Men, 70 Women.</li>
+</ul>
+<p><span class="arithmatex">\(\chi^2 = \frac{(30 - 50)^2}{50} + \frac{(70 - 50)^2}{50} = \frac{(-20)^2}{50} + \frac{20^2}{50} = \frac{400}{50} + \frac{400}{50} = 8 + 8 = 16\)</span>.
+A <span class="arithmatex">\(\chi^2\)</span> value of <span class="arithmatex">\(16\)</span> (with 1 degree of freedom) yields a tiny P-value. Conclusion: The store's audience is definitely skewed towards women.</p>
+<h3 id="code-example-pythonscipy-test-of-independence">Code Example (Python/Scipy) - Test of Independence<a class="headerlink" href="#code-example-pythonscipy-test-of-independence" title="Permanent link">&para;</a></h3>
+<p><em>Are 'Eye Color' and 'Hair Color' related?</em></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">chi2_contingency</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># We survey 200 people.</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1"># The table shows counts of [Black Hair, Blonde Hair].</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># Row 1 = Brown Eyes [60, 20]</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c1"># Row 2 = Blue Eyes  [20, 100]</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">60</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>                 <span class="p">[</span><span class="mi">20</span><span class="p">,</span> <span class="mi">100</span><span class="p">]])</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="c1"># H0: Hair color and eye color are completely independent.</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="c1"># H1: They are related/dependent.</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="n">chi2_stat</span><span class="p">,</span> <span class="n">p_val</span><span class="p">,</span> <span class="n">dof</span><span class="p">,</span> <span class="n">expected</span> <span class="o">=</span> <span class="n">chi2_contingency</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Chi-Square Stat: </span><span class="si">{</span><span class="n">chi2_stat</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;P-Value: </span><span class="si">{</span><span class="n">p_val</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Expected Frequencies if completely independent:</span><span class="se">\n</span><span class="si">{</span><span class="n">expected</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="k">if</span> <span class="n">p_val</span> <span class="o">&lt;</span> <span class="mf">0.05</span><span class="p">:</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Reject Null: Hair and eye color are strongly associated!&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="5-case-study-e-commerce-bug-detection-goodness-of-fit">5. Case Study: E-Commerce Bug Detection (Goodness of Fit)<a class="headerlink" href="#5-case-study-e-commerce-bug-detection-goodness-of-fit" title="Permanent link">&para;</a></h2>
+<p><strong>Scenario</strong>: An online retailer has four main product categories: Electronics, Clothing, Home, and Toys. Historically, organic search traffic lands exactly 25% evenly across all four categories.</p>
+<p><strong>Application</strong>: One day, the traffic numbers come in: Electronics (40%), Clothing (10%), Home (25%), Toys (25%).
+A data scientist's automated monitoring script runs a <strong>Chi-Square Goodness of Fit Test</strong> on these daily categorical counts versus the highly reliable historical expectations.</p>
+<p>Because the <span class="arithmatex">\(\chi^2\)</span> score is massively inflated by the sudden drop in 'Clothing.' The script immediately alerts the engineering team, rejecting the null hypothesis that traffic is normal. The engineers investigate and find a broken database link was preventing the 'Clothing' homepage from rendering correctly.</p>
 
 
 

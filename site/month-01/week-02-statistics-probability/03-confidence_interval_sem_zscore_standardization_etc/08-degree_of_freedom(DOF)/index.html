@@ -12,13 +12,13 @@
         <meta name="author" content="Utkarsh Pandey">
       
       
-        <link rel="canonical" href="https://academy.utkarsh-ai-labs.me/month-01/week-02-statistics-probability/01-descriptive-stats/04-data-quality-and-outliers/">
+        <link rel="canonical" href="https://academy.utkarsh-ai-labs.me/month-01/week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/08-degree_of_freedom%28DOF%29/">
       
       
-        <link rel="prev" href="../03-visualization-and-frequency/">
+        <link rel="prev" href="../07-case_study_DiGiorno/">
       
       
-        <link rel="next" href="../05-bivariate-and-multivariate/">
+        <link rel="next" href="../Statistics_03/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Data Quality and Outliers - Utkarsh AI Labs</title>
+        <title>08 degree of freedom(DOF) - Utkarsh AI Labs</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-quality-and-outliers" class="md-skip">
+        <a href="#module-inferential-foundations" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Quality and Outliers
+              08 degree of freedom(DOF)
             
           </span>
         </div>
@@ -878,8 +878,6 @@
                 
   
   
-    
-  
   
   
     
@@ -889,11 +887,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" >
         
           
           <label class="md-nav__link" for="__nav_3_3_2" id="__nav_3_3_2_label" tabindex="0">
@@ -914,7 +912,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -932,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../01-descriptive-stats/" class="md-nav__link">
         
   
   
@@ -960,7 +958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01-central-tendency/" class="md-nav__link">
+      <a href="../../01-descriptive-stats/01-central-tendency/" class="md-nav__link">
         
   
   
@@ -988,7 +986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../02-dispersion-and-shape/" class="md-nav__link">
+      <a href="../../01-descriptive-stats/02-dispersion-and-shape/" class="md-nav__link">
         
   
   
@@ -1016,7 +1014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../03-visualization-and-frequency/" class="md-nav__link">
+      <a href="../../01-descriptive-stats/03-visualization-and-frequency/" class="md-nav__link">
         
   
   
@@ -1041,37 +1039,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Data Quality and Outliers
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../01-descriptive-stats/04-data-quality-and-outliers/" class="md-nav__link">
         
   
   
@@ -1087,154 +1058,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#beginner-foundations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 Beginner (Foundations)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟢 Beginner (Foundations)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-visual-inspection-simple-counts" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Visual Inspection &amp; Simple Counts
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-basic-deduplication" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Basic Deduplication
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#intermediate-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 Intermediate (Engineering)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟡 Intermediate (Engineering)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-missingness-percentage-matrix" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Missingness Percentage &amp; Matrix
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-iqr-outlier-method-tukeys-15-rule" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. IQR Outlier Method (Tukey's 1.5× Rule)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#advanced-elite-optimization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 Advanced / Elite (Optimization)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔴 Advanced / Elite (Optimization)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-the-z-score-outlier-method" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. The Z-Score Outlier Method
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-statistical-missingness-classification-mcar-mar-mnar" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Statistical Missingness Classification (MCAR, MAR, MNAR)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-isolation-forest-unsupervised-anomaly-detection" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Isolation Forest (Unsupervised Anomaly Detection)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1247,7 +1070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../05-bivariate-and-multivariate/" class="md-nav__link">
+      <a href="../../01-descriptive-stats/05-bivariate-and-multivariate/" class="md-nav__link">
         
   
   
@@ -1275,7 +1098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../06-advanced-summaries/" class="md-nav__link">
+      <a href="../../01-descriptive-stats/06-advanced-summaries/" class="md-nav__link">
         
   
   
@@ -1505,6 +1328,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1514,11 +1339,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" checked>
         
           
           <label class="md-nav__link" for="__nav_3_3_4" id="__nav_3_3_4_label" tabindex="0">
@@ -1539,7 +1364,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1557,7 +1382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/01-coefficient_of_variation/" class="md-nav__link">
+      <a href="../01-coefficient_of_variation/" class="md-nav__link">
         
   
   
@@ -1585,7 +1410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/02-covariance_vs_corelation/" class="md-nav__link">
+      <a href="../02-covariance_vs_corelation/" class="md-nav__link">
         
   
   
@@ -1613,7 +1438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/03-Margin_of_error%28MoE%29/" class="md-nav__link">
+      <a href="../03-Margin_of_error%28MoE%29/" class="md-nav__link">
         
   
   
@@ -1641,7 +1466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/04-standard_error_of_mean/" class="md-nav__link">
+      <a href="../04-standard_error_of_mean/" class="md-nav__link">
         
   
   
@@ -1669,7 +1494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/05-How_SD_SEM_MoE_CI_Connected/" class="md-nav__link">
+      <a href="../05-How_SD_SEM_MoE_CI_Connected/" class="md-nav__link">
         
   
   
@@ -1697,7 +1522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/06-Z_score_%26_Standardization/" class="md-nav__link">
+      <a href="../06-Z_score_%26_Standardization/" class="md-nav__link">
         
   
   
@@ -1725,7 +1550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/07-case_study_DiGiorno/" class="md-nav__link">
+      <a href="../07-case_study_DiGiorno/" class="md-nav__link">
         
   
   
@@ -1750,10 +1575,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/08-degree_of_freedom%28DOF%29/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 degree of freedom(DOF)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1769,6 +1619,135 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#module-inferential-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: Inferential Foundations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: Inferential Foundations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topic-degrees-of-freedom-df" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Topic: Degrees of Freedom (\(df\))
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-the-conceptual-framework-the-pizza-budget-analogy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. The Conceptual Framework: The "Pizza Budget" Analogy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mathematical-intuition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Mathematical Intuition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Mathematical Intuition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-n-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why \(n-1\)?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-case-study-ab-testing-model-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Case Study: A/B Testing Model Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-implementation-pythonscipy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Implementation (Python/SciPy)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-interview-pass-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 The "Interview Pass" Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-mastery-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Assessment: Mastery Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1781,7 +1760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03-confidence_interval_sem_zscore_standardization_etc/Statistics_03/" class="md-nav__link">
+      <a href="../Statistics_03/" class="md-nav__link">
         
   
   
@@ -5853,8 +5832,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -5863,22 +5840,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#beginner-foundations" class="md-nav__link">
+  <a href="#module-inferential-foundations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🟢 Beginner (Foundations)
+        Module: Inferential Foundations
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🟢 Beginner (Foundations)">
+    <nav class="md-nav" aria-label="Module: Inferential Foundations">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-visual-inspection-simple-counts" class="md-nav__link">
+  <a href="#topic-degrees-of-freedom-df" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Visual Inspection &amp; Simple Counts
+        Topic: Degrees of Freedom (\(df\))
       
     </span>
   </a>
@@ -5886,10 +5863,33 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-basic-deduplication" class="md-nav__link">
+  <a href="#1-the-conceptual-framework-the-pizza-budget-analogy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Basic Deduplication
+        1. The Conceptual Framework: The "Pizza Budget" Analogy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mathematical-intuition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Mathematical Intuition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Mathematical Intuition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-n-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why \(n-1\)?
       
     </span>
   </a>
@@ -5900,24 +5900,12 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#intermediate-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 Intermediate (Engineering)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟡 Intermediate (Engineering)">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-missingness-percentage-matrix" class="md-nav__link">
+  <a href="#3-case-study-ab-testing-model-performance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Missingness Percentage &amp; Matrix
+        3. Case Study: A/B Testing Model Performance
       
     </span>
   </a>
@@ -5925,38 +5913,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-iqr-outlier-method-tukeys-15-rule" class="md-nav__link">
+  <a href="#4-implementation-pythonscipy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. IQR Outlier Method (Tukey's 1.5× Rule)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#advanced-elite-optimization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 Advanced / Elite (Optimization)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔴 Advanced / Elite (Optimization)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-the-z-score-outlier-method" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. The Z-Score Outlier Method
+        4. Implementation (Python/SciPy)
       
     </span>
   </a>
@@ -5964,10 +5924,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-statistical-missingness-classification-mcar-mar-mnar" class="md-nav__link">
+  <a href="#the-interview-pass-definition" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Statistical Missingness Classification (MCAR, MAR, MNAR)
+        🎯 The "Interview Pass" Definition
       
     </span>
   </a>
@@ -5975,10 +5935,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-isolation-forest-unsupervised-anomaly-detection" class="md-nav__link">
+  <a href="#assessment-mastery-check" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Isolation Forest (Unsupervised Anomaly Detection)
+        🧪 Assessment: Mastery Check
       
     </span>
   </a>
@@ -6007,84 +5967,75 @@
 
 
 
-<h1 id="data-quality-and-outliers">Data Quality and Outliers<a class="headerlink" href="#data-quality-and-outliers" title="Permanent link">&para;</a></h1>
-<p><em>Before any machine learning model is trained, the data must be sanitized. Statistical tests must be deployed to handle null-values (missingness) and detect anomalies.</em></p>
+  <h1>08 degree of freedom(DOF)</h1>
+
+<h2 id="module-inferential-foundations">Module: Inferential Foundations<a class="headerlink" href="#module-inferential-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="topic-degrees-of-freedom-df">Topic: Degrees of Freedom (<span class="arithmatex">\(df\)</span>)<a class="headerlink" href="#topic-degrees-of-freedom-df" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Professional Context:</strong> <span class="arithmatex">\(df\)</span> is the hidden engine behind almost every statistical test (<span class="arithmatex">\(t\text{-tests}\)</span>, Chi-Square, ANOVA). If you don't account for <span class="arithmatex">\(df\)</span> correctly, your <span class="arithmatex">\(p\text{-values}\)</span> will be biased, leading to "False Positives" in your A/B tests or model evaluations.</p>
+</blockquote>
 <hr />
-<h2 id="beginner-foundations">🟢 Beginner (Foundations)<a class="headerlink" href="#beginner-foundations" title="Permanent link">&para;</a></h2>
-<h3 id="1-visual-inspection-simple-counts">1. Visual Inspection &amp; Simple Counts<a class="headerlink" href="#1-visual-inspection-simple-counts" title="Permanent link">&para;</a></h3>
-<p>Before running algorithms, look at the data structure. Find missing (<code>NaN</code>) values and simple duplicates.</p>
+<h3 id="1-the-conceptual-framework-the-pizza-budget-analogy">1. The Conceptual Framework: The "Pizza Budget" Analogy<a class="headerlink" href="#1-the-conceptual-framework-the-pizza-budget-analogy" title="Permanent link">&para;</a></h3>
+<p>Imagine you have a budget to buy <strong>7 different pizzas</strong> for a week.</p>
 <ul>
-<li><strong>Python Implementation:</strong></li>
+<li>You are free to choose any pizza for Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday.</li>
+<li>However, if you have a <strong>fixed total budget</strong> for the week, the choice for <strong>Sunday</strong> is no longer free—it is determined by how much money you have left.</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;Age&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">29</span><span class="p">,</span> <span class="mi">300</span><span class="p">]})</span> <span class="c1"># Exteme outlier and duplicate</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Missing Values:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Duplicates:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
-</code></pre></div>
-<h3 id="2-basic-deduplication">2. Basic Deduplication<a class="headerlink" href="#2-basic-deduplication" title="Permanent link">&para;</a></h3>
-<p>Removing exact identical rows safely.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">df_cleaned</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+<p>In this case, you had <strong>6 degrees of freedom</strong> (<span class="arithmatex">\(n - 1\)</span>). The last data point is "trapped" by the constraint of the total sum (the mean).</p>
+<hr />
+<h3 id="2-mathematical-intuition">2. Mathematical Intuition<a class="headerlink" href="#2-mathematical-intuition" title="Permanent link">&para;</a></h3>
+<p>For a simple sample mean, the formula is:</p>
+<div class="arithmatex">\[df = n - k\]</div>
+<p><strong>Where:</strong></p>
+<ul>
+<li><span class="arithmatex">\(n\)</span> = Total number of observations.</li>
+<li><span class="arithmatex">\(k\)</span> = Number of parameters you had to estimate first (usually the mean).</li>
+</ul>
+<h4 id="why-n-1">Why <span class="arithmatex">\(n-1\)</span>?<a class="headerlink" href="#why-n-1" title="Permanent link">&para;</a></h4>
+<p>When we calculate the <strong>Sample Variance</strong>, we use the Sample Mean (<span class="arithmatex">\(\bar{x}\)</span>). Because <span class="arithmatex">\(\bar{x}\)</span> is calculated from the data, the last data point in the set is mathematically forced to be a specific value for that mean to remain true. We "lose" one degree of freedom to the mean.</p>
+<hr />
+<h3 id="3-case-study-ab-testing-model-performance">3. Case Study: A/B Testing Model Performance<a class="headerlink" href="#3-case-study-ab-testing-model-performance" title="Permanent link">&para;</a></h3>
+<p>You are comparing two versions of a recommendation engine.</p>
+<ul>
+<li><strong>Model A:</strong> Tested on <span class="arithmatex">\(30\)</span> users.</li>
+<li><strong>Model B:</strong> Tested on <span class="arithmatex">\(30\)</span> users.</li>
+</ul>
+<p>To run a <span class="arithmatex">\(t\text{-test}\)</span> to see if Model B is truly better, you calculate the <strong>Pooled Degrees of Freedom</strong>:</p>
+<div class="arithmatex">\[df_{\text{total}} = (n_A - 1) + (n_B - 1) = (30-1) + (30-1) = 58\]</div>
+<p><strong>Professional Interpretation:</strong> If your <span class="arithmatex">\(df\)</span> is low (e.g., <span class="arithmatex">\(df &lt; 5\)</span>), your results are highly sensitive to outliers. As <span class="arithmatex">\(df\)</span> increases, the <span class="arithmatex">\(t\text{-distribution}\)</span> starts looking more like a <strong>Normal Distribution</strong>, meaning your results are becoming more stable and reliable.</p>
+<hr />
+<h3 id="4-implementation-pythonscipy">4. Implementation (Python/SciPy)<a class="headerlink" href="#4-implementation-pythonscipy" title="Permanent link">&para;</a></h3>
+<p>Data scientists rarely calculate <span class="arithmatex">\(df\)</span> by hand, but understanding how it affects the "critical value" is vital for interpreting library outputs.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">stats</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># Data: Model Accuracy scores</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">scores</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.85</span><span class="p">,</span> <span class="mf">0.88</span><span class="p">,</span> <span class="mf">0.84</span><span class="p">,</span> <span class="mf">0.90</span><span class="p">,</span> <span class="mf">0.87</span><span class="p">]</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">df</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c1"># Calculating a t-critical value for a 95% CI</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="c1"># Notice how &#39;df&#39; is a required parameter</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">t_crit</span> <span class="o">=</span> <span class="n">stats</span><span class="o">.</span><span class="n">t</span><span class="o">.</span><span class="n">ppf</span><span class="p">(</span><span class="mf">0.975</span><span class="p">,</span> <span class="n">df</span><span class="p">)</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Degrees of Freedom: </span><span class="si">{</span><span class="n">df</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;T-Critical Value: </span><span class="si">{</span><span class="n">t_crit</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="intermediate-engineering">🟡 Intermediate (Engineering)<a class="headerlink" href="#intermediate-engineering" title="Permanent link">&para;</a></h2>
-<h3 id="1-missingness-percentage-matrix">1. Missingness Percentage &amp; Matrix<a class="headerlink" href="#1-missingness-percentage-matrix" title="Permanent link">&para;</a></h3>
-<p>Instead of raw counts (which are useless if you don't know the dataset size), calculate the percentage of missing values.</p>
-<ul>
-<li><strong>Python Implementation:</strong></li>
-</ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">missing_percent</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span> <span class="o">*</span> <span class="mi">100</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">missing_percent</span><span class="p">,</span> <span class="s2">&quot;% missing&quot;</span><span class="p">)</span>
-</code></pre></div>
-<h3 id="2-iqr-outlier-method-tukeys-15-rule">2. IQR Outlier Method (Tukey's 1.5× Rule)<a class="headerlink" href="#2-iqr-outlier-method-tukeys-15-rule" title="Permanent link">&para;</a></h3>
-<p>Any data point outside the boundary of <span class="arithmatex">\((Q1 - 1.5 \times IQR)\)</span> to <span class="arithmatex">\((Q3 + 1.5 \times IQR)\)</span> is mathematically flagged as an outlier. Very robust for skewed data.</p>
-<ul>
-<li><strong>Python Implementation:</strong></li>
-</ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">q1</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">q3</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">iqr</span> <span class="o">=</span> <span class="n">q3</span> <span class="o">-</span> <span class="n">q1</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">lower_bound</span> <span class="o">=</span> <span class="n">q1</span> <span class="o">-</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">iqr</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">upper_bound</span> <span class="o">=</span> <span class="n">q3</span> <span class="o">+</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">iqr</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="n">outliers</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">lower_bound</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">upper_bound</span><span class="p">)]</span>
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Flagged Outliers:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">outliers</span><span class="p">)</span>
-</code></pre></div>
+<h3 id="the-interview-pass-definition">🎯 The "Interview Pass" Definition<a class="headerlink" href="#the-interview-pass-definition" title="Permanent link">&para;</a></h3>
+<p>If an interviewer asks, "What are Degrees of Freedom?", use this structure:</p>
+<blockquote>
+<p><strong>The Definition:</strong> "Degrees of Freedom represent the number of independent pieces of information that go into calculating a statistic. It’s the number of values in a study that are free to vary."
+<strong>The Mathematical Why:</strong> "We subtract 1 (or <span class="arithmatex">\(k\)</span>) because each time we estimate a parameter—like the sample mean—from our data, we impose a constraint. That constraint effectively 'uses up' one independent piece of information."
+<strong>The Practical Impact:</strong> "In ML, <span class="arithmatex">\(df\)</span> is critical for understanding the <strong>Bias-Variance tradeoff</strong>. In linear regression, if you have 10 features but only 10 rows of data, your <span class="arithmatex">\(df\)</span> is zero, and the model is perfectly overfit (meaning it has no 'freedom' to generalize to new data)."</p>
+</blockquote>
 <hr />
-<h2 id="advanced-elite-optimization">🔴 Advanced / Elite (Optimization)<a class="headerlink" href="#advanced-elite-optimization" title="Permanent link">&para;</a></h2>
-<h3 id="1-the-z-score-outlier-method">1. The Z-Score Outlier Method<a class="headerlink" href="#1-the-z-score-outlier-method" title="Permanent link">&para;</a></h3>
-<p>Mathematically calculates how many standard deviations away a data point is from the mean. Typically, any absolute Z-score <span class="arithmatex">\(&gt; 3\)</span> is considered an anomaly.
-<em>Note: Z-scores require your data to be Normally Distributed and are highly sensitive to extreme outliers because the mean is used in the calculation.</em></p>
-<ul>
-<li><strong>Python Implementation:</strong></li>
-</ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">stats</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">df_nomissing</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">z_scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">stats</span><span class="o">.</span><span class="n">zscore</span><span class="p">(</span><span class="n">df_nomissing</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]))</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">outliers_z</span> <span class="o">=</span> <span class="n">df_nomissing</span><span class="p">[</span><span class="n">z_scores</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">]</span>
-</code></pre></div>
-<h3 id="2-statistical-missingness-classification-mcar-mar-mnar">2. Statistical Missingness Classification (MCAR, MAR, MNAR)<a class="headerlink" href="#2-statistical-missingness-classification-mcar-mar-mnar" title="Permanent link">&para;</a></h3>
-<p>You cannot simply "impute" missing data with the mean blindly. You must scientifically classify <em>why</em> it is missing.</p>
-<ul>
-<li><strong>Missing Completely at Random (MCAR):</strong> A true random glitch. Coin flip. (Safe to mean-impute or drop).</li>
-<li><strong>Missing at Random (MAR):</strong> Missingness relies on a <em>different</em> observed variable. (e.g., Men are less likely to fill out depression surveys than women. We can predict missingness using the "Gender" column). (Use Multiple Imputation, MICE).</li>
-<li><strong>Missing Not at Random (MNAR):</strong> Missingness relies on the unobserved variable itself. (e.g., People with the lowest incomes leave the "Income" column blank because they are embarrassed). (Highly dangerous. Requires specialized domain knowledge).</li>
-</ul>
-<h3 id="3-isolation-forest-unsupervised-anomaly-detection">3. Isolation Forest (Unsupervised Anomaly Detection)<a class="headerlink" href="#3-isolation-forest-unsupervised-anomaly-detection" title="Permanent link">&para;</a></h3>
-<p>Algorithms like Isolation Forests explicitly isolate anomalies by randomly partitioning trees. Anomalies travel shorter paths than standard observations. Very powerful for multivariable datasets.</p>
-<ul>
-<li><strong>Python Implementation:</strong></li>
-</ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.ensemble</span><span class="w"> </span><span class="kn">import</span> <span class="n">IsolationForest</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">model</span> <span class="o">=</span> <span class="n">IsolationForest</span><span class="p">(</span><span class="n">contamination</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">predictions</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">fit_predict</span><span class="p">(</span><span class="n">df_nomissing</span><span class="p">[[</span><span class="s2">&quot;Age&quot;</span><span class="p">]])</span>
-<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="c1"># -1 indicates an outlier anomaly</span>
-<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="n">df_nomissing</span><span class="p">[</span><span class="s2">&quot;Anomaly&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions</span>
-</code></pre></div>
+<h3 id="assessment-mastery-check">🧪 Assessment: Mastery Check<a class="headerlink" href="#assessment-mastery-check" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Scenario:</strong> If you have 50 rows of data and you are performing a Linear Regression with 5 independent variables, what is your <span class="arithmatex">\(df\)</span>? (Answer: <span class="arithmatex">\(50 - 5 - 1 = 44\)</span>).</li>
+<li><strong>Logic:</strong> Why does the <span class="arithmatex">\(t\text{-distribution}\)</span> have "thicker tails" when <span class="arithmatex">\(df\)</span> is small? (Answer: Because smaller <span class="arithmatex">\(df\)</span> means more uncertainty; we must account for the higher likelihood of extreme outliers).</li>
+<li><strong>Visualization:</strong> If <span class="arithmatex">\(df\)</span> approaches infinity, what distribution does the <span class="arithmatex">\(t\text{-distribution}\)</span> become? (Answer: The Normal Distribution).</li>
+</ol>
+<hr />
 
 
 

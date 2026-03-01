@@ -7,6 +7,8 @@
 
 ---
 
-<object data="main_notes.pdf" type="application/pdf" width="100%" height="1000px" style="min-height: 100vh;">
-    <p>It appears you don't have a PDF plugin for this browser. No worries... you can <a href="main_notes.pdf">click here to download the PDF file.</a></p>
+<object data="../main_notes.pdf" type="application/pdf" width="100%" height="1000px" style="min-height: 100vh;">
+    <p>It appears you don't have a PDF plugin for this browser. No worries... you can <a href="../main_notes.pdf">click here to download the PDF file.</a></p>
 </object>
+
+_[Click here to download the CS229 Notes PDF](main_notes.pdf) (if the viewer above does not load)._
