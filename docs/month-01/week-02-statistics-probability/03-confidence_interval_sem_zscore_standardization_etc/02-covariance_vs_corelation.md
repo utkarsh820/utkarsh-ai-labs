@@ -1,5 +1,3 @@
-To teach **Covariance vs. Correlation** effectively in your academy, you must highlight that one is a **raw measure of direction**, while the other is a **standardized measure of strength**.
-
 In ML, this is the foundation of **Feature Selection** and **Principal Component Analysis (PCA)**.
 
 ---

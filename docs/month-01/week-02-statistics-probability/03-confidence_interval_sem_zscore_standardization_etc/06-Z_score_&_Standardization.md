@@ -31,15 +31,16 @@ Score:  55   65   75   85   95   105
               scored between 65–85
 ```
 
-**SD = 10 means**:
-| Range | Score Range | % of Students | Interpretation |
-|-------|------------|---------------|---------------|
-| Mean ± 1 SD | 65 to 85 | ~68% | "Typical" students |
-| Mean ± 2 SD | 55 to 95 | ~95% | "Almost everyone" |
-| Mean ± 3 SD | 45 to 105 | ~99.7% | "Virtually all" |
+### SD = 10 means
 
-✅ **SD describes the CLASS**: "This class had moderate variability — scores typically varied by about 10 points from the average."
+| Range           | Score Range | % of Students | Interpretation        |
+|----------------|------------|---------------|-----------------------|
+| Mean ± 1 SD    | 65 to 85   | ~68%          | Typical students      |
+| Mean ± 2 SD    | 55 to 95   | ~95%          | Almost everyone       |
+| Mean ± 3 SD    | 45 to 105  | ~99.7%        | Virtually all         |
 
+✅ **SD describes the class:**  
+"This class had moderate variability — scores typically varied by about 10 points from the average."
 ---
 
 ## 🔹 What Does Z-Score = 1.5 Tell Us?
