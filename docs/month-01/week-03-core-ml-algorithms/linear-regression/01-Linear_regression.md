@@ -1,6 +1,5 @@
 ﻿# LINEAR REGRESSION
 
-# 🎓 Deep Learning & Statistics Masterclass: Linear Regression
 ## From a Professor & Industry Practitioner Perspective
 
 ---

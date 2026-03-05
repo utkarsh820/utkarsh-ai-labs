@@ -1,4 +1,4 @@
-# 🎓 Deep Learning & Statistics Masterclass: Evaluation Metrics
+# Evaluation Metrics
 ## From a Professor & Industry Practitioner Perspective
 
 ---
