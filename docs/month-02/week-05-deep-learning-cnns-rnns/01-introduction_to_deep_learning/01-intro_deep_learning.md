@@ -1,4 +1,4 @@
-# 🎓 Deep Learning Masterclass
+# 🎓Intro_deep_learning
 
 ## From a Professor & Industry Practitioner Perspective
 

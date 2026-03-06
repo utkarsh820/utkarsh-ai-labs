@@ -1,4 +1,4 @@
-# 🎓 Deep Learning Masterclass: Perceptron & Loss Functions
+#  Perceptron & Loss Functions
 ## From a Professor & Industry Practitioner Perspective
 
 ---
