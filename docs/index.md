@@ -15,5 +15,4 @@ A 6-month AI/ML learning academy. Theory, code, proof-of-work commits.
 |   5   | GenAI & LLM Engineering (RAG Pipelines, Vector Databases, LangChain/LangGraph, LoRA Fine-tuning, Multi-Agent Systems, LLM Evaluation)                       |
 |   6   | Capstone & Portfolio (Production AI System, End-to-End Deployment, Monitoring, Technical Blogging, GitHub Optimization, Job Applications & Mock Interviews) |
 
-
-**Current:** [Month 1 — Foundations](month-01/index.md) · [Dashboard](dashboard.md)
+**Current:** [Month 1 — Foundations](month-01/index.md) · [Kaggle Book](Kaggle_Book.md)
