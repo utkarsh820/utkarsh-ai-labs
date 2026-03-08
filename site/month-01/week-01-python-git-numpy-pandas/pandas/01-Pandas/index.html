@@ -12,31 +12,31 @@
         <meta name="author" content="Utkarsh Pandey">
       
       
-        <link rel="canonical" href="https://academy.utkarsh-ai-labs.me/month-01/week-04-pytorch-scikit-mlflow/pytorch-basics/">
+        <link rel="canonical" href="https://academy.utkarsh-ai-labs.me/month-01/week-01-python-git-numpy-pandas/pandas/01-Pandas/">
       
       
-        <link rel="prev" href="../mlflow-tracking/">
+        <link rel="prev" href="../../numpy/01-NumPy/">
       
       
-        <link rel="next" href="../scikit-learn/">
+        <link rel="next" href="../../../week-02-statistics-probability/00-probability/">
       
       
         
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
     
     
       
-        <title>PYTORCH BASICS - Utkarsh AI Labs</title>
+        <title>Module: Pandas Mastery (From Zero to Elite) - Utkarsh AI Labs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -55,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pytorch-basics" class="md-skip">
+        <a href="#module-pandas-mastery-from-zero-to-elite" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Utkarsh AI Labs" class="md-header__button md-logo" aria-label="Utkarsh AI Labs" data-md-component="logo">
+    <a href="../../../.." title="Utkarsh AI Labs" class="md-header__button md-logo" aria-label="Utkarsh AI Labs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              PYTORCH BASICS
+              Module: Pandas Mastery (From Zero to Elite)
             
           </span>
         </div>
@@ -224,7 +224,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Utkarsh AI Labs" class="md-nav__button md-logo" aria-label="Utkarsh AI Labs" data-md-component="logo">
+    <a href="../../../.." title="Utkarsh AI Labs" class="md-nav__button md-logo" aria-label="Utkarsh AI Labs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -242,7 +242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   
@@ -269,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../dashboard/" class="md-nav__link">
+      <a href="../../../../dashboard/" class="md-nav__link">
         
   
   
@@ -350,7 +350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../../../" class="md-nav__link">
         
   
   
@@ -375,6 +375,8 @@
                 
   
   
+    
+  
   
   
     
@@ -384,11 +386,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
@@ -398,7 +400,7 @@
   <span class="md-ellipsis">
     
   
-    Week 01 python git linux
+    Week 01 python git numpy pandas
   
 
     
@@ -409,12 +411,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Week 01 python git linux
+    Week 01 python git numpy pandas
   
 
           </label>
@@ -476,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-01-python-git-linux/git/01-Git_%26_Github/" class="md-nav__link">
+      <a href="../../git/01-Git_%26_Github/" class="md-nav__link">
         
   
   
@@ -504,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-01-python-git-linux/git/02-Complete_Commands/" class="md-nav__link">
+      <a href="../../git/02-Complete_Commands/" class="md-nav__link">
         
   
   
@@ -589,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-01-python-git-linux/python/" class="md-nav__link">
+      <a href="../../python/" class="md-nav__link">
         
   
   
@@ -617,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-01-python-git-linux/python/jupyter-demo/" class="md-nav__link">
+      <a href="../../python/jupyter-demo/" class="md-nav__link">
         
   
   
@@ -640,6 +642,370 @@
             
           </ul>
         </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../numpy/01-NumPy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module: NumPy Mastery (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module: Pandas Mastery (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module: Pandas Mastery (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-what-are-we-even-doing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 Part 1: What Are We Even Doing?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📘 Part 1: What Are We Even Doing?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-pandas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Pandas?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-foundations-0-beginner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟢 Level 1: Foundations (0 → Beginner)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟢 Level 1: Foundations (0 → Beginner)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-creating-and-loading-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Creating and Loading Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-inspecting-the-dataframe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Inspecting the DataFrame
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-basic-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Basic Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-engineering-beginner-intermediate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟡 Level 2: Engineering (Beginner → Intermediate)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟡 Level 2: Engineering (Beginner → Intermediate)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-advanced-selection-loc-and-iloc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Advanced Selection (loc and iloc)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-filtering-boolean-indexing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Filtering (Boolean Indexing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-data-cleaning-handling-missing-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Data Cleaning (Handling Missing Values)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-optimization-logic-intermediate-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟠 Level 3: Optimization &amp; Logic (Intermediate → Advanced)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟠 Level 3: Optimization &amp; Logic (Intermediate → Advanced)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-groupby-aggregation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. GroupBy &amp; Aggregation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-merging-concatenation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Merging &amp; Concatenation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-transformations-apply-and-str" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Transformations (apply and .str)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-time-series-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Time Series Basics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-elite-practices-advanced-elite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟣 Level 4: Elite Practices (Advanced → Elite)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟣 Level 4: Elite Practices (Advanced → Elite)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-memory-reduction-via-dtypes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Memory Reduction via Dtypes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-the-query-and-eval-engines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The .query() and .eval() engines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-avoiding-apply-for-vectorization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Avoiding .apply() for Vectorization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-polars-chunking-awareness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Polars / Chunking Awareness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏁 Final Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -759,7 +1125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/00-probability/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/00-probability/" class="md-nav__link">
         
   
   
@@ -787,7 +1153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/00-probability/01-Introduction-to-Probability/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/00-probability/01-Introduction-to-Probability/" class="md-nav__link">
         
   
   
@@ -815,7 +1181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/00-probability/02-Conditional-Probability-and-Bayes/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/00-probability/02-Conditional-Probability-and-Bayes/" class="md-nav__link">
         
   
   
@@ -843,7 +1209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/00-probability/03-Random-Variables/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/00-probability/03-Random-Variables/" class="md-nav__link">
         
   
   
@@ -928,7 +1294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/" class="md-nav__link">
         
   
   
@@ -956,7 +1322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/01-central-tendency/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/01-central-tendency/" class="md-nav__link">
         
   
   
@@ -984,7 +1350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/02-dispersion-and-shape/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/02-dispersion-and-shape/" class="md-nav__link">
         
   
   
@@ -1012,7 +1378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/03-visualization-and-frequency/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/03-visualization-and-frequency/" class="md-nav__link">
         
   
   
@@ -1040,7 +1406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/04-data-quality-and-outliers/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/04-data-quality-and-outliers/" class="md-nav__link">
         
   
   
@@ -1068,7 +1434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/05-bivariate-and-multivariate/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/05-bivariate-and-multivariate/" class="md-nav__link">
         
   
   
@@ -1096,7 +1462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/01-descriptive-stats/06-advanced-summaries/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/01-descriptive-stats/06-advanced-summaries/" class="md-nav__link">
         
   
   
@@ -1181,7 +1547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/02-distributions/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/02-distributions/" class="md-nav__link">
         
   
   
@@ -1209,7 +1575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/02-distributions/01-Introduction-to-Distributions/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/02-distributions/01-Introduction-to-Distributions/" class="md-nav__link">
         
   
   
@@ -1237,7 +1603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/02-distributions/02-Discrete-Distributions/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/02-distributions/02-Discrete-Distributions/" class="md-nav__link">
         
   
   
@@ -1265,7 +1631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/02-distributions/03-Continuous-Distributions/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/02-distributions/03-Continuous-Distributions/" class="md-nav__link">
         
   
   
@@ -1293,7 +1659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/02-distributions/04-Central-Limit-Theorem/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/02-distributions/04-Central-Limit-Theorem/" class="md-nav__link">
         
   
   
@@ -1378,7 +1744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/01-coefficient_of_variation/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/01-coefficient_of_variation/" class="md-nav__link">
         
   
   
@@ -1406,7 +1772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/02-covariance_vs_corelation/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/02-covariance_vs_corelation/" class="md-nav__link">
         
   
   
@@ -1434,7 +1800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/03-Margin_of_error%28MoE%29/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/03-Margin_of_error%28MoE%29/" class="md-nav__link">
         
   
   
@@ -1462,7 +1828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/04-standard_error_of_mean/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/04-standard_error_of_mean/" class="md-nav__link">
         
   
   
@@ -1490,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/05-How_SD_SEM_MoE_CI_Connected/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/05-How_SD_SEM_MoE_CI_Connected/" class="md-nav__link">
         
   
   
@@ -1518,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/06-Z_score_%26_Standardization/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/06-Z_score_%26_Standardization/" class="md-nav__link">
         
   
   
@@ -1546,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/07-case_study_DiGiorno/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/07-case_study_DiGiorno/" class="md-nav__link">
         
   
   
@@ -1574,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/08-degree_of_freedom%28DOF%29/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/08-degree_of_freedom%28DOF%29/" class="md-nav__link">
         
   
   
@@ -1602,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/Statistics_03/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/03-confidence_interval_sem_zscore_standardization_etc/Statistics_03/" class="md-nav__link">
         
   
   
@@ -1687,7 +2053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/01-Hypothesis-Testing-Introduction/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/01-Hypothesis-Testing-Introduction/" class="md-nav__link">
         
   
   
@@ -1715,7 +2081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/02-P_value/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/02-P_value/" class="md-nav__link">
         
   
   
@@ -1743,7 +2109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/03-Type_1_and_2_errors/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/03-Type_1_and_2_errors/" class="md-nav__link">
         
   
   
@@ -1771,7 +2137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/04-Z_test/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/04-Z_test/" class="md-nav__link">
         
   
   
@@ -1799,7 +2165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/05-T_test/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/05-T_test/" class="md-nav__link">
         
   
   
@@ -1827,7 +2193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/06-Common_Confusion/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/06-Common_Confusion/" class="md-nav__link">
         
   
   
@@ -1855,7 +2221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/07-Chi-Square/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/07-Chi-Square/" class="md-nav__link">
         
   
   
@@ -1883,7 +2249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/09-All_Test_Examples/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/09-All_Test_Examples/" class="md-nav__link">
         
   
   
@@ -1911,7 +2277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/10-ANOVA_Test/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/10-ANOVA_Test/" class="md-nav__link">
         
   
   
@@ -1939,7 +2305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-02-statistics-probability/04-hypothesis-testing/11-Paired_T-test/" class="md-nav__link">
+      <a href="../../../week-02-statistics-probability/04-hypothesis-testing/11-Paired_T-test/" class="md-nav__link">
         
   
   
@@ -2032,7 +2398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-03-core-ml-algorithms/decision-trees/" class="md-nav__link">
+      <a href="../../../week-03-core-ml-algorithms/decision-trees/" class="md-nav__link">
         
   
   
@@ -2059,8 +2425,57 @@
   
   
   
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linear regression
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Linear regression
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../week-03-core-ml-algorithms/linear-regression/" class="md-nav__link">
+      <a href="../../../week-03-core-ml-algorithms/linear-regression/01-Linear_regression/" class="md-nav__link">
         
   
   
@@ -2088,7 +2503,43 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-03-core-ml-algorithms/logistic-regression/" class="md-nav__link">
+      <a href="../../../week-03-core-ml-algorithms/linear-regression/02-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluation Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/logistic-regression/" class="md-nav__link">
         
   
   
@@ -2115,8 +2566,345 @@
   
   
   
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_4" id="__nav_3_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Data Preparation and Feature Eng
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 Data Preparation and Feature Eng
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../week-03-core-ml-algorithms/CS229_Notes/disclaimer/" class="md-nav__link">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/00_Feature_Relationship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 Feature Relationship
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/01-Understanding_Data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Understanding Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/02-Univariate_Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 Univariate Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/03-Bivariate-Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 Bivariate Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/04-Feature_Engneering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 Feature Engneering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/05-Encoding_%26_its_Types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categorical Encoding (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/06-Pipeline_and_ColumnTransformer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pipelines &amp; ColumnTransformers (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/07-Function_Transformer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FunctionTransformer (Custom Pipelines)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/08-Power_Transformer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PowerTransformer (Forcing Normality)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/4.1-Feature_Standardization_Scaling_Types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature Scaling &amp; Standardization (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-03-core-ml-algorithms/CS229_Notes/disclaimer/" class="md-nav__link">
         
   
   
@@ -2149,8 +2937,6 @@
                 
   
   
-    
-  
   
   
     
@@ -2160,11 +2946,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
         
           
           <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
@@ -2185,7 +2971,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2203,7 +2989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mlflow-tracking/" class="md-nav__link">
+      <a href="../../../week-04-pytorch-scikit-mlflow/mlflow-tracking/" class="md-nav__link">
         
   
   
@@ -2228,26 +3014,66 @@
                 
   
   
+  
+  
     
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
+    
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
       
         
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_2" id="__nav_3_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pytorch basics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pytorch basics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/01-Getting_Started_Pytorch/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    PYTORCH BASICS
+    🎓 Deep Learning Masterclass: Getting Started with PyTorch
   
 
     
@@ -2256,6 +3082,69 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/02-PyTorch_for_Beginners/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PyTorch for Beginners
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/03-Autograd_and_Backpropagation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Automatic Differentiation with
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -2269,7 +3158,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../scikit-learn/" class="md-nav__link">
+      <a href="../../../week-04-pytorch-scikit-mlflow/scikit-learn/" class="md-nav__link">
         
   
   
@@ -2364,7 +3253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/" class="md-nav__link">
+      <a href="../../../../month-02/" class="md-nav__link">
         
   
   
@@ -2441,7 +3330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-05-deep-learning-cnns-rnns/cnns/" class="md-nav__link">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/cnns/" class="md-nav__link">
         
   
   
@@ -2469,7 +3358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-05-deep-learning-cnns-rnns/rnns/" class="md-nav__link">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/rnns/" class="md-nav__link">
         
   
   
@@ -2497,7 +3386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-05-deep-learning-cnns-rnns/transformers-intro/" class="md-nav__link">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/transformers-intro/" class="md-nav__link">
         
   
   
@@ -2513,6 +3402,175 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_4" id="__nav_4_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 introduction to deep learning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 introduction to deep learning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/01-intro_deep_learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎓Intro_deep_learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/02-Perceptron_%26_Loss_Function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perceptron &amp; Loss Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/03-Forward_Pass/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧠 Deep Learning: The Forward Pass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/04-backpropogation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 backpropogation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2582,7 +3640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-06-nlp-bert-huggingface/bert-finetuning/" class="md-nav__link">
+      <a href="../../../../month-02/week-06-nlp-bert-huggingface/bert-finetuning/" class="md-nav__link">
         
   
   
@@ -2610,7 +3668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-06-nlp-bert-huggingface/huggingface-ecosystem/" class="md-nav__link">
+      <a href="../../../../month-02/week-06-nlp-bert-huggingface/huggingface-ecosystem/" class="md-nav__link">
         
   
   
@@ -2638,7 +3696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-06-nlp-bert-huggingface/tokenization/" class="md-nav__link">
+      <a href="../../../../month-02/week-06-nlp-bert-huggingface/tokenization/" class="md-nav__link">
         
   
   
@@ -2723,7 +3781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-07-llms-rag-vectordbs/llm-internals/" class="md-nav__link">
+      <a href="../../../../month-02/week-07-llms-rag-vectordbs/llm-internals/" class="md-nav__link">
         
   
   
@@ -2751,7 +3809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-07-llms-rag-vectordbs/rag-pipelines/" class="md-nav__link">
+      <a href="../../../../month-02/week-07-llms-rag-vectordbs/rag-pipelines/" class="md-nav__link">
         
   
   
@@ -2779,7 +3837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-07-llms-rag-vectordbs/vector-databases/" class="md-nav__link">
+      <a href="../../../../month-02/week-07-llms-rag-vectordbs/vector-databases/" class="md-nav__link">
         
   
   
@@ -2864,7 +3922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-08-llm-finetuning-eval/evaluation-ragas/" class="md-nav__link">
+      <a href="../../../../month-02/week-08-llm-finetuning-eval/evaluation-ragas/" class="md-nav__link">
         
   
   
@@ -2892,7 +3950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-08-llm-finetuning-eval/lora-qlora/" class="md-nav__link">
+      <a href="../../../../month-02/week-08-llm-finetuning-eval/lora-qlora/" class="md-nav__link">
         
   
   
@@ -2920,7 +3978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-02/week-08-llm-finetuning-eval/unsloth/" class="md-nav__link">
+      <a href="../../../../month-02/week-08-llm-finetuning-eval/unsloth/" class="md-nav__link">
         
   
   
@@ -3015,7 +4073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/" class="md-nav__link">
+      <a href="../../../../month-03/" class="md-nav__link">
         
   
   
@@ -3092,7 +4150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-09-fastapi-docker-rest/docker-containers/" class="md-nav__link">
+      <a href="../../../../month-03/week-09-fastapi-docker-rest/docker-containers/" class="md-nav__link">
         
   
   
@@ -3120,7 +4178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-09-fastapi-docker-rest/fastapi/" class="md-nav__link">
+      <a href="../../../../month-03/week-09-fastapi-docker-rest/fastapi/" class="md-nav__link">
         
   
   
@@ -3148,7 +4206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-09-fastapi-docker-rest/rest-api-design/" class="md-nav__link">
+      <a href="../../../../month-03/week-09-fastapi-docker-rest/rest-api-design/" class="md-nav__link">
         
   
   
@@ -3233,14 +4291,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-10-mlops-mlflow-dvc-cicd/dvc-data-versioning/" class="md-nav__link">
+      <a href="../../../../month-03/week-10-mlops-mlflow-dvc-cicd/dvc-data-versioning/dvc/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    DVC DATA VERSIONING
+    🎓 MLOps Masterclass: Data Version Control (DVC) for Pros
   
 
     
@@ -3261,7 +4319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-10-mlops-mlflow-dvc-cicd/github-actions-cicd/" class="md-nav__link">
+      <a href="../../../../month-03/week-10-mlops-mlflow-dvc-cicd/github-actions-cicd/" class="md-nav__link">
         
   
   
@@ -3289,7 +4347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-10-mlops-mlflow-dvc-cicd/mlops-pipelines/" class="md-nav__link">
+      <a href="../../../../month-03/week-10-mlops-mlflow-dvc-cicd/mlops-pipelines/" class="md-nav__link">
         
   
   
@@ -3374,7 +4432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-11-cloud-aws-sagemaker/aws-fundamentals/" class="md-nav__link">
+      <a href="../../../../month-03/week-11-cloud-aws-sagemaker/aws-fundamentals/" class="md-nav__link">
         
   
   
@@ -3402,7 +4460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-11-cloud-aws-sagemaker/s3-ec2/" class="md-nav__link">
+      <a href="../../../../month-03/week-11-cloud-aws-sagemaker/s3-ec2/" class="md-nav__link">
         
   
   
@@ -3430,7 +4488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-11-cloud-aws-sagemaker/sagemaker/" class="md-nav__link">
+      <a href="../../../../month-03/week-11-cloud-aws-sagemaker/sagemaker/" class="md-nav__link">
         
   
   
@@ -3515,7 +4573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-12-kubernetes-monitoring/grafana/" class="md-nav__link">
+      <a href="../../../../month-03/week-12-kubernetes-monitoring/grafana/" class="md-nav__link">
         
   
   
@@ -3543,7 +4601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-12-kubernetes-monitoring/kubernetes/" class="md-nav__link">
+      <a href="../../../../month-03/week-12-kubernetes-monitoring/kubernetes/" class="md-nav__link">
         
   
   
@@ -3571,7 +4629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-12-kubernetes-monitoring/prometheus/" class="md-nav__link">
+      <a href="../../../../month-03/week-12-kubernetes-monitoring/prometheus/" class="md-nav__link">
         
   
   
@@ -3656,7 +4714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-13-aws-cert-prep/cloud-practitioner/" class="md-nav__link">
+      <a href="../../../../month-03/week-13-aws-cert-prep/cloud-practitioner/" class="md-nav__link">
         
   
   
@@ -3684,7 +4742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-03/week-13-aws-cert-prep/solutions-architect/" class="md-nav__link">
+      <a href="../../../../month-03/week-13-aws-cert-prep/solutions-architect/" class="md-nav__link">
         
   
   
@@ -3779,7 +4837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/" class="md-nav__link">
+      <a href="../../../../month-04/" class="md-nav__link">
         
   
   
@@ -3856,7 +4914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-14-langgraph-multi-agent/crewai/" class="md-nav__link">
+      <a href="../../../../month-04/week-14-langgraph-multi-agent/crewai/" class="md-nav__link">
         
   
   
@@ -3884,7 +4942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-14-langgraph-multi-agent/langchain/" class="md-nav__link">
+      <a href="../../../../month-04/week-14-langgraph-multi-agent/langchain/" class="md-nav__link">
         
   
   
@@ -3912,7 +4970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-14-langgraph-multi-agent/langgraph/" class="md-nav__link">
+      <a href="../../../../month-04/week-14-langgraph-multi-agent/langgraph/" class="md-nav__link">
         
   
   
@@ -3997,7 +5055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-15-data-pipelines-airflow-dbt/airflow/" class="md-nav__link">
+      <a href="../../../../month-04/week-15-data-pipelines-airflow-dbt/airflow/" class="md-nav__link">
         
   
   
@@ -4025,7 +5083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-15-data-pipelines-airflow-dbt/bigquery/" class="md-nav__link">
+      <a href="../../../../month-04/week-15-data-pipelines-airflow-dbt/bigquery/" class="md-nav__link">
         
   
   
@@ -4053,7 +5111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-15-data-pipelines-airflow-dbt/dbt-transformations/" class="md-nav__link">
+      <a href="../../../../month-04/week-15-data-pipelines-airflow-dbt/dbt-transformations/" class="md-nav__link">
         
   
   
@@ -4138,7 +5196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-16-spark-kafka-streaming/apache-spark/" class="md-nav__link">
+      <a href="../../../../month-04/week-16-spark-kafka-streaming/apache-spark/" class="md-nav__link">
         
   
   
@@ -4166,7 +5224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-16-spark-kafka-streaming/kafka/" class="md-nav__link">
+      <a href="../../../../month-04/week-16-spark-kafka-streaming/kafka/" class="md-nav__link">
         
   
   
@@ -4194,7 +5252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-16-spark-kafka-streaming/streaming-basics/" class="md-nav__link">
+      <a href="../../../../month-04/week-16-spark-kafka-streaming/streaming-basics/" class="md-nav__link">
         
   
   
@@ -4279,7 +5337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-17-system-design-capstone/capstone-planning/" class="md-nav__link">
+      <a href="../../../../month-04/week-17-system-design-capstone/capstone-planning/" class="md-nav__link">
         
   
   
@@ -4307,7 +5365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-04/week-17-system-design-capstone/system-design/" class="md-nav__link">
+      <a href="../../../../month-04/week-17-system-design-capstone/system-design/" class="md-nav__link">
         
   
   
@@ -4402,7 +5460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/" class="md-nav__link">
+      <a href="../../../../month-05/" class="md-nav__link">
         
   
   
@@ -4479,7 +5537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-18-ml-interview-theory/core-ml-questions/" class="md-nav__link">
+      <a href="../../../../month-05/week-18-ml-interview-theory/core-ml-questions/" class="md-nav__link">
         
   
   
@@ -4507,7 +5565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-18-ml-interview-theory/theory-deep-dive/" class="md-nav__link">
+      <a href="../../../../month-05/week-18-ml-interview-theory/theory-deep-dive/" class="md-nav__link">
         
   
   
@@ -4592,7 +5650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-19-system-design-ml/llm-search-scale/" class="md-nav__link">
+      <a href="../../../../month-05/week-19-system-design-ml/llm-search-scale/" class="md-nav__link">
         
   
   
@@ -4620,7 +5678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-19-system-design-ml/real-time-fraud/" class="md-nav__link">
+      <a href="../../../../month-05/week-19-system-design-ml/real-time-fraud/" class="md-nav__link">
         
   
   
@@ -4705,7 +5763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-20-mock-interviews/behavioral-prep/" class="md-nav__link">
+      <a href="../../../../month-05/week-20-mock-interviews/behavioral-prep/" class="md-nav__link">
         
   
   
@@ -4733,7 +5791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-20-mock-interviews/coding-interviews/" class="md-nav__link">
+      <a href="../../../../month-05/week-20-mock-interviews/coding-interviews/" class="md-nav__link">
         
   
   
@@ -4818,7 +5876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-21-kaggle-sprint-aws/aws-saa-exam/" class="md-nav__link">
+      <a href="../../../../month-05/week-21-kaggle-sprint-aws/aws-saa-exam/" class="md-nav__link">
         
   
   
@@ -4846,7 +5904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-05/week-21-kaggle-sprint-aws/kaggle-competition/" class="md-nav__link">
+      <a href="../../../../month-05/week-21-kaggle-sprint-aws/kaggle-competition/" class="md-nav__link">
         
   
   
@@ -4941,7 +5999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/" class="md-nav__link">
+      <a href="../../../../month-06/" class="md-nav__link">
         
   
   
@@ -5018,7 +6076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-22-capstone-core-build/backend-development/" class="md-nav__link">
+      <a href="../../../../month-06/week-22-capstone-core-build/backend-development/" class="md-nav__link">
         
   
   
@@ -5046,7 +6104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-22-capstone-core-build/model-deployment/" class="md-nav__link">
+      <a href="../../../../month-06/week-22-capstone-core-build/model-deployment/" class="md-nav__link">
         
   
   
@@ -5131,7 +6189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-23-capstone-frontend-demo/live-demo-deployment/" class="md-nav__link">
+      <a href="../../../../month-06/week-23-capstone-frontend-demo/live-demo-deployment/" class="md-nav__link">
         
   
   
@@ -5159,7 +6217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-23-capstone-frontend-demo/streamlit-gradio/" class="md-nav__link">
+      <a href="../../../../month-06/week-23-capstone-frontend-demo/streamlit-gradio/" class="md-nav__link">
         
   
   
@@ -5244,7 +6302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-24-tech-blog-arch-walkthrough/architecture-diagrams/" class="md-nav__link">
+      <a href="../../../../month-06/week-24-tech-blog-arch-walkthrough/architecture-diagrams/" class="md-nav__link">
         
   
   
@@ -5272,7 +6330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-24-tech-blog-arch-walkthrough/blog-drafting/" class="md-nav__link">
+      <a href="../../../../month-06/week-24-tech-blog-arch-walkthrough/blog-drafting/" class="md-nav__link">
         
   
   
@@ -5357,7 +6415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-25-portfolio-polish/github-readme/" class="md-nav__link">
+      <a href="../../../../month-06/week-25-portfolio-polish/github-readme/" class="md-nav__link">
         
   
   
@@ -5385,7 +6443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-25-portfolio-polish/resume-optimization/" class="md-nav__link">
+      <a href="../../../../month-06/week-25-portfolio-polish/resume-optimization/" class="md-nav__link">
         
   
   
@@ -5470,7 +6528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-26-career-launch/gcp-ace-prep/" class="md-nav__link">
+      <a href="../../../../month-06/week-26-career-launch/gcp-ace-prep/" class="md-nav__link">
         
   
   
@@ -5498,7 +6556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../month-06/week-26-career-launch/job-applications/" class="md-nav__link">
+      <a href="../../../../month-06/week-26-career-launch/job-applications/" class="md-nav__link">
         
   
   
@@ -5541,7 +6599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../dsa-sql-practice/" class="md-nav__link">
+      <a href="../../../../dsa-sql-practice/" class="md-nav__link">
         
   
   
@@ -5568,7 +6626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/git_github/" class="md-nav__link">
+      <a href="../../../../resources/git_github/" class="md-nav__link">
         
   
   
@@ -5595,7 +6653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../projects/" class="md-nav__link">
+      <a href="../../../../projects/" class="md-nav__link">
         
   
   
@@ -5622,7 +6680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../certifications/" class="md-nav__link">
+      <a href="../../../../certifications/" class="md-nav__link">
         
   
   
@@ -5649,7 +6707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../daily-schedule/" class="md-nav__link">
+      <a href="../../../../daily-schedule/" class="md-nav__link">
         
   
   
@@ -5689,6 +6747,275 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-what-are-we-even-doing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 Part 1: What Are We Even Doing?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📘 Part 1: What Are We Even Doing?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-pandas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Pandas?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-foundations-0-beginner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟢 Level 1: Foundations (0 → Beginner)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟢 Level 1: Foundations (0 → Beginner)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-creating-and-loading-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Creating and Loading Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-inspecting-the-dataframe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Inspecting the DataFrame
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-basic-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Basic Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-engineering-beginner-intermediate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟡 Level 2: Engineering (Beginner → Intermediate)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟡 Level 2: Engineering (Beginner → Intermediate)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-advanced-selection-loc-and-iloc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Advanced Selection (loc and iloc)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-filtering-boolean-indexing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Filtering (Boolean Indexing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-data-cleaning-handling-missing-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Data Cleaning (Handling Missing Values)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-optimization-logic-intermediate-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟠 Level 3: Optimization &amp; Logic (Intermediate → Advanced)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟠 Level 3: Optimization &amp; Logic (Intermediate → Advanced)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-groupby-aggregation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. GroupBy &amp; Aggregation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-merging-concatenation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Merging &amp; Concatenation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-transformations-apply-and-str" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Transformations (apply and .str)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-time-series-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Time Series Basics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-elite-practices-advanced-elite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟣 Level 4: Elite Practices (Advanced → Elite)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟣 Level 4: Elite Practices (Advanced → Elite)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-memory-reduction-via-dtypes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Memory Reduction via Dtypes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-the-query-and-eval-engines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The .query() and .eval() engines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-avoiding-apply-for-vectorization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Avoiding .apply() for Vectorization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-polars-chunking-awareness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Polars / Chunking Awareness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏁 Final Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -5704,7 +7031,189 @@
 
 
 
-<h1 id="pytorch-basics">PYTORCH BASICS<a class="headerlink" href="#pytorch-basics" title="Permanent link">&para;</a></h1>
+<h1 id="module-pandas-mastery-from-zero-to-elite">Module: Pandas Mastery (From Zero to Elite)<a class="headerlink" href="#module-pandas-mastery-from-zero-to-elite" title="Permanent link">&para;</a></h1>
+<p><strong>Level:</strong> Beginner → Elite<br />
+<strong>Time to Complete:</strong> 60 Minutes (Reading + Practice)</p>
+<hr />
+<h2 id="part-1-what-are-we-even-doing">📘 Part 1: What Are We Even Doing?<a class="headerlink" href="#part-1-what-are-we-even-doing" title="Permanent link">&para;</a></h2>
+<h3 id="what-is-pandas">What is Pandas?<a class="headerlink" href="#what-is-pandas" title="Permanent link">&para;</a></h3>
+<p><strong>Pandas</strong> is the ultimate data manipulation and analysis library in Python. If NumPy is the engine for fast math, Pandas is the dashboard for working with real-world tabular data (like Excel spreadsheets, SQL tables, or CSV files).</p>
+<p>It introduces two main superpowers:</p>
+<ol>
+<li><strong>Series</strong>: A 1-dimensional column of data with custom labels (an index).</li>
+<li><strong>DataFrame</strong>: A 2-dimensional table of data (like an Excel sheet) made of multiple Series.</li>
+</ol>
+<blockquote>
+<p><strong>💡 The Golden Analogy:</strong><br />
+Imagine Python is a warehouse. <strong>NumPy</strong> is the forklift driving around doing heavy lifting fast. <strong>Pandas</strong> is the automated inventory system that labels, sorts, and organizes every box perfectly.</p>
+</blockquote>
+<hr />
+<h2 id="level-1-foundations-0-beginner">🟢 Level 1: Foundations (0 → Beginner)<a class="headerlink" href="#level-1-foundations-0-beginner" title="Permanent link">&para;</a></h2>
+<p><em>Goal: Loading data, viewing it, and understanding Series &amp; DataFrames.</em></p>
+<h3 id="1-creating-and-loading-data">1. Creating and Loading Data<a class="headerlink" href="#1-creating-and-loading-data" title="Permanent link">&para;</a></h3>
+<p>First, import Pandas (usually as <code>pd</code>).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># 1. From a Dictionary (Creating a DataFrame manually)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Charlie&quot;</span><span class="p">],</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="s2">&quot;Age&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">35</span><span class="p">],</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="s2">&quot;City&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NYC&quot;</span><span class="p">,</span> <span class="s2">&quot;LA&quot;</span><span class="p">,</span> <span class="s2">&quot;Chicago&quot;</span><span class="p">]</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c1"># 2. From a file (The most common way)</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="c1"># df = pd.read_csv(&quot;data.csv&quot;)</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="c1"># df = pd.read_excel(&quot;data.xlsx&quot;)</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="c1"># df = pd.read_json(&quot;data.json&quot;)</span>
+</code></pre></div>
+<h3 id="2-inspecting-the-dataframe">2. Inspecting the DataFrame<a class="headerlink" href="#2-inspecting-the-dataframe" title="Permanent link">&para;</a></h3>
+<p>Once you load a CSV, you need to look at it.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>    <span class="c1"># Shows the first 2 rows</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>    <span class="c1"># Shows the last 2 rows</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">())</span>     <span class="c1"># Shows column types, null values, and memory usage</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">())</span> <span class="c1"># Shows summary statistics for numeric columns (mean, min, max, etc.)</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>    <span class="c1"># List of column names</span>
+</code></pre></div>
+<h3 id="3-basic-selection">3. Basic Selection<a class="headerlink" href="#3-basic-selection" title="Permanent link">&para;</a></h3>
+<p>Accessing specific columns or rows.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Select a single column (returns a Pandas Series)</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">ages</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span>     <span class="c1"># or df.Age (if no spaces in name)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># Select multiple columns (returns a new DataFrame)</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">subset</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;City&quot;</span><span class="p">]]</span>
+</code></pre></div>
+<hr />
+<h2 id="level-2-engineering-beginner-intermediate">🟡 Level 2: Engineering (Beginner → Intermediate)<a class="headerlink" href="#level-2-engineering-beginner-intermediate" title="Permanent link">&para;</a></h2>
+<p><em>Goal: Data Selection, Cleaning, and Aggregation.</em></p>
+<h3 id="1-advanced-selection-loc-and-iloc">1. Advanced Selection (<code>loc</code> and <code>iloc</code>)<a class="headerlink" href="#1-advanced-selection-loc-and-iloc" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>.loc[]</code> selects data by <strong>label</strong> (the actual index name or column name).</li>
+<li><code>.iloc[]</code> selects data by <strong>integer position</strong> (the 0-based row/column number).</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># Using loc [row_label, column_label]</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;Name&quot;</span><span class="p">])</span>      <span class="c1"># Gets &quot;Alice&quot;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Using iloc [row_index, col_index]</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>          <span class="c1"># Gets &quot;Alice&quot; (0th row, 0th col)</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="c1"># Slicing with loc</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Age&quot;</span><span class="p">]])</span> <span class="c1"># Rows 0 to 2, specific columns</span>
+</code></pre></div>
+<h3 id="2-filtering-boolean-indexing">2. Filtering (Boolean Indexing)<a class="headerlink" href="#2-filtering-boolean-indexing" title="Permanent link">&para;</a></h3>
+<p>You usually want to find specific rows that match a condition.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Find everyone older than 28</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">older_than_28</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">28</span><span class="p">]</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1"># Multiple conditions: Use &amp; (and), | (or), and wrap conditions in ()</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">nyc_or_old</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;City&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;NYC&quot;</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">35</span><span class="p">)]</span>
+</code></pre></div>
+<h3 id="3-data-cleaning-handling-missing-values">3. Data Cleaning (Handling Missing Values)<a class="headerlink" href="#3-data-cleaning-handling-missing-values" title="Permanent link">&para;</a></h3>
+<p>Real-world data is messy and has missing (<code>NaN</code>) values.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Add a messy row for example</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;David&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;Miami&quot;</span><span class="p">]</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c1"># 1. Check for nulls</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="c1"># 2. Drop rows with any null values</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="n">clean_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="c1"># 3. Fill null values with a specific number (like the mean)</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="n">mean_age</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="n">filled_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">fillna</span><span class="p">({</span><span class="s2">&quot;Age&quot;</span><span class="p">:</span> <span class="n">mean_age</span><span class="p">})</span>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="c1"># 4. Remove exact duplicate rows</span>
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="n">no_dupes</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+</code></pre></div>
+<hr />
+<h2 id="level-3-optimization-logic-intermediate-advanced">🟠 Level 3: Optimization &amp; Logic (Intermediate → Advanced)<a class="headerlink" href="#level-3-optimization-logic-intermediate-advanced" title="Permanent link">&para;</a></h2>
+<p><em>Goal: Grouping, Merging, Transformations, and Time Series.</em></p>
+<h3 id="1-groupby-aggregation">1. GroupBy &amp; Aggregation<a class="headerlink" href="#1-groupby-aggregation" title="Permanent link">&para;</a></h3>
+<p>Summarizing data across categories (Exactly like a Pivot Table in Excel).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># Assuming we have a &#39;Department&#39; and &#39;Salary&#39; column</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="c1"># avg_salaries = df.groupby(&quot;Department&quot;)[&quot;Salary&quot;].mean()</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="c1"># Advanced aggregation: multiple metrics at once</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="c1"># summary = df.groupby(&quot;Department&quot;).agg({</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="c1">#     &quot;Salary&quot;: [&quot;mean&quot;, &quot;max&quot;],</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="c1">#     &quot;Age&quot;: &quot;median&quot;</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="c1"># })</span>
+</code></pre></div>
+<h3 id="2-merging-concatenation">2. Merging &amp; Concatenation<a class="headerlink" href="#2-merging-concatenation" title="Permanent link">&para;</a></h3>
+<p>Combining multiple DataFrames together (like SQL Joins).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;ID&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="s2">&quot;Role&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Engineer&quot;</span><span class="p">,</span> <span class="s2">&quot;Designer&quot;</span><span class="p">]})</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">df2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;ID&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="s2">&quot;Bonus&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">5000</span><span class="p">,</span> <span class="mi">3000</span><span class="p">]})</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="c1"># Merge (SQL Join) based on the &quot;ID&quot; column</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">merged</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df1</span><span class="p">,</span> <span class="n">df2</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">&quot;ID&quot;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;inner&quot;</span><span class="p">)</span> <span class="c1"># how can be &#39;left&#39;, &#39;right&#39;, &#39;outer&#39;, &#39;inner&#39;</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="c1"># Concat (Stacking them vertically or horizontally)</span>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="c1"># vertically_stacked = pd.concat([df_january, df_february], axis=0)</span>
+</code></pre></div>
+<h3 id="3-transformations-apply-and-str">3. Transformations (<code>apply</code> and <code>.str</code>)<a class="headerlink" href="#3-transformations-apply-and-str" title="Permanent link">&para;</a></h3>
+<p>Applying custom logic or text processing.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1"># Using &#39;apply&#39; with a lambda function</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age_In_10_Years&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="c1"># String manipulation accessor (.str)</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Name_Uppercase&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Name&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Is_NYC&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;City&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s2">&quot;NYC&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="4-time-series-basics">4. Time Series Basics<a class="headerlink" href="#4-time-series-basics" title="Permanent link">&para;</a></h3>
+<p>Pandas was originally built for financial time series data.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># Convert a string column to real Date/Time objects</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="c1"># df[&quot;Date&quot;] = pd.to_datetime(df[&quot;Date&quot;])</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="c1"># Set date as the index to enable resampling</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="c1"># df.set_index(&quot;Date&quot;, inplace=True)</span>
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="c1"># Resample: Group daily data into Monthly averages</span>
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="c1"># monthly_average = df.resample(&quot;ME&quot;).mean()</span>
+</code></pre></div>
+<hr />
+<h2 id="level-4-elite-practices-advanced-elite">🟣 Level 4: Elite Practices (Advanced → Elite)<a class="headerlink" href="#level-4-elite-practices-advanced-elite" title="Permanent link">&para;</a></h2>
+<p><em>Goal: Memory Optimization, Vectorization over <code>apply</code>, and high-performance querying.</em></p>
+<h3 id="1-memory-reduction-via-dtypes">1. Memory Reduction via Dtypes<a class="headerlink" href="#1-memory-reduction-via-dtypes" title="Permanent link">&para;</a></h3>
+<p>When loading millions of rows, Pandas defaults to heavy data types (like 64-bit integers and objects for strings). Downcasting saves incredible amounts of RAM.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1"># Instead of 64-bit int, use 8-bit int if max value is &lt; 127</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;int8&quot;</span><span class="p">)</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="c1"># Turn low-cardinality strings (like &quot;Male&quot;/&quot;Female&quot; or &quot;Department&quot;) into Categories</span>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="n">df</span><span class="p">[</span><span class="s2">&quot;City&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;City&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;category&quot;</span><span class="p">)</span>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="c1"># Memory can easily drop by 80% with categories!</span>
+</code></pre></div>
+<h3 id="2-the-query-and-eval-engines">2. The <code>.query()</code> and <code>.eval()</code> engines<a class="headerlink" href="#2-the-query-and-eval-engines" title="Permanent link">&para;</a></h3>
+<p>For massive DataFrames (1M+ rows), Boolean masking (<code>df[df["Age"] &gt; 30]</code>) creates heavy temporary arrays in memory. <code>query</code> uses <code>numexpr</code> C-backend to evaluate conditions faster and with less RAM.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># Standard filtering involves intermediate arrays</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="c1"># filtered = df[(df[&quot;Age&quot;] &gt; 30) &amp; (df[&quot;City&quot;] == &quot;NYC&quot;)]</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="c1"># .query is faster, reads like SQL, and uses less memory</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="n">filtered</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;Age &gt; 30 and City == &#39;NYC&#39;&quot;</span><span class="p">)</span>
+</code></pre></div>
+<h3 id="3-avoiding-apply-for-vectorization">3. Avoiding <code>.apply()</code> for Vectorization<a class="headerlink" href="#3-avoiding-apply-for-vectorization" title="Permanent link">&para;</a></h3>
+<p>Beginners overuse <code>.apply()</code>. <code>.apply()</code> is just a hidden <code>for</code> loop in Python. It is <strong>slow</strong>. Always try to use Pandas built-in vectorized string or math methods instead.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1"># ❌ Slow</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="c1"># df[&quot;Cost&quot;] = df.apply(lambda row: row[&quot;Price&quot;] * row[&quot;Tax&quot;], axis=1)</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="c1"># ✅ Fast (Vectorized)</span>
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="c1"># df[&quot;Cost&quot;] = df[&quot;Price&quot;] * df[&quot;Tax&quot;]</span>
+</code></pre></div>
+<h3 id="4-polars-chunking-awareness">4. Polars / Chunking Awareness<a class="headerlink" href="#4-polars-chunking-awareness" title="Permanent link">&para;</a></h3>
+<p>When DataFrames exceed your local RAM (e.g., a 20GB CSV on a 16GB RAM laptop):</p>
+<ol>
+<li><strong>Chunksize:</strong> <code>pd.read_csv('huge.csv', chunksize=100000)</code> loads data in manageable blocks.</li>
+<li><strong>Polars:</strong> Modern data engineers often swap to the <code>polars</code> library (written in Rust) for extreme scale, as it utilizes multi-core processing automatically, unlike single-threaded Pandas.</li>
+</ol>
+<hr />
+<h2 id="final-challenge">🏁 Final Challenge<a class="headerlink" href="#final-challenge" title="Permanent link">&para;</a></h2>
+<p>To complete this module:</p>
+<ol>
+<li>Load a real <code>.csv</code> file from Kaggle using <code>pd.read_csv()</code>.</li>
+<li>Find the total number of missing values across all columns.</li>
+<li>Drop the rows with missing values.</li>
+<li>Use <code>groupby</code> to find the mean of a numeric column grouped by a categorical column.</li>
+</ol>
 
 
 
@@ -5762,12 +7271,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.sections", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "content.tabs.link"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../javascripts/mathjax.js"></script>
+        <script src="../../../../javascripts/mathjax.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       

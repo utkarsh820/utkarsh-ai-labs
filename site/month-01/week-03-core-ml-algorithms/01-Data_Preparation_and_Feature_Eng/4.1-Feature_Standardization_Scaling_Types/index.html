@@ -12,13 +12,13 @@
         <meta name="author" content="Utkarsh Pandey">
       
       
-        <link rel="canonical" href="https://academy.utkarsh-ai-labs.me/month-01/week-01-python-git-linux/git/01-Git_%26_Github/">
+        <link rel="canonical" href="https://academy.utkarsh-ai-labs.me/month-01/week-03-core-ml-algorithms/01-Data_Preparation_and_Feature_Eng/4.1-Feature_Standardization_Scaling_Types/">
       
       
-        <link rel="prev" href="../../../">
+        <link rel="prev" href="../08-Power_Transformer/">
       
       
-        <link rel="next" href="../02-Complete_Commands/">
+        <link rel="next" href="../../CS229_Notes/disclaimer/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>🎓 Module: Git & GitHub Mastery (From Zero to Elite) - Utkarsh AI Labs</title>
+        <title>Feature Scaling & Standardization (From Zero to Elite) - Utkarsh AI Labs</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#module-git-github-mastery-from-zero-to-elite" class="md-skip">
+        <a href="#feature-scaling-standardization-from-zero-to-elite" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🎓 Module: Git &amp; GitHub Mastery (From Zero to Elite)
+              Feature Scaling &amp; Standardization (From Zero to Elite)
             
           </span>
         </div>
@@ -375,8 +375,6 @@
                 
   
   
-    
-  
   
   
     
@@ -386,11 +384,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
@@ -400,7 +398,7 @@
   <span class="md-ellipsis">
     
   
-    Week 01 python git linux
+    Week 01 python git numpy pandas
   
 
     
@@ -411,12 +409,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Week 01 python git linux
+    Week 01 python git numpy pandas
   
 
           </label>
@@ -426,8 +424,6 @@
                 
   
   
-    
-  
   
   
     
@@ -437,11 +433,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
         
           
           <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
@@ -462,7 +458,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -477,37 +473,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    🎓 Module: Git &amp; GitHub Mastery (From Zero to Elite)
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../week-01-python-git-numpy-pandas/git/01-Git_%26_Github/" class="md-nav__link">
         
   
   
@@ -523,309 +492,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#part-1-what-are-we-even-doing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📘 Part 1: What Are We Even Doing?
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📘 Part 1: What Are We Even Doing?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-what-is-git" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. What is Git?
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-what-is-github" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. What is GitHub?
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#level-1-the-setup-0-beginner" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 Level 1: The Setup (0 → Beginner)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟢 Level 1: The Setup (0 → Beginner)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-install-git" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 1: Install Git
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-configure-your-identity" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 2: Configure Your Identity
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-set-the-default-branch-name" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 3: Set the Default Branch Name
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#level-2-the-daily-workflow-beginner-intermediate" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 Level 2: The Daily Workflow (Beginner → Intermediate)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟡 Level 2: The Daily Workflow (Beginner → Intermediate)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-the-staging-area-git-add" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. The Staging Area (git add)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-the-commit-git-commit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. The Commit (git commit)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-the-push-git-push" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. The Push (git push)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#your-first-project-follow-along" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🚀 Your First Project (Follow Along)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#level-3-safety-collaboration-intermediate-advanced" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟠 Level 3: Safety &amp; Collaboration (Intermediate → Advanced)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟠 Level 3: Safety &amp; Collaboration (Intermediate → Advanced)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-the-gitignore-file-critical-for-data-science" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. The .gitignore File (CRITICAL for Data Science)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-branches-the-safety-net" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Branches (The Safety Net)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#level-4-elite-practices-advanced-elite" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟣 Level 4: Elite Practices (Advanced → Elite)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🟣 Level 4: Elite Practices (Advanced → Elite)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-write-professional-commit-messages" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Write Professional Commit Messages
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-check-your-history" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Check Your History
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-undoing-mistakes-dont-panic" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Undoing Mistakes (Don't Panic!)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-pulling-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Pulling Updates
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-cheatsheet" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📋 Quick Cheatsheet
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-matters-for-ai-data-science" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🤖 Why This Matters for AI &amp; Data Science
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#final-challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🏁 Final Challenge
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -838,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../02-Complete_Commands/" class="md-nav__link">
+      <a href="../../../week-01-python-git-numpy-pandas/git/02-Complete_Commands/" class="md-nav__link">
         
   
   
@@ -923,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../python/" class="md-nav__link">
+      <a href="../../../week-01-python-git-numpy-pandas/python/" class="md-nav__link">
         
   
   
@@ -951,7 +617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../python/jupyter-demo/" class="md-nav__link">
+      <a href="../../../week-01-python-git-numpy-pandas/python/jupyter-demo/" class="md-nav__link">
         
   
   
@@ -975,6 +641,62 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-01-python-git-numpy-pandas/numpy/01-NumPy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module: NumPy Mastery (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-01-python-git-numpy-pandas/pandas/01-Pandas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module: Pandas Mastery (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -2314,6 +2036,8 @@
                 
   
   
+    
+  
   
   
     
@@ -2323,11 +2047,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
         
           
           <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
@@ -2348,7 +2072,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2366,7 +2090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../week-03-core-ml-algorithms/decision-trees/" class="md-nav__link">
+      <a href="../../decision-trees/" class="md-nav__link">
         
   
   
@@ -2393,8 +2117,57 @@
   
   
   
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linear regression
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Linear regression
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../../week-03-core-ml-algorithms/linear-regression/" class="md-nav__link">
+      <a href="../../linear-regression/01-Linear_regression/" class="md-nav__link">
         
   
   
@@ -2422,7 +2195,43 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../week-03-core-ml-algorithms/logistic-regression/" class="md-nav__link">
+      <a href="../../linear-regression/02-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluation Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../logistic-regression/" class="md-nav__link">
         
   
   
@@ -2447,10 +2256,602 @@
                 
   
   
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_4" id="__nav_3_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Data Preparation and Feature Eng
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 Data Preparation and Feature Eng
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../../../week-03-core-ml-algorithms/CS229_Notes/disclaimer/" class="md-nav__link">
+      <a href="../00_Feature_Relationship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 Feature Relationship
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-Understanding_Data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Understanding Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Univariate_Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 Univariate Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-Bivariate-Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 Bivariate Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-Feature_Engneering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 Feature Engneering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-Encoding_%26_its_Types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categorical Encoding (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-Pipeline_and_ColumnTransformer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pipelines &amp; ColumnTransformers (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-Function_Transformer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FunctionTransformer (Custom Pipelines)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-Power_Transformer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PowerTransformer (Forcing Normality)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature Scaling &amp; Standardization (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature Scaling &amp; Standardization (From Zero to Elite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-the-why-of-scaling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 Part 1: The "Why" of Scaling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📘 Part 1: The &#34;Why&#34; of Scaling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-do-we-scale-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why do we scale data?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-is-it-absolutely-mandatory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When is it absolutely mandatory?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-the-foundation-beginner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟢 Level 1: The Foundation (Beginner)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟢 Level 1: The Foundation (Beginner)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-standardization-standardscaler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Standardization (StandardScaler)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-normalization-minmaxscaler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Normalization (MinMaxScaler)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-real-world-messiness-intermediate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟡 Level 2: Real-World Messiness (Intermediate)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟡 Level 2: Real-World Messiness (Intermediate)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3-robust-scaling-robustscaler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Robust Scaling (RobustScaler)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-sparse-data-scaling-maxabsscaler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Sparse Data Scaling (MaxAbsScaler)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-distribution-transformers-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟠 Level 3: Distribution Transformers (Advanced)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟠 Level 3: Distribution Transformers (Advanced)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5-power-transforms-powertransformer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Power Transforms (PowerTransformer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-quantile-transforms-quantiletransformer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Quantile Transforms (QuantileTransformer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-the-row-wise-niche-elite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟣 Level 4: The Row-wise Niche (Elite)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟣 Level 4: The Row-wise Niche (Elite)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-the-normalizer-row-normalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. The Normalizer (Row Normalization)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-master-which-scaler-to-use-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📋 The Master "Which Scaler to Use?" Matrix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#academy-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏁 Academy Exercise
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CS229_Notes/disclaimer/" class="md-nav__link">
         
   
   
@@ -2562,15 +2963,64 @@
   
   
   
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_2" id="__nav_3_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pytorch basics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pytorch basics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/" class="md-nav__link">
+      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/01-Getting_Started_Pytorch/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    PYTORCH BASICS
+    🎓 Deep Learning Masterclass: Getting Started with PyTorch
   
 
     
@@ -2579,6 +3029,70 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/02-PyTorch_for_Beginners/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PyTorch for Beginners
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../week-04-pytorch-scikit-mlflow/pytorch-basics/03-Autograd_and_Backpropagation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Automatic Differentiation with
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2835,6 +3349,175 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_4" id="__nav_4_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 introduction to deep learning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 introduction to deep learning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/01-intro_deep_learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎓Intro_deep_learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/02-Perceptron_%26_Loss_Function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perceptron &amp; Loss Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/03-Forward_Pass/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧠 Deep Learning: The Forward Pass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../month-02/week-05-deep-learning-cnns-rnns/01-introduction_to_deep_learning/04-backpropogation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 backpropogation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -3555,14 +4238,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../month-03/week-10-mlops-mlflow-dvc-cicd/dvc-data-versioning/" class="md-nav__link">
+      <a href="../../../../month-03/week-10-mlops-mlflow-dvc-cicd/dvc-data-versioning/dvc/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    DVC DATA VERSIONING
+    🎓 MLOps Masterclass: Data Version Control (DVC) for Pros
   
 
     
@@ -6018,22 +6701,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#part-1-what-are-we-even-doing" class="md-nav__link">
+  <a href="#part-1-the-why-of-scaling" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📘 Part 1: What Are We Even Doing?
+        📘 Part 1: The "Why" of Scaling
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📘 Part 1: What Are We Even Doing?">
+    <nav class="md-nav" aria-label="📘 Part 1: The &#34;Why&#34; of Scaling">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-what-is-git" class="md-nav__link">
+  <a href="#why-do-we-scale-data" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. What is Git?
+        Why do we scale data?
       
     </span>
   </a>
@@ -6041,10 +6724,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-what-is-github" class="md-nav__link">
+  <a href="#when-is-it-absolutely-mandatory" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. What is GitHub?
+        When is it absolutely mandatory?
       
     </span>
   </a>
@@ -6057,22 +6740,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-1-the-setup-0-beginner" class="md-nav__link">
+  <a href="#level-1-the-foundation-beginner" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🟢 Level 1: The Setup (0 → Beginner)
+        🟢 Level 1: The Foundation (Beginner)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🟢 Level 1: The Setup (0 → Beginner)">
+    <nav class="md-nav" aria-label="🟢 Level 1: The Foundation (Beginner)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#step-1-install-git" class="md-nav__link">
+  <a href="#1-standardization-standardscaler" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1: Install Git
+        1. Standardization (StandardScaler)
       
     </span>
   </a>
@@ -6080,21 +6763,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-2-configure-your-identity" class="md-nav__link">
+  <a href="#2-normalization-minmaxscaler" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2: Configure Your Identity
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-set-the-default-branch-name" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 3: Set the Default Branch Name
+        2. Normalization (MinMaxScaler)
       
     </span>
   </a>
@@ -6107,22 +6779,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-2-the-daily-workflow-beginner-intermediate" class="md-nav__link">
+  <a href="#level-2-real-world-messiness-intermediate" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🟡 Level 2: The Daily Workflow (Beginner → Intermediate)
+        🟡 Level 2: Real-World Messiness (Intermediate)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🟡 Level 2: The Daily Workflow (Beginner → Intermediate)">
+    <nav class="md-nav" aria-label="🟡 Level 2: Real-World Messiness (Intermediate)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-the-staging-area-git-add" class="md-nav__link">
+  <a href="#3-robust-scaling-robustscaler" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. The Staging Area (git add)
+        3. Robust Scaling (RobustScaler)
       
     </span>
   </a>
@@ -6130,32 +6802,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-the-commit-git-commit" class="md-nav__link">
+  <a href="#4-sparse-data-scaling-maxabsscaler" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. The Commit (git commit)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-the-push-git-push" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. The Push (git push)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#your-first-project-follow-along" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🚀 Your First Project (Follow Along)
+        4. Sparse Data Scaling (MaxAbsScaler)
       
     </span>
   </a>
@@ -6168,22 +6818,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-3-safety-collaboration-intermediate-advanced" class="md-nav__link">
+  <a href="#level-3-distribution-transformers-advanced" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🟠 Level 3: Safety &amp; Collaboration (Intermediate → Advanced)
+        🟠 Level 3: Distribution Transformers (Advanced)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🟠 Level 3: Safety &amp; Collaboration (Intermediate → Advanced)">
+    <nav class="md-nav" aria-label="🟠 Level 3: Distribution Transformers (Advanced)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-the-gitignore-file-critical-for-data-science" class="md-nav__link">
+  <a href="#5-power-transforms-powertransformer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. The .gitignore File (CRITICAL for Data Science)
+        5. Power Transforms (PowerTransformer)
       
     </span>
   </a>
@@ -6191,10 +6841,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-branches-the-safety-net" class="md-nav__link">
+  <a href="#6-quantile-transforms-quantiletransformer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Branches (The Safety Net)
+        6. Quantile Transforms (QuantileTransformer)
       
     </span>
   </a>
@@ -6207,55 +6857,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#level-4-elite-practices-advanced-elite" class="md-nav__link">
+  <a href="#level-4-the-row-wise-niche-elite" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🟣 Level 4: Elite Practices (Advanced → Elite)
+        🟣 Level 4: The Row-wise Niche (Elite)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🟣 Level 4: Elite Practices (Advanced → Elite)">
+    <nav class="md-nav" aria-label="🟣 Level 4: The Row-wise Niche (Elite)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-write-professional-commit-messages" class="md-nav__link">
+  <a href="#7-the-normalizer-row-normalization" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Write Professional Commit Messages
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-check-your-history" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Check Your History
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-undoing-mistakes-dont-panic" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Undoing Mistakes (Don't Panic!)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-pulling-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Pulling Updates
+        7. The Normalizer (Row Normalization)
       
     </span>
   </a>
@@ -6268,10 +6885,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-cheatsheet" class="md-nav__link">
+  <a href="#the-master-which-scaler-to-use-matrix" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📋 Quick Cheatsheet
+        📋 The Master "Which Scaler to Use?" Matrix
       
     </span>
   </a>
@@ -6279,21 +6896,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-this-matters-for-ai-data-science" class="md-nav__link">
+  <a href="#academy-exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🤖 Why This Matters for AI &amp; Data Science
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#final-challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🏁 Final Challenge
+        🏁 Academy Exercise
       
     </span>
   </a>
@@ -6317,262 +6923,206 @@
 
 
 
-<h1 id="module-git-github-mastery-from-zero-to-elite">🎓 Module: Git &amp; GitHub Mastery (From Zero to Elite)<a class="headerlink" href="#module-git-github-mastery-from-zero-to-elite" title="Permanent link">&para;</a></h1>
-<p><strong>Level:</strong> Beginner → Advanced<br />
-<strong>Time to Complete:</strong> 30 Minutes (Reading + Practice)</p>
+<h1 id="feature-scaling-standardization-from-zero-to-elite">Feature Scaling &amp; Standardization (From Zero to Elite)<a class="headerlink" href="#feature-scaling-standardization-from-zero-to-elite" title="Permanent link">&para;</a></h1>
+<p><strong>Level:</strong> Beginner → Elite<br />
+<strong>Time to Complete:</strong> 45 Minutes (Reading + Practice)</p>
 <hr />
-<h2 id="part-1-what-are-we-even-doing">📘 Part 1: What Are We Even Doing?<a class="headerlink" href="#part-1-what-are-we-even-doing" title="Permanent link">&para;</a></h2>
-<p>Before typing commands, let's understand the tools.</p>
-<h3 id="1-what-is-git">1. What is Git?<a class="headerlink" href="#1-what-is-git" title="Permanent link">&para;</a></h3>
-<p><strong>Git</strong> is a <strong>Time Machine</strong> for your code.<br />
-It lives on your <strong>computer (local)</strong>. It saves "snapshots" of your project every time you make progress. If you break something, you can travel back in time to before it was broken.</p>
-<h3 id="2-what-is-github">2. What is GitHub?<a class="headerlink" href="#2-what-is-github" title="Permanent link">&para;</a></h3>
-<p><strong>GitHub</strong> is a <strong>Cloud Storage</strong> for your Git snapshots.<br />
-It lives on the <strong>internet (remote)</strong>. It allows you to:
-- Backup your code (so you don't lose it if your laptop breaks).
-- Show your work to recruiters (your portfolio).
-- Collaborate with others without overwriting their work.</p>
-<blockquote>
-<p><strong>💡 The Golden Analogy:</strong><br />
-<strong>Git</strong> is like saving a file on your computer (<code>Ctrl+S</code>).<br />
-<strong>GitHub</strong> is like uploading that file to Google Drive so others can see it.</p>
-</blockquote>
+<h2 id="part-1-the-why-of-scaling">📘 Part 1: The "Why" of Scaling<a class="headerlink" href="#part-1-the-why-of-scaling" title="Permanent link">&para;</a></h2>
+<h3 id="why-do-we-scale-data">Why do we scale data?<a class="headerlink" href="#why-do-we-scale-data" title="Permanent link">&para;</a></h3>
+<p>Machine learning models are just advanced mathematical equations. If you feed a model two features—<code>Age</code> (ranges from 0 to 100) and <code>Salary</code> (ranges from 0 to 100,000)—the model doesn't know what "Age" or "Salary" means. It only sees the numbers.</p>
+<p>Because <code>Salary</code> has much larger numbers, algorithms will naturally assume that <code>Salary</code> is <strong>1,000 times more important</strong> than <code>Age</code>.</p>
+<p><strong>Scaling fixes this by putting all features on a level playing field.</strong></p>
+<h3 id="when-is-it-absolutely-mandatory">When is it absolutely mandatory?<a class="headerlink" href="#when-is-it-absolutely-mandatory" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Distance-Based Algorithms:</strong> KNN, K-Means Clustering, SVMs. (If you don't scale, the distance calculation is entirely dominated by the largest feature).</li>
+<li><strong>Gradient Descent Algorithms:</strong> Linear Regression, Logistic Regression, Neural Networks. (If you don't scale, the model takes a zig-zag, agonizingly slow path to find the right weights, or it might fail to converge entirely).</li>
+</ol>
+<p><em>Note: Tree-based models (Decision Trees, Random Forests, XGBoost) <strong>do not</strong> require scaling because they split nodes based on order, not distance.</em></p>
 <hr />
-<h2 id="level-1-the-setup-0-beginner">🟢 Level 1: The Setup (0 → Beginner)<a class="headerlink" href="#level-1-the-setup-0-beginner" title="Permanent link">&para;</a></h2>
-<p><em>Goal: Install tools and tell Git who you are.</em></p>
-<h3 id="step-1-install-git">Step 1: Install Git<a class="headerlink" href="#step-1-install-git" title="Permanent link">&para;</a></h3>
+<h2 id="level-1-the-foundation-beginner">🟢 Level 1: The Foundation (Beginner)<a class="headerlink" href="#level-1-the-foundation-beginner" title="Permanent link">&para;</a></h2>
+<h3 id="1-standardization-standardscaler">1. Standardization (<code>StandardScaler</code>)<a class="headerlink" href="#1-standardization-standardscaler" title="Permanent link">&para;</a></h3>
+<p><strong>Also known as:</strong> Z-score normalization.
+<strong>What it does:</strong> It centers your data around <code>0</code> and scales it so the standard deviation is <code>1</code>.</p>
 <ul>
-<li><strong>Windows:</strong> Download from <a href="https://git-scm.com">git-scm.com</a>. Click "Next" until finished.</li>
-<li><strong>Mac:</strong> Open Terminal and type <code>git --version</code>. If not installed, it will prompt you to install it.</li>
-<li><strong>Linux:</strong> <code>sudo apt install git</code></li>
+<li><strong>Formula:</strong> <span class="arithmatex">\(z = \frac{x - \mu}{\sigma}\)</span> (Value minus Mean, divided by Standard Deviation).</li>
+<li><strong>When to use:</strong> This is the <strong>default go-to</strong> for most machine learning models (Logistic Regression, SVMs, PCA). It assumes your data roughly follows a Gaussian (bell curve) distribution. It does <em>not</em> bind data to a specific maximum or minimum.</li>
 </ul>
-<h3 id="step-2-configure-your-identity">Step 2: Configure Your Identity<a class="headerlink" href="#step-2-configure-your-identity" title="Permanent link">&para;</a></h3>
-<p>Git needs to know <strong>who</strong> is making changes. This is permanent (you only do it once per computer).</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># 1. Set your name (use your real name for your portfolio)</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;Alex Developer&quot;</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># 2. Set your email (use the one linked to your GitHub account)</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;alex@example.com&quot;</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># 3. Check your settings (to make sure it worked)</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>git<span class="w"> </span>config<span class="w"> </span>--list
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">StandardScaler</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># Sample Data</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">40</span><span class="p">],</span> <span class="s1">&#39;Salary&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">50000</span><span class="p">,</span> <span class="mi">60000</span><span class="p">,</span> <span class="mi">70000</span><span class="p">,</span> <span class="mi">80000</span><span class="p">]})</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="c1"># Note: Always fit only on your training data!</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">df_scaled</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">),</span> <span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="nb">print</span><span class="p">(</span><span class="n">df_scaled</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="c1"># Always becomes 0.0</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="nb">print</span><span class="p">(</span><span class="n">df_scaled</span><span class="o">.</span><span class="n">std</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>  <span class="c1"># Always becomes 1.0 (with ddof=0, it&#39;s 1.0; pandas uses ddof=1 by default so it might be slightly off 1.0 depending on exact sample)</span>
+</code></pre></div>
+<h3 id="2-normalization-minmaxscaler">2. Normalization (<code>MinMaxScaler</code>)<a class="headerlink" href="#2-normalization-minmaxscaler" title="Permanent link">&para;</a></h3>
+<p><strong>What it does:</strong> Squashes all your data to fit perfectly between a specific range, almost always <code>[0, 1]</code>.</p>
+<ul>
+<li><strong>Formula:</strong> <span class="arithmatex">\(X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}}\)</span></li>
+<li><strong>When to use:</strong></li>
+<li>When your algorithm mathematically requires a specific bounded scale (e.g., standard Neural Networks often prefer 0 to 1).</li>
+<li>Image processing (Pixels are strictly 0 to 255, so dividing by 255 is a manual MinMaxScaler).</li>
+<li>When you <strong>know</strong> the exact maximum and minimum possible boundaries in the real world.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">MinMaxScaler</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">df_scaled</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">),</span> <span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">df_scaled</span><span class="o">.</span><span class="n">min</span><span class="p">())</span> <span class="c1"># Always 0.0</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">df_scaled</span><span class="o">.</span><span class="n">max</span><span class="p">())</span> <span class="c1"># Always 1.0</span>
 </code></pre></div>
 <blockquote>
-<p><strong>⚠️ Why?</strong> Every time you save a snapshot, Git stamps it with this name. This is how collaborators know who wrote which code.</p>
+<p><strong>⚠️ The Flaw of Level 1:</strong> Both <code>StandardScaler</code> and <code>MinMaxScaler</code> are highly sensitive to <strong>Outliers</strong>. If one person in your dataset has a salary of $10,000,000, it ruins the mean and max for everyone else.</p>
 </blockquote>
-<h3 id="step-3-set-the-default-branch-name">Step 3: Set the Default Branch Name<a class="headerlink" href="#step-3-set-the-default-branch-name" title="Permanent link">&para;</a></h3>
-<p>Modern GitHub uses <code>main</code> instead of <code>master</code>. Let's match that.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>init.defaultBranch<span class="w"> </span>main
+<hr />
+<h2 id="level-2-real-world-messiness-intermediate">🟡 Level 2: Real-World Messiness (Intermediate)<a class="headerlink" href="#level-2-real-world-messiness-intermediate" title="Permanent link">&para;</a></h2>
+<h3 id="3-robust-scaling-robustscaler">3. Robust Scaling (<code>RobustScaler</code>)<a class="headerlink" href="#3-robust-scaling-robustscaler" title="Permanent link">&para;</a></h3>
+<p><strong>What it does:</strong> It ignores extreme outliers when scaling the data. Instead of using the Mean and Max/Min, it uses the <strong>Median</strong> and the <strong>Interquartile Range (IQR)</strong> (the middle 50% of the data).</p>
+<ul>
+<li><strong>Formula:</strong> <span class="arithmatex">\(X_{robust} = \frac{X - Median}{Q_3 - Q_1}\)</span></li>
+<li><strong>When to use:</strong> When your data has massive, legitimate outliers that you don't want to delete, but you still need to scale the data for models like SVM or KNN.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">RobustScaler</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1"># Notice the extreme outlier in Salary</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">df_outlier</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">40</span><span class="p">],</span> <span class="s1">&#39;Salary&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">50000</span><span class="p">,</span> <span class="mi">60000</span><span class="p">,</span> <span class="mi">70000</span><span class="p">,</span> <span class="mi">10000000</span><span class="p">]})</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">scaler</span> <span class="o">=</span> <span class="n">RobustScaler</span><span class="p">()</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="n">df_robust</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df_outlier</span><span class="p">),</span> <span class="n">columns</span><span class="o">=</span><span class="n">df_outlier</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="c1"># The normal salaries scale nicely. The $10M salary becomes a massive number (e.g., 500)</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="c1"># But it doesn&#39;t crush the 50k-70k salaries into identical 0.00001 values!</span>
+</code></pre></div>
+<h3 id="4-sparse-data-scaling-maxabsscaler">4. Sparse Data Scaling (<code>MaxAbsScaler</code>)<a class="headerlink" href="#4-sparse-data-scaling-maxabsscaler" title="Permanent link">&para;</a></h3>
+<p><strong>What it does:</strong> Scales each feature by its maximum absolute value. Thus, it only scales everything between <code>[-1, 1]</code> without shifting the center.</p>
+<ul>
+<li><strong>Why it matters:</strong> In NLP (Natural Language Processing), you often have "Sparse Matrices" (datasets where 99% of the values are <code>0.0</code>, representing words that didn't appear in a document).</li>
+<li><strong>When to use:</strong> If you use <code>StandardScaler</code> on sparse data, it subtracts the mean. Suddenly, millions of <code>0.0</code>s become <code>-0.003</code>. You just destroyed the sparsity and your RAM will explode. <code>MaxAbsScaler</code> keeps 0 as 0.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">MaxAbsScaler</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1"># Perfect for TF-IDF vectors or One-Hot Encoded data where 0 means &quot;absence&quot;.</span>
 </code></pre></div>
 <hr />
-<h2 id="level-2-the-daily-workflow-beginner-intermediate">🟡 Level 2: The Daily Workflow (Beginner → Intermediate)<a class="headerlink" href="#level-2-the-daily-workflow-beginner-intermediate" title="Permanent link">&para;</a></h2>
-<p><em>Goal: Save your work and put it on GitHub.</em></p>
-<p>There are <strong>3 Main Steps</strong> to saving work. Think of it like packing a box for shipping.</p>
-<h3 id="1-the-staging-area-git-add">1. The Staging Area (<code>git add</code>)<a class="headerlink" href="#1-the-staging-area-git-add" title="Permanent link">&para;</a></h3>
-<p>You don't ship every single file every time. You choose which files to pack.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Add a specific file to the staging area</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git<span class="w"> </span>add<span class="w"> </span>filename.py
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># Add ALL changed files (most common)</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>git<span class="w"> </span>add<span class="w"> </span>.
-</code></pre></div></p>
-<blockquote>
-<p><strong>🧠 Concept:</strong> The "Staging Area" is a waiting room. Files here are ready to be saved, but not saved yet.</p>
-</blockquote>
-<h3 id="2-the-commit-git-commit">2. The Commit (<code>git commit</code>)<a class="headerlink" href="#2-the-commit-git-commit" title="Permanent link">&para;</a></h3>
-<p>This takes the snapshot. You must write a message explaining what changed.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;feat: created the data cleaning script&quot;</span>
-</code></pre></div></p>
-<blockquote>
-<p><strong>🧠 Concept:</strong> A "Commit" is a saved checkpoint. You can always return to this exact state later.</p>
-</blockquote>
-<h3 id="3-the-push-git-push">3. The Push (<code>git push</code>)<a class="headerlink" href="#3-the-push-git-push" title="Permanent link">&para;</a></h3>
-<p>This uploads your local snapshots to GitHub.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git<span class="w"> </span>push
-</code></pre></div></p>
-<hr />
-<h3 id="your-first-project-follow-along">🚀 Your First Project (Follow Along)<a class="headerlink" href="#your-first-project-follow-along" title="Permanent link">&para;</a></h3>
-<p>Let's create a repo from scratch.</p>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># 1. Create a folder on your computer</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>mkdir<span class="w"> </span>my-first-project
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nb">cd</span><span class="w"> </span>my-first-project
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
-<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="c1"># 2. Turn this folder into a Git Repository</span>
-<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>git<span class="w"> </span>init
-<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="c1"># (You&#39;ll see: Initialized empty Git repository...)</span>
-<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
-<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="c1"># 3. Create a file (using touch on Mac/Linux, or echo on Windows)</span>
-<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;print(&#39;Hello World&#39;)&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>main.py
-<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>
-<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="c1"># 4. Stage the file</span>
-<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>git<span class="w"> </span>add<span class="w"> </span>.
-<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>
-<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="c1"># 5. Commit the file</span>
-<a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;init: first commit&quot;</span>
-<a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a>
-<a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="c1"># 6. Go to GitHub.com -&gt; New Repository -&gt; Copy the URL</span>
-<a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="c1"># 7. Link your computer to GitHub</span>
-<a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>origin<span class="w"> </span>https://github.com/yourname/my-first-project.git
-<a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a>
-<a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a><span class="c1"># 8. Upload your work</span>
-<a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a>git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>main
+<h2 id="level-3-distribution-transformers-advanced">🟠 Level 3: Distribution Transformers (Advanced)<a class="headerlink" href="#level-3-distribution-transformers-advanced" title="Permanent link">&para;</a></h2>
+<p>Sometimes scaling isn't enough. Many statistical algorithms (like Linear Regression) assume the data has a <strong>Normal (Gaussian) Distribution</strong>. If your data is heavily skewed (like Income data, which is usually right-skewed), you need a transformation.</p>
+<h3 id="5-power-transforms-powertransformer">5. Power Transforms (<code>PowerTransformer</code>)<a class="headerlink" href="#5-power-transforms-powertransformer" title="Permanent link">&para;</a></h3>
+<p><strong>What it does:</strong> Uses logarithmic math to make data more Gaussian-like (bell-shaped). It supports two methods: <strong>Yeo-Johnson</strong> (works on positive and negative numbers) and <strong>Box-Cox</strong> (strictly strictly strictly strictly strictly strictly positive numbers only).</p>
+<ul>
+<li><strong>When to use:</strong> When your plots show heavy skewness, and you are using parametric models (Linear/Logistic regression) that demand normality to perform at their best.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">PowerTransformer</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="c1"># method=&#39;yeo-johnson&#39; is default and safer</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">scaler</span> <span class="o">=</span> <span class="n">PowerTransformer</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;yeo-johnson&#39;</span><span class="p">)</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">df_gaussian</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">),</span> <span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
 </code></pre></div>
-✅ <strong>Congratulations!</strong> Your code is now backed up online.</p>
-<hr />
-<h2 id="level-3-safety-collaboration-intermediate-advanced">🟠 Level 3: Safety &amp; Collaboration (Intermediate → Advanced)<a class="headerlink" href="#level-3-safety-collaboration-intermediate-advanced" title="Permanent link">&para;</a></h2>
-<p><em>Goal: Protect sensitive data and experiment safely.</em></p>
-<h3 id="1-the-gitignore-file-critical-for-data-science">1. The <code>.gitignore</code> File (CRITICAL for Data Science)<a class="headerlink" href="#1-the-gitignore-file-critical-for-data-science" title="Permanent link">&para;</a></h3>
-<p>Never upload passwords, API keys, or massive datasets to GitHub. The <code>.gitignore</code> file tells Git what to <strong>ignore</strong>.</p>
-<p><strong>Create a file named <code>.gitignore</code> and add this:</strong>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a># Python junk
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>__pycache__/
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>*.pyc
-<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>.env
-<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
-<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a># Virtual environments
-<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>venv/
-<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>env/
-<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>
-<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a># Jupyter Notebook checkpoints
-<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>.ipynb_checkpoints
-<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>
-<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a># Large Data Files (Keep these local!)
-<a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>data/raw/*.csv
-<a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>models/*.pkl
-</code></pre></div></p>
-<blockquote>
-<p><strong>⚠️ Warning:</strong> If you accidentally commit a password, <strong>change the password immediately</strong>. Removing it from Git later is difficult.</p>
-</blockquote>
-<h3 id="2-branches-the-safety-net">2. Branches (The Safety Net)<a class="headerlink" href="#2-branches-the-safety-net" title="Permanent link">&para;</a></h3>
-<p>Never work directly on the <code>main</code> branch for big features. Create a <strong>Branch</strong> (a parallel universe) to experiment.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># 1. Create a new branch called &#39;experiment&#39;</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git<span class="w"> </span>branch<span class="w"> </span>experiment
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="c1"># 2. Switch to that branch</span>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>git<span class="w"> </span>checkout<span class="w"> </span>experiment
-<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="c1"># (Or use the modern command: git switch experiment)</span>
-<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
-<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="c1"># 3. Do your work... commit... push...</span>
-<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
-<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="c1"># 4. When done, go back to main</span>
-<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>git<span class="w"> </span>checkout<span class="w"> </span>main
-<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>
-<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="c1"># 5. Merge the changes from experiment into main</span>
-<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>git<span class="w"> </span>merge<span class="w"> </span>experiment
+<h3 id="6-quantile-transforms-quantiletransformer">6. Quantile Transforms (<code>QuantileTransformer</code>)<a class="headerlink" href="#6-quantile-transforms-quantiletransformer" title="Permanent link">&para;</a></h3>
+<p><strong>What it does:</strong> This is the brute-force hammer. It completely warps your data to forcefully map it to a Uniform distribution (flat line) or a Normal distribution (perfect bell curve).</p>
+<ul>
+<li><strong>Warning:</strong> This destroys the original linear relationships and distances.</li>
+<li><strong>When to use:</strong> When dealing with extremely weird, bimodal, or multi-modal data with crazy outliers that even <code>RobustScaler</code> can't fix, and you are feeding it to non-linear models (like deep neural networks).</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">QuantileTransformer</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="c1"># Forces the data to look like a perfect bell curve</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">scaler</span> <span class="o">=</span> <span class="n">QuantileTransformer</span><span class="p">(</span><span class="n">output_distribution</span><span class="o">=</span><span class="s1">&#39;normal&#39;</span><span class="p">)</span>
 </code></pre></div>
-<blockquote>
-<p><strong>🧠 Concept:</strong> If your experiment fails on the <code>experiment</code> branch, your <code>main</code> branch stays safe and clean.</p>
-</blockquote>
 <hr />
-<h2 id="level-4-elite-practices-advanced-elite">🟣 Level 4: Elite Practices (Advanced → Elite)<a class="headerlink" href="#level-4-elite-practices-advanced-elite" title="Permanent link">&para;</a></h2>
-<p><em>Goal: Write history that professionals respect.</em></p>
-<h3 id="1-write-professional-commit-messages">1. Write Professional Commit Messages<a class="headerlink" href="#1-write-professional-commit-messages" title="Permanent link">&para;</a></h3>
-<p>Bad: <code>git commit -m "fixed stuff"</code><br />
-Elite: <code>git commit -m "fix: handled missing values in age column"</code></p>
-<p><strong>The Formula:</strong> <code>type: description</code>
-- <code>feat</code>: New feature
-- <code>fix</code>: Bug fix
-- <code>docs</code>: Changing documentation
-- <code>style</code>: Formatting (no code change)
-- <code>refactor</code>: Rewriting code without changing behavior</p>
-<h3 id="2-check-your-history">2. Check Your History<a class="headerlink" href="#2-check-your-history" title="Permanent link">&para;</a></h3>
-<p>See what you've done over time.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1"># Simple one-line view</span>
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>git<span class="w"> </span>log<span class="w"> </span>--oneline
-</code></pre></div></p>
-<h3 id="3-undoing-mistakes-dont-panic">3. Undoing Mistakes (Don't Panic!)<a class="headerlink" href="#3-undoing-mistakes-dont-panic" title="Permanent link">&para;</a></h3>
-<p><strong>Scenario:</strong> You staged a file but didn't mean to.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># Unstage a file (keep changes in working directory)</span>
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>git<span class="w"> </span>reset<span class="w"> </span>HEAD<span class="w"> </span>filename.py
-</code></pre></div></p>
-<p><strong>Scenario:</strong> You committed, but want to change the message.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git<span class="w"> </span>commit<span class="w"> </span>--amend<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;new message&quot;</span>
-</code></pre></div></p>
-<p><strong>Scenario:</strong> You want to discard local changes completely (DANGER ⚠️).
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># This deletes local changes and reverts to last commit</span>
-<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>git<span class="w"> </span>checkout<span class="w"> </span>--<span class="w"> </span>filename.py
-</code></pre></div></p>
-<h3 id="4-pulling-updates">4. Pulling Updates<a class="headerlink" href="#4-pulling-updates" title="Permanent link">&para;</a></h3>
-<p>If you work on multiple computers, you need to download changes from GitHub before you start working.
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>git<span class="w"> </span>pull
-</code></pre></div></p>
-<blockquote>
-<p><strong>Rule:</strong> Always <code>git pull</code> before you start working for the day.</p>
-</blockquote>
+<h2 id="level-4-the-row-wise-niche-elite">🟣 Level 4: The Row-wise Niche (Elite)<a class="headerlink" href="#level-4-the-row-wise-niche-elite" title="Permanent link">&para;</a></h2>
+<h3 id="7-the-normalizer-row-normalization">7. The <code>Normalizer</code> (Row Normalization)<a class="headerlink" href="#7-the-normalizer-row-normalization" title="Permanent link">&para;</a></h3>
+<p>Look at all the scalers above. They scale <strong>Columns</strong> (Features). <code>Age</code> is scaled relative to to other <code>Age</code>s.</p>
+<p>The <code>Normalizer</code> scales <strong>Rows</strong> (Samples).</p>
+<ul>
+<li><strong>What it does:</strong> It treats every single row as an independent vector in space, and scales its length to exactly 1 (called L2 norm, or Unit Vector).</li>
+<li><strong>When to use:</strong></li>
+<li><strong>Text Classification:</strong> You have counts of words in two documents. One document is 5 pages long, one is 1 page long. By normalizing the rows, you only compare the <em>ratio</em> of the words used, ignoring the overall length of the document.</li>
+<li><strong>Cosine Similarity / Recommender Systems:</strong> Making it incredibly fast to compute angles between user-preference vectors.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Normalizer</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="c1"># Scales horizontally across the row!</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">scaler</span> <span class="o">=</span> <span class="n">Normalizer</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="s1">&#39;l2&#39;</span><span class="p">)</span>
+</code></pre></div>
 <hr />
-<h2 id="quick-cheatsheet">📋 Quick Cheatsheet<a class="headerlink" href="#quick-cheatsheet" title="Permanent link">&para;</a></h2>
+<h2 id="the-master-which-scaler-to-use-matrix">📋 The Master "Which Scaler to Use?" Matrix<a class="headerlink" href="#the-master-which-scaler-to-use-matrix" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Command</th>
-<th style="text-align: left;">What it does</th>
-<th style="text-align: left;">When to use</th>
+<th style="text-align: left;">Method</th>
+<th style="text-align: left;">Scales By</th>
+<th style="text-align: left;">Handles Outliers well?</th>
+<th style="text-align: left;">Changes Distribution Shape?</th>
+<th style="text-align: left;">Best Use Case</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><code>git init</code></td>
-<td style="text-align: left;">Starts Git in a folder</td>
-<td style="text-align: left;">Beginning a new project</td>
+<td style="text-align: left;"><strong><code>StandardScaler</code></strong></td>
+<td style="text-align: left;">Mean &amp; Std Dev</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">The Default. PCA, SVMs, Linear Models.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>git clone [url]</code></td>
-<td style="text-align: left;">Downloads a repo from GitHub</td>
-<td style="text-align: left;">Starting an existing project</td>
+<td style="text-align: left;"><strong><code>MinMaxScaler</code></strong></td>
+<td style="text-align: left;">Min &amp; Max boundaries</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">Neural Networks, Image Data [0-255].</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>git status</code></td>
-<td style="text-align: left;">Shows changed files</td>
-<td style="text-align: left;"><strong>Use this all the time!</strong></td>
+<td style="text-align: left;"><strong><code>RobustScaler</code></strong></td>
+<td style="text-align: left;">Median &amp; IQR</td>
+<td style="text-align: left;">✅ Yes</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">Datasets with extreme, legitimate outliers.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>git add .</code></td>
-<td style="text-align: left;">Stages all changes</td>
-<td style="text-align: left;">Before saving</td>
+<td style="text-align: left;"><strong><code>MaxAbsScaler</code></strong></td>
+<td style="text-align: left;">Max Absolute Value</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">❌ No</td>
+<td style="text-align: left;">Sparse Data (NLP, One-Hot Encoding).</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>git commit -m "msg"</code></td>
-<td style="text-align: left;">Saves a snapshot</td>
-<td style="text-align: left;">After staging</td>
+<td style="text-align: left;"><strong><code>PowerTransformer</code></strong></td>
+<td style="text-align: left;">Logarithmic Math</td>
+<td style="text-align: left;">🟡 Moderate</td>
+<td style="text-align: left;">✅ Yes (Makes it Gaussian)</td>
+<td style="text-align: left;">Skewed data fed to Linear/Parametric models.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>git push</code></td>
-<td style="text-align: left;">Uploads to GitHub</td>
-<td style="text-align: left;">After committing</td>
+<td style="text-align: left;"><strong><code>QuantileTransformer</code></strong></td>
+<td style="text-align: left;">Rank Percentiles</td>
+<td style="text-align: left;">✅ Yes</td>
+<td style="text-align: left;">✅ Yes (Forces shape)</td>
+<td style="text-align: left;">Extreme outlier chaotic data for deep learning.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>git pull</code></td>
-<td style="text-align: left;">Downloads from GitHub</td>
-<td style="text-align: left;">Before starting work</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>git checkout -b [name]</code></td>
-<td style="text-align: left;">Creates &amp; switches branch</td>
-<td style="text-align: left;">Starting a new feature</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>git merge [name]</code></td>
-<td style="text-align: left;">Combines branches</td>
-<td style="text-align: left;">Finishing a feature</td>
+<td style="text-align: left;"><strong><code>Normalizer</code></strong></td>
+<td style="text-align: left;">Row magnitude (L2/L1)</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">Text mining, Document Clustering, Recommender Systems.</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="why-this-matters-for-ai-data-science">🤖 Why This Matters for AI &amp; Data Science<a class="headerlink" href="#why-this-matters-for-ai-data-science" title="Permanent link">&para;</a></h2>
+<h2 id="academy-exercise">🏁 Academy Exercise<a class="headerlink" href="#academy-exercise" title="Permanent link">&para;</a></h2>
+<p><strong>Task:</strong></p>
 <ol>
-<li><strong>Reproducibility:</strong> If your model works today but breaks tomorrow, Git lets you revert to the code that worked.</li>
-<li><strong>Portfolio:</strong> Recruiters cannot see your Jupyter Notebooks on your laptop. They <strong>can</strong> see your GitHub profile.</li>
-<li><strong>Collaboration:</strong> In real jobs, you will work on code with 10+ other people. Git prevents you from deleting each other's work.</li>
-<li><strong>Experimentation:</strong> Branches allow you to try wild ideas (e.g., "What if I use a Neural Net instead of Regression?") without breaking the main project.</li>
+<li>Generate an array of 1,000 random numbers sampled from an Exponential Distribution (e.g., <code>np.random.exponential(scale=2, size=1000)</code>).</li>
+<li>Plot a histogram. Notice the heavy skew.</li>
+<li>Apply <code>MinMaxScaler</code> and plot it. Notice the shape hasn't changed, only the X-axis numbers.</li>
+<li>Apply <code>PowerTransformer</code> and plot it. Notice how the shape has magically transformed into a bell curve!</li>
 </ol>
-<hr />
-<h2 id="final-challenge">🏁 Final Challenge<a class="headerlink" href="#final-challenge" title="Permanent link">&para;</a></h2>
-<p>To complete this module, do the following:
-1.  Create a GitHub account.
-2.  Create a repository named <code>learning-git</code>.
-3.  Add a <code>README.md</code> file that says "I am learning Git!".
-4.  Commit and Push it.</p>
-<h1 id="for-resources-check-resources-section-scroll_down">For Resources check resources section scroll_down<a class="headerlink" href="#for-resources-check-resources-section-scroll_down" title="Permanent link">&para;</a></h1>
 
 
 
