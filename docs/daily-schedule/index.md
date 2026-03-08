@@ -1,5 +1,5 @@
 # Daily Schedule
-This schedule is designed for elite-level output, mimicking the rigor of a residential IIT program. By treating your learning like a professional "residency," you're creating a high-trust signal for recruiters.
+This schedule is designed for elite-level output, mimicking the rigor of a residential program. By treating your learning like a professional "residency," you're creating a high-trust signal for recruiters.
 
 ---
 
